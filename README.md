@@ -1,6 +1,16 @@
 # Awesome Billing and Payments
 
 
+## Payments
+
+* [Monzo's bank transfers post-mortem](https://monzo.com/blog/2019/06/20/why-bank-transfers-failed-on-30th-may-2019/) - Or why you should be prepared for and work around gateway provider outages.
+
+
+## Product Catalog
+
+* [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time)
+
+
 ## Calculator
 
 * [Cloud Cost Calculator](https://github.com/scalyr/cloud-costs) - Web-based tool for finding the cheapest cloud servers for a given set of requirements.
@@ -21,9 +31,6 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
 
 
-## Payments
-
-* [Monzo's bank transfers post-mortem](https://monzo.com/blog/2019/06/20/why-bank-transfers-failed-on-30th-may-2019/) - Or why you should be prepared for and work around gateway provider outages.
 
 
 ## Others
