@@ -8,11 +8,12 @@
 * [EC2Instances.info](https://ec2instances.info) - Easy Amazon EC2 Instance Comparison.
 
 
-## Forecast
+## Cost Forecast
 
 To provide visibility to customers on metered, utility-like billing pricing scheme, having a way to forecast costs is required.
 
 * [GCP Cost Forecast](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html)
+* [AWS Forecast product](https://aws.amazon.com/forecast/)
 
 
 ## Bid/Ask Marketplace
