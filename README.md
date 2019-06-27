@@ -42,6 +42,11 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 
 
+## History
+
+* [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) - 
+Accounting paintings were a significant genre in Dutch art. 
+
 
 ## Others
 
