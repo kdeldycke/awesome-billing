@@ -16,6 +16,11 @@
 * [Monzo's bank transfers post-mortem](https://monzo.com/blog/2019/06/20/why-bank-transfers-failed-on-30th-may-2019/) - Or why you should be prepared for and work around gateway provider outages.
 
 
+## Credit Cards
+
+* ['Is that even legal?': Companies may be sharing new credit or debit card information without you knowing](https://www.cbc.ca/news/business/banking-information-shared-with-third-parties-1.5102931) - Some credit and debit card companies have "updating service" that allows new account numbers and expiry dates to be shared with merchants customers have dealt with in the past.
+
+
 ## Fraud
 
 * [How Candy Japan got credit card fraud somewhat under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control) - Suggestions involved either [warning signals](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) for trying to guess which orders might be fraud, or countermeasures to try to make things harder for the fraudsters.
@@ -44,7 +49,6 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 ## Bid/Ask Marketplace
 
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
-
 
 
 ## History
