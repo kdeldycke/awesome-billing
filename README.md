@@ -46,6 +46,11 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 * [AWS Forecast product](https://aws.amazon.com/forecast/)
 
 
+## Cloud Pricing
+
+* [AWS costs every programmer should know](https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html)
+
+
 ## Bid/Ask Marketplace
 
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
