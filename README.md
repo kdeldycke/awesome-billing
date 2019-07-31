@@ -78,4 +78,5 @@ Accounting paintings were a significant genre in Dutch art.
 
 ## Others
 
-* https://keygen.sh  - Commercial service to sell and manage license keys
+* https://keygen.sh  - Commercial service to sell and manage license keys.
+* [Why not use Double or Float to represent currency?](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency/3730040#3730040) - Because of precision: floats and doubles cannot accurately represent the base 10 multiples that we use for money.
