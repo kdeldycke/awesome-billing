@@ -61,6 +61,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 ## Bid/Ask Marketplace
 
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
+* [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they’d pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`
 
 
 ## History
