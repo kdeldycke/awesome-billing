@@ -10,6 +10,7 @@ This knowledge base cover the far right perimeter of the cloud stack.
 ## Basics
 
 * [Open guide to AWS Billing and Cost Management](https://github.com/open-guides/og-aws#billing-and-cost-management)
+* [Major use-cases for cloud services from a ROI standpoint](https://news.ycombinator.com/item?id=19830022)
 
 
 ## Invoice
