@@ -67,6 +67,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 ## Cloud Pricing
 
 * [AWS costs every programmer should know](https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html)
+* [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 
 
 ## Bid/Ask Marketplace
