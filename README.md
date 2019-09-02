@@ -7,6 +7,11 @@ In a [Cloud computing overview Standford class](http://web.stanford.edu/class/cs
 This knowledge base cover the far right perimeter of the cloud stack.
 
 
+## Basics
+
+* [Open guide to AWS Billing and Cost Management](https://github.com/open-guides/og-aws#billing-and-cost-management)
+
+
 ## Invoice
 
 
