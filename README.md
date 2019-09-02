@@ -54,6 +54,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 * [GCP Cost Forecast](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html)
 * [AWS Forecast product](https://aws.amazon.com/forecast/)
+* [How to save money on your AWS bill](https://twitter.com/QuinnyPig/status/1091041507342086144)
 
 
 ## Cloud Pricing
