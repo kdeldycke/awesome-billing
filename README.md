@@ -15,6 +15,7 @@ This knowledge base cover the far right perimeter of the cloud stack.
 
 ## Invoice
 
+* [On GCP invoiced billing](https://news.ycombinator.com/item?id=17517479) - Invoiced billing (B2B-friendly payment by the customer after the service is consumed and an invoice issued) is a pain on GCP.
 
 
 ## Receipt
