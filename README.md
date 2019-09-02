@@ -74,6 +74,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
 * [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they’d pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`
+* [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
 
 
 ## Shopping Cart / Sign-up Tunnel
