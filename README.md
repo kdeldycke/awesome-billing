@@ -74,6 +74,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 ## Benchmark
 
+* [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/).
 * [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes)
 * [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
 * [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
