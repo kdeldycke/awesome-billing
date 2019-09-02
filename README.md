@@ -75,6 +75,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 ## Benchmark
 
 * [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
+* [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
 
 
 ## History
