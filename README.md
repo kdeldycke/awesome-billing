@@ -93,6 +93,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 * [Accounting for Developers 101](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4).
 * [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html).
 * [Algebraic Models for Accounting Systems](https://www.amazon.com/Algebraic-Models-For-Accounting-Systems/dp/9814287113) - This book is about the application of abstract algebra to the analysis of accounting systems.
+* [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Learn accounting & bookkeeping for free.
 * [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.co.uk/Accounts-Demystified-Astonishingly-Simple-Accounting/dp/0273744704/).
 * [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/Financial-Intelligence-Entrepreneurs-Really-Numbers/dp/1422119157).
 * Some open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping: [plain text accounting tools](https://plaintextaccounting.org/#software), [Firefly III](https://firefly-iii.org) (PHP, self-hosted).
