@@ -98,6 +98,11 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 * [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 
 
+## Taxes
+
+* [Council Directive 2006/112/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL) - European Union reference on the common system of VAT.
+
+
 ## Benchmark
 
 * [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/).
