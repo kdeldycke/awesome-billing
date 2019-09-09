@@ -90,6 +90,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 ## Accounting
 
 * [Accounting for Developers 101](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4)
+* Some open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping: [plain text accounting tools](https://plaintextaccounting.org/#software), [Firefly III](https://firefly-iii.org) (PHP, self-hosted).
 
 
 ## Benchmark
