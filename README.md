@@ -17,6 +17,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 
 * [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - A self-hosted open-source application for managing your invoices, clients and payments.
 * [On GCP invoiced billing](https://news.ycombinator.com/item?id=17517479) - [Invoiced billing](https://cloud.google.com/billing/docs/how-to/invoiced-billing) (B2B-friendly payment by the customer after the service is consumed and an invoice issued) is a pain on GCP.
+* [Digital signatures: how Sleek leverages Cloud HSM to guarantee the integrity of legal documents](https://medium.com/google-developers/digital-signatures-how-sleek-leverages-cloud-hsm-to-guarantee-the-integrity-of-legal-documents-a7bd3b82faf6) - Here is a great way to rely on GCP's HSM to digitally sign documents and provide an immutable audit-trail. Might be applied to invoices as well as contract agreements.
 
 
 ## Receipt
