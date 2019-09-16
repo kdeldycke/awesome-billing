@@ -105,7 +105,9 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 * [Council Directive 2006/112/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL) - European Union reference on the common system of VAT.
 
 
-## Benchmark
+## Competitive Analysis
+
+A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
 
 * [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/).
 * [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes)
