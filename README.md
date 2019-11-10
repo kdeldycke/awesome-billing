@@ -125,9 +125,10 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
 
 * [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/).
-* [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes)
+* [AWS reserved instances vs saving plan](https://www.prosperops.com/assets/img/blog/ris_and_savings_plans.png).
+* [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes).
 * [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
-* [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
+* [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/).
 
 
 ## History
