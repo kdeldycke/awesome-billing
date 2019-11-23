@@ -89,7 +89,9 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 
 ## Bid/Ask Marketplace
 
-* [How to Kickstart and Scale a Marketplace Business](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace) - a 4-parts series of articles with interview of dozens of incredible people with direct experience building and scaling some of the most successful marketplace companies in the world.
+A marketplace connect supply with demand that lead to a financial transaction.
+
+* How to Kickstart and Scale a Marketplace Business: [Constrain the marketplace](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace); Decide which side of the marketplace to concentrate on; Drive initial supply; Drive initial demand. A 4-parts series with dozen of interviews of people with direct experience building and scaling marketplaces.
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
 * [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they’d pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`
 * [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
