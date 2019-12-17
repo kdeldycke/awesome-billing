@@ -117,7 +117,9 @@ A marketplace connect supply with demand that lead to a financial transaction.
 * [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Learn accounting & bookkeeping for free.
 * [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.co.uk/Accounts-Demystified-Astonishingly-Simple-Accounting/dp/0273744704/).
 * [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/Financial-Intelligence-Entrepreneurs-Really-Numbers/dp/1422119157).
-* Some open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping: [plain text accounting tools](https://plaintextaccounting.org/#software), [Firefly III](https://firefly-iii.org) (PHP, self-hosted).
+* [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping
+* And a list of graphical accounting tools: (GNUCash)[https://gnucash.org] (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
+* [Django Hordak](https://django-hordak.readthedocs.io) - core functionality of a double entry accounting system for Django.
 * [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 
 
