@@ -122,6 +122,7 @@ A marketplace connect supply with demand that lead to a financial transaction.
 * And a list of graphical accounting tools: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
 * [Django Hordak](https://django-hordak.readthedocs.io) - core functionality of a double entry accounting system for Django.
 * [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
+* [Books, an immutable double-entry accounting database service]() - Explain the basic data model of a double-entry accounting system relying on Google Spanner for internal use at Square.
 
 
 ## Taxes
