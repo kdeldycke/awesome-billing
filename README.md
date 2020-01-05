@@ -88,9 +88,10 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 From monthly subscription to commodity-like on-the-go consumption, there's plenty of scheme to price your product with.
 
 * [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/) - Which numbers should you use? How high should it be? Should it be rounded? This guide has 42 tricks to help you choose the best price.
+* [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - `The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.`
+* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 * [AWS costs every programmer should know](https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html)
 * [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
-* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 
 
 ## Bid/Ask Marketplace
