@@ -111,7 +111,7 @@ A marketplace connect supply with demand that lead to a financial transaction.
 
 ## UX/UI
 
-* [Apple Subscriptions HIG](https://developer.apple.com/design/human-interface-guidelines/subscriptions/overview/)
+* [Apple Subscriptions HIG](https://developer.apple.com/design/human-interface-guidelines/subscriptions/overview/) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
 
 
 ## Accounting
