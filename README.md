@@ -19,8 +19,8 @@ From monthly subscription to commodity-like on-the-go consumption, and including
 
 * [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/) - Which numbers should you use? How high should it be? Should it be rounded? This guide has 42 tricks to help you choose the best price.
 * [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - `The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.`
-* [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 * `Billing is not complex on purpose: it's the price to pay for elasticity.` ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you'll never have an endless stream of complaning users if choosing utility pricing scheme.
+* [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 * [Google Ads API: `BillingCap` enum](https://developers.google.com/ad-manager/api/reference/v201911/CompanyService.BillingCap) - Capped actuals: monthly with rollover, an optimized pricing scheme to limit surprises from customers.
 * [AWS EC2 T2 Instances Demystified: Don’t Learn The Hard Way](https://roberttisdale.com/aws-ec2-t2-instances-demystified-dont-learn-hard-way/) - An example of really tricky burstable instances which accrues and limits its own amount of CPU usage credits.
 
@@ -84,9 +84,10 @@ A marketplace connect supply with demand that lead to a financial transaction.
 
 ## Credits / Coupons / Vouchers
 
+* [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - `Implementing price reductions ranging from 9–70% for large purchases, we found re- markably little impact on revenue, either positively or negatively.`
+* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 * [Details on Expiring DigitalOcean Credits](https://blog.digitalocean.com/details-on-expiring-digitalocean-credits/) - The reason you have to add an time limit on credits: unused ones accounts as liabilities on our balance sheet.
 * [Hacking Scooters: How I Created $100k Worth Of Free Rides](https://webcache.googleusercontent.com/search?q=cache:7hrzYYk5-IwJ:https://fant.io/p/hacking-voi/) - A cautionary tale on how promo codes can be exploited to get unlimited free rides.
-* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 
 
 ## Taxes
