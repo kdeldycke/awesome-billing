@@ -1,4 +1,4 @@
-# Awesome Billing and Payments
+# 💰 Awesome Billing and Payments
 
 In a [Cloud computing overview Standford class](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the cloud software stack is presented as such:
 
