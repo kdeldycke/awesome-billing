@@ -163,6 +163,7 @@ As stakeholder of the billing pipeline, you sat on all the critical data to meas
 * [You’re all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - Churn rate is not a meaningful metric, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
 * [Analyzing Churn Rates, Free Trials, and Other Metrics](https://jlongster.com/analyizing-profit-metrics) - `I didn't know anything about how to determine pricing or structure plans. My background is software development — finding insights in the mixture of churn rates, free trials, and all these other metrics seemed like magic.`
 * [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - `How to use Python in a simplistic way to fuel your company’s growth by applying the predictive approach to all your actions.`
+* [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A way to segment users based on Recency, Frequency and Monetary value.
 
 
 ## Competitive Analysis
