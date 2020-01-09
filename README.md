@@ -112,12 +112,18 @@ A marketplace connect supply with demand that lead to a financial transaction.
 
 ## KPIs
 
+As stakeholder of the billing stack, you have all the data to measure and report on the health of the business.
+
 * [Analyzing Churn Rates, Free Trials, and Other Metrics](https://jlongster.com/analyizing-profit-metrics) - `I didn't know anything about how to determine pricing or structure plans. My background is software development — finding insights in the mixture of churn rates, free trials, and all these other metrics seemed like magic.`
+* [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - `How to use Python in a simplistic way to fuel your company’s growth by applying the predictive approach to all your actions.`
 
 
 ## UX/UI
 
+Users gets easely angry when it comes to money. UX and UI might helps a lot to reduce frustration.
+
 * [Apple Subscriptions HIG](https://developer.apple.com/design/human-interface-guidelines/subscriptions/overview/) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
+* `Billing is not complex on purpose: it's the price to pay for elasticity.` ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you'll never have an endless stream of complaning users.
 
 
 ## Accounting
