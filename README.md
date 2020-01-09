@@ -19,7 +19,6 @@ From monthly subscription to commodity-like on-the-go consumption, and including
 
 * [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/) - Which numbers should you use? How high should it be? Should it be rounded? This guide has 42 tricks to help you choose the best price.
 * [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - `The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.`
-* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 * [AWS costs every programmer should know](https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html)
 * [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 * `Billing is not complex on purpose: it's the price to pay for elasticity.` ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you'll never have an endless stream of complaning users if choosing utility pricing scheme.
@@ -53,6 +52,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 A marketplace connect supply with demand that lead to a financial transaction.
 
+* [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - `How should the consumer modulate its demand to optimize its profits? (...) How should the provider and consumer negotiate the spe- cific pricing structure they will employ?` Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
 * How to Kickstart and Scale a Marketplace Business: [Constrain the marketplace](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace); Decide which side of the marketplace to concentrate on; Drive initial supply; Drive initial demand. A 4-parts series with dozen of interviews of people with direct experience building and scaling marketplaces.
 * [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price)
 * [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they’d pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`
@@ -79,6 +79,7 @@ A marketplace connect supply with demand that lead to a financial transaction.
 
 * [Details on Expiring DigitalOcean Credits](https://blog.digitalocean.com/details-on-expiring-digitalocean-credits/) - The reason you have to add an time limit on credits: unused ones accounts as liabilities on our balance sheet.
 * [Hacking Scooters: How I Created $100k Worth Of Free Rides](https://webcache.googleusercontent.com/search?q=cache:7hrzYYk5-IwJ:https://fant.io/p/hacking-voi/) - A cautionary tale on how promo codes can be exploited to get unlimited free rides.
+* [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 
 
 ## Taxes
