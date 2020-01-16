@@ -51,7 +51,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 
 ## Bid/Ask Marketplace
 
-A marketplace connect supply with demand that lead to a financial transaction.
+A marketplace connect supply with demand that lead to a financial transaction. If there is no payment involved, then it is an aggregator, or a hub. Not a marketplace.
 
 * [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - `How should the consumer modulate its demand to optimize its profits? (...) How should the provider and consumer negotiate the spe- cific pricing structure they will employ?` Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
 * [Present or Future: Optimal Pricing for Spot Instances](https://web.archive.org/web/20150708151037/http://www.temple.edu/cis/icdcs2013/data/5000a410.pdf) - `Pricing policy of spot resources should be carefully designed and the impact on both present and future should be considered.`
