@@ -16,7 +16,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [Cost Forecast](#cost-forecast)
 - [Bid/Ask Marketplace](#bidask-marketplace)
 - [Accounting](#accounting)
-- [Credits / Coupons / Vouchers](#credits-coupons-vouchers)
+- [Credits / Coupons / Vouchers](#credits--coupons--vouchers)
 - [Taxes](#taxes)
 - [Invoice](#invoice)
 - [Payments](#payments)
