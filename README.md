@@ -2,9 +2,32 @@
 
 In a Standford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
 
-![](cloud-software-stack-billing.png)
+![](cloud-software-stack-billing.jpg)
 
 This knowledge base cover the far second far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the customers, the products and the business. The [other pillar being Identity and Access Management (IAM)](https://github.com/kdeldycke/awesome-iam/).
+
+
+## Contents
+
+- [Basics](#basics)
+- [Pricing](#pricing)
+- [Product Catalog](#product-catalog)
+- [Calculator](#calculator)
+- [Cost Forecast](#cost-forecast)
+- [Bid/Ask Marketplace](#bid-ask-marketplace)
+- [Accounting](#accounting)
+- [Credits / Coupons / Vouchers](#credits-coupons-vouchers)
+- [Taxes](#taxes)
+- [Invoice](#invoice)
+- [Payments](#payments)
+- [Receipt](#receipt)
+- [Credit Cards](#credit-cards)
+- [Fraud](#fraud)
+- [UX/UI](#ux-ui)
+- [KPIs](#kpis)
+- [Competitive Analysis](#competitive-analysis)
+- [History](#history)
+- [Others](#others)
 
 
 ## Basics
