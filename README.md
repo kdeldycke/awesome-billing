@@ -14,7 +14,9 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [Product Catalog](#product-catalog)
 - [Calculator](#calculator)
 - [Cost Forecast](#cost-forecast)
-- [Bid/Ask Marketplace](#bidask-marketplace)
+- [Marketplace](#marketplace)
+  - [Cloud Resources](#cloud-resources)
+  - [Online Ads](#online-ads)
 - [Accounting](#accounting)
 - [Credits / Coupons / Vouchers](#credits--coupons--vouchers)
 - [Taxes](#taxes)
@@ -72,23 +74,33 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 - [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices) - [Facebook's Prophet](https://facebook.github.io/prophet/) (which [uses Stan underneath](https://statmodeling.stat.columbia.edu/2017/03/01/facebooks-prophet-uses-stan/)), seems to be worth checking to implement a cost forecast tool while taking care of seasonality.
 
 
-## Bid/Ask Marketplace
+## Marketplace
 
 A marketplace connect supply with demand that lead to a financial transaction. If there is no payment involved, then it is an aggregator, or a hub. Not a marketplace.
 
 - [Papers we love: Auctions and Bidding](https://github.com/papers-we-love/papers-we-love/tree/master/economics#auctions-and-bidding) - A collection of papers on bidding and auctions. 
-- [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - `How should the consumer modulate its demand to optimize its profits? (...) How should the provider and consumer negotiate the spe- cific pricing structure they will employ?` Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
+- How to Kickstart and Scale a Marketplace Business: [Constrain the marketplace](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace); Decide which side of the marketplace to concentrate on; Drive initial supply; Drive initial demand. A 4-parts series with dozen of interviews of people with direct experience building and scaling marketplaces.
+- [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they'd pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`.
+
+### Cloud Resources
+
+This sub-section focus on bid/ask mechanism matching resource producer with consumers. Most of the time these are one-sided markets with the big platform trying to amortized under-utilized inventory.
+
+- [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - `How should the consumer modulate its demand to optimize its profits? (...) How should the provider and consumer negotiate the specific pricing structure they will employ?` Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
 - [Present or Future: Optimal Pricing for Spot Instances](https://web.archive.org/web/20150708151037/http://www.temple.edu/cis/icdcs2013/data/5000a410.pdf) - `Pricing policy of spot resources should be carefully designed and the impact on both present and future should be considered.`.
+- `You always pay the spot market price, not your bid.` ([source](https://news.ycombinator.com/item?id=20347716)) - Simple explanation of the bidding mechanism.
 - [Deconstructing Amazon EC2 Spot Instance Pricing](http://www.cs.technion.ac.il/~dan/papers/Spotprice11CloudCom.pdf) - `Cloud providers possessing large quantities of spare capacity must either incentivize clients to purchase it or suffer losses. Amazon is the first cloud provider to address this challenge, by allowing clients to bid on spare capacity and by granting resources to bidders while their bids exceed a periodically changing spot price.`.
 - [GCP Preemptible VMs vs AWS Spot Instances](https://news.ycombinator.com/item?id=9564287).
 - `Look at the 3-month spot price history to estimate cost and to discover combinations of availability zone and instance type with extra capacity.` ([source](https://news.ycombinator.com/item?id=16071684)) - TL;DR: users are seeking more transparency on the spot market.
-- `You always pay the spot market price, not your bid.` ([source](https://news.ycombinator.com/item?id=20347716)) - Simple explanation of the bidding mechanism.
 - [The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html) - When you're big enough that [creating an internal secondary market](https://medium.com/netflix-techblog/creating-your-own-ec2-spot-market-6dd001875f5) for instances makes economic sense.
 - [AutoSpotting](https://github.com/AutoSpotting/AutoSpotting) - Tool that easily and reliably converts (all) your existing AutoScaling groups to cheaper spot instances.
-- How to Kickstart and Scale a Marketplace Business: [Constrain the marketplace](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace); Decide which side of the marketplace to concentrate on; Drive initial supply; Drive initial demand. A 4-parts series with dozen of interviews of people with direct experience building and scaling marketplaces.
-- [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they'd pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`.
-- [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
+
+### Online Ads
+
+Targeted online advertisements maketplaces have a lot in common with traditional cloud marketplace. Some good inpiration there, from concepts to tech
+
 - [RTB Budget Pacing Summarized](https://github.com/PragmaticLab/RTB_Budget_Pacing_Summarized) - A collection of budget pacing resources for targeted online advertisements.
+- [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
 - [`RTB4Free`](https://github.com/RTB4FREE) - Open Source Bidder and Demand Side Platform (DSP).
 
 
