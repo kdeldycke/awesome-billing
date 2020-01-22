@@ -86,6 +86,7 @@ A marketplace connect supply with demand that lead to a financial transaction. I
 
 This sub-section focus on bid/ask mechanism matching resource producer with consumers. Most of the time these are one-sided markets with the big platform trying to amortized under-utilized inventory.
 
+- [Incentive Engineering for Computational Resource Management](https://agoric.com/assets/pdf/papers/incentive-engineering-for-computational-resource-management.pdf) - Paper exploring the `mechanisms for the allocation of processor time and storage that are compatible both with programming practice and with market mechanisms.`.
 - [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - `How should the consumer modulate its demand to optimize its profits? (...) How should the provider and consumer negotiate the specific pricing structure they will employ?` Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
 - [Present or Future: Optimal Pricing for Spot Instances](https://web.archive.org/web/20150708151037/http://www.temple.edu/cis/icdcs2013/data/5000a410.pdf) - `Pricing policy of spot resources should be carefully designed and the impact on both present and future should be considered.`.
 - `You always pay the spot market price, not your bid.` ([source](https://news.ycombinator.com/item?id=20347716)) - Simple explanation of the bidding mechanism.
