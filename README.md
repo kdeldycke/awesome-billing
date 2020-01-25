@@ -201,7 +201,7 @@ Users gets easely angry when it comes to money. UX and UI might helps a lot to r
 
 As stakeholder of the billing pipeline, you sat on all the critical data to measure and report on the health of the business.
 
-- [12 KPIs you must know before pitching your startup](https://techcrunch.com/2017/02/04/12-kpis-you-must-know-before-pitching-your-startup/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
+- [16 Startup Metrics](https://a16z.com/2015/08/21/16-metrics/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
 - [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - Churn rate is not a meaningful metric, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
 - [Analyzing Churn Rates, Free Trials, and Other Metrics](https://jlongster.com/analyizing-profit-metrics) - `I didn't know anything about how to determine pricing or structure plans. My background is software development — finding insights in the mixture of churn rates, free trials, and all these other metrics seemed like magic.`.
 - [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - `How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.`
