@@ -25,6 +25,10 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [Receipt](#receipt)
 - [Credit Cards](#credit-cards)
 - [Fraud](#fraud)
+  - [Credit Cards](#credit-cards)
+  - [Trust Score](#trust-score)
+  - [Statistics](#statistics)
+  - [Billing](#billing)
 - [UX/UI](#ux-ui)
 - [KPIs](#kpis)
 - [Competitive Analysis](#competitive-analysis)
@@ -184,16 +188,34 @@ The most popular payment device.
 There's monetary incentives to exploit your business. Be prepared to fight hordes of fraudsters and shady users.
 
 - [Awesome List of IAM: Fraud links](https://github.com/kdeldycke/awesome-iam#fraud) - Section dedicated to fraud management related to user accounts, from our sister repository.
-- [The Secret Trust Scores Companies Use to Judge Us All](https://www.wsj.com/articles/the-secret-trust-scores-companies-use-to-judge-us-all-11554523206) - Nearly everything we buy, how we buy, and where we're buying from is secretly fed into AI-powered verification services that help companies guard against credit-card and other forms of fraud.
-- [Benford's law](https://en.wikipedia.org/wiki/Benford's_law) - Digit distribution can be a signal of accounting fraud.
+
+### Credit Cards
+
+The majority of fraud is exploiting the most common popular payment device: credit cards.
+
 - [How I Stopped a Credit Card Thief From Ripping Off 3,537 People – and Saved Our Nonprofit in the Process](https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/) - Describe a fraud technique known as  "card testing", in which massive batch of stolen cards are checked for their validity against your API.
 - [How Candy Japan got credit card fraud somewhat under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control) - Suggestions involved either [warning signals](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) for trying to guess which orders might be fraud, or countermeasures to try to make things harder for the fraudsters.
 - [Five Fun Fraud Facts](https://blog.sift.com/2013/five-ecommerce-fraud-facts/) - Another tiny collection of features we can feed to a ML system to detect fraud. Comments on HN also unearthed [more qualifying signals](https://news.ycombinator.com/item?id=6376350) and [derived geodata on the transaction](https://news.ycombinator.com/item?id=6376221).
 - [Credit Card Fraud Detection using Autoencoders in Keras](https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd) - Tutorial on how to rely on anomaly detection to implement suspicious card transactions.
 - [How credit card thieves use free-to-play apps to launder gains](https://kromtech.com/blog/security-center/digital-laundry) -  To prevent abuses, service provider must strenghen both credit card verification and the account creation process.
-- [More than 600 million users installed Android 'fleeceware' apps from the Play Store](https://www.zdnet.com/article/more-than-600-million-users-installed-android-fleeceware-apps-from-the-play-store/) - A new kind of fraud, in which apps silently keep charging users after the end of the trial period.
+
+### Trust Score
+
+Synthetic scrore based on a collection of signals are often the best proxy of user's trustworthyness. Customer support most of the time rely on them to take action when these actions are not triggered automatticaly.
+
+- [The Secret Trust Scores Companies Use to Judge Us All](https://www.wsj.com/articles/the-secret-trust-scores-companies-use-to-judge-us-all-11554523206) - Nearly everything we buy, how we buy, and where we're buying from is secretly fed into AI-powered verification services that help companies guard against credit-card and other forms of fraud.
 - [GCP improved account management policies to better support customers](https://cloudplatform.googleblog.com/2018/07/improving-our-account-management-policies-to-better-support-customers.html) - Or why relying too much on fraud automation might lead to disgruntled users.
 - [Digital Ocean's Update on Customer Shutdown Incident](https://blog.digitalocean.com/an-update-on-last-weeks-customer-shutdown-incident/) - Aggressively shuting down user servers is good from a business point of view to prvent fraudster abusing free resources, until it's not.
+
+### Statistics
+
+Best tools to automate fraud detection.
+
+- [Benford's law](https://en.wikipedia.org/wiki/Benford's_law) - Digit distribution can be a signal of accounting fraud.
+
+### Billing
+
+- [More than 600 million users installed Android 'fleeceware' apps from the Play Store](https://www.zdnet.com/article/more-than-600-million-users-installed-android-fleeceware-apps-from-the-play-store/) - A new kind of fraud, in which apps silently keep charging users after the end of the trial period.
 - [CEO Fraud](https://www.knowbe4.com/ceo-fraud) - A billing team responsible for collecting payment is prey to this kind of fraud, in which the CEO is impersonated to commend exceptional payment transactions.
 
 
