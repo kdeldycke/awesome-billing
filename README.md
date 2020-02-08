@@ -213,6 +213,7 @@ Synthetic scrore based on a collection of signals are often the best proxy of us
 Best tools to automate fraud detection.
 
 - [Benford's law](https://en.wikipedia.org/wiki/Benford's_law) - Digit distribution can be a signal of accounting fraud.
+- [Huber loss](https://en.wikipedia.org/wiki/Huber_loss) - `A loss function used in robust regression, that is less sensitive to outliers in data than the squared error loss.`.
 - [Peak Detection in the Python World](https://blog.ytotech.com/2015/11/01/findpeaks-in-python/) - Simple way to detect outliers.
 
 ### Billing
