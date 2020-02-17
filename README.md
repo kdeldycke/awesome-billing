@@ -82,6 +82,7 @@ To provide visibility to customers on metered, utility-like billing pricing sche
 - [AWS Forecast product](https://aws.amazon.com/forecast/)
 - [How to save money on your AWS bill](https://twitter.com/QuinnyPig/status/1091041507342086144).
 - [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices) - [Facebook's Prophet](https://facebook.github.io/prophet/) (which [uses Stan underneath](https://statmodeling.stat.columbia.edu/2017/03/01/facebooks-prophet-uses-stan/)), seems to be worth checking to implement a cost forecast tool while taking care of seasonality.
+- [Komiser](https://github.com/mlabouardy/komiser) - Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.
 
 
 ## Marketplace
