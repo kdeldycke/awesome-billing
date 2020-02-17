@@ -251,6 +251,7 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 - [Practical Business Python](https://pbpython.com) - A blog collecting and spreading ideas on how to use Python more effectively in the business setting.
 - [`redash`](https://github.com/getredash/redash) - Connect and query your data sources, build dashboards to visualize data and share them with your company.
 - [Metabase](https://github.com/metabase/metabase) - Metabase is an open source solution to explore and vizualize data and supports lots of databases.
+- [Meltano](https://gitlab.com/meltano/meltano) - Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it.
 - [`insights`](https://github.com/mariusandra/insights) - Insights is a tool to visually explore a PostgreSQL database, with an emphasis on generating graphs that show business performance over time.
 
 
