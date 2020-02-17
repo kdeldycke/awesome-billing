@@ -24,6 +24,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [Payments](#payments)
 - [Receipt](#receipt)
 - [Credit Cards](#credit-cards)
+- [Bank Accounts](#bank-accounts)
 - [Fraud](#fraud)
   - [Credit Cards](#credit-cards)
   - [Trust Score](#trust-score)
@@ -201,6 +202,13 @@ The majority of fraud is exploiting the most common popular payment device: cred
 - [Five Fun Fraud Facts](https://blog.sift.com/2013/five-ecommerce-fraud-facts/) - Another tiny collection of features we can feed to a ML system to detect fraud. Comments on HN also unearthed [more qualifying signals](https://news.ycombinator.com/item?id=6376350) and [derived geodata on the transaction](https://news.ycombinator.com/item?id=6376221).
 - [Credit Card Fraud Detection using Autoencoders in Keras](https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd) - Tutorial on how to rely on anomaly detection to implement suspicious card transactions.
 - [How credit card thieves use free-to-play apps to launder gains](https://kromtech.com/blog/security-center/digital-laundry) -  To prevent abuses, service provider must strenghen both credit card verification and the account creation process.
+
+### Bank Accounts
+
+The old-fashioned way of payment: by the way of banks.
+
+- [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC Codes for personal use only.
+- [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
 
 ### Trust Score
 
