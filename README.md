@@ -30,7 +30,9 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
   - [Statistics](#statistics)
   - [Billing](#billing)
 - [UX/UI](#ux-ui)
-- [KPIs](#kpis)
+- [Business Intelligence](#business-intelligence)
+  - [Metrics](#metrics)
+  - [Tools](#tools)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
 - [Others](#others)
@@ -230,15 +232,25 @@ Users gets easely angry when it comes to money. UX and UI might helps a lot to r
 - [Which has a higher conversion rate: A single long ecommerce checkout form or a multi-step one?](https://capitalandgrowth.org/questions/2055/which-has-a-higher-conversion-rate-a-single-long-e.html) - Focus first on other things in the cart, like easing anxiety and second-guessing by adding reassurance (trust marks, testimonials) near the credit card and completion steps, as well as some guarantee language that you may have used earlier in the product exploration process.
 
 
-## KPIs
+## Business Intelligence
 
 As stakeholder of the billing pipeline, you sat on all the critical data to measure and report on the health of the business.
+
+### Metrics
+
+Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 - [16 Startup Metrics](https://a16z.com/2015/08/21/16-metrics/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
 - [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - Churn rate is not a meaningful metric, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
 - [Analyzing Churn Rates, Free Trials, and Other Metrics](https://jlongster.com/analyizing-profit-metrics) - `I didn't know anything about how to determine pricing or structure plans. My background is software development — finding insights in the mixture of churn rates, free trials, and all these other metrics seemed like magic.`.
 - [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - `How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.`
 - [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A way to segment users based on Recency, Frequency and Monetary value.
+
+### Tools
+
+- [`redash`](https://github.com/getredash/redash) - Connect and query your data sources, build dashboards to visualize data and share them with your company.
+- [Metabase](https://github.com/metabase/metabase) - Metabase is an open source solution to explore and vizualize data and supports lots of databases.
+- [`insights`](https://github.com/mariusandra/insights) - Insights is a tool to visually explore a PostgreSQL database, with an emphasis on generating graphs that show business performance over time.
 
 
 ## Competitive Analysis
