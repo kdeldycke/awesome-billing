@@ -18,7 +18,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
   - [Cloud Resources](#cloud-resources)
   - [Online Ads](#online-ads)
 - [Accounting](#accounting)
-- [Credits / Coupons / Vouchers](#credits--coupons--vouchers)
+- [Coupons and Vouchers](#coupons-and-vouchers)
 - [Taxes](#taxes)
 - [Invoice](#invoice)
 - [Payments](#payments)
@@ -136,7 +136,7 @@ Targeted online advertisements maketplaces have a lot in common with traditional
 - [Books, an immutable double-entry accounting database service](https://developer.squareup.com/blog/books-an-immutable-double-entry-accounting-database-service/) - Explain the basic data model of a double-entry accounting system relying on Google Spanner for internal use at Square.
 
 
-## Credits / Coupons / Vouchers
+## Coupons and Vouchers
 
 - [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - `Implementing price reductions ranging from 9–70% for large purchases, we found re- markably little impact on revenue, either positively or negatively.`.
 - [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
