@@ -205,6 +205,7 @@ The old-fashioned way of payment: by the way of banks.
 
 There's monetary incentives to exploit your business. Be prepared to fight hordes of fraudsters and shady users.
 
+- [Detecting fraudulent activity in a cloud using privacy-friendly data aggregates](https://arxiv.org/pdf/1411.6721v1.pdf) - Discusses a method to detect fraudulent activity (launching DDoS attacks, Bitcoin mining, ...) by using non-intrusive, privacy-friendly data: billing data.
 - [Awesome List of IAM: Fraud links](https://github.com/kdeldycke/awesome-iam#fraud) - Section dedicated to fraud management related to user accounts, from our sister repository.
 
 ### Credit Cards
