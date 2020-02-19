@@ -236,6 +236,7 @@ Best tools to automate fraud detection.
 
 - [More than 600 million users installed Android 'fleeceware' apps from the Play Store](https://www.zdnet.com/article/more-than-600-million-users-installed-android-fleeceware-apps-from-the-play-store/) - A new kind of fraud, in which apps silently keep charging users after the end of the trial period.
 - [CEO Fraud](https://www.knowbe4.com/ceo-fraud) - A billing team responsible for collecting payment is prey to this kind of fraud, in which the CEO is impersonated to commend exceptional payment transactions.
+- [The Challenges of Operating a Computing Cloud and Charging for its Use](https://web.stanford.edu/class/cs349d/docs/theimer.pdf) - Skip the first 90% of this presentation by an AWS VP (which is about general system reliability). The last four slides are a good summary of what billing cloud services entails, especially the use of soft quotas to limit fraud.
 
 
 ## UX/UI
