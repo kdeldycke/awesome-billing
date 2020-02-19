@@ -11,6 +11,10 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 
 - [Basics](#basics)
 - [Pricing](#pricing)
+  - [Usage-based Pricing](#usage-based-pricing)
+  - [Subscription Plans](#subscription-plans)
+  - [Hybrid](#hybrid)
+  - [Strategy](#strategy)
 - [Product Catalog](#product-catalog)
 - [Calculator](#calculator)
 - [Cost Forecast](#cost-forecast)
@@ -49,15 +53,37 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 
 From monthly subscription to commodity-like on-the-go consumption, and including shopping-cart like funnel, there's plenty of scheme out there to structure your product's pricing.
 
-* [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - How to develop a revenue model for your software business.
-- [Finding the max revenue price mark for digital products](https://medium.com/@hovm/finding-the-max-revenue-price-mark-for-digital-products-24cef24f746d) - `TL;DR: to find the optimal price that provides maximum revenue for your product you will need to field-test several price points; you then reconstruct the revenue curve and find the peak.`.
-- [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/) - Which numbers should you use? How high should it be? Should it be rounded? This guide has 42 tricks to help you choose the best price.
-- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - `The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.`.
-- [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
+- [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Not only huge and complete collection of pricing scheme, but also the psychological effect and impact on revenue model.
+
+### Usage-based Pricing
+
+The default, dynamic scheme for cloud resources.
+
+- [Socially Optimal Pricing of Cloud Computing Resources](https://webee.technion.ac.il/people/shimkin/PAPERS/Menache-CloudPricing-Conf2011.pdf) - `The socially optimal operating point is unique, and can be sustained by a linear, usage-based tariff, which charges a fixed price per unit resource and unit time.`. Or the justification of usage-based pricing for cloud resources.
 - `Billing is not complex on purpose: it's the price to pay for elasticity.` ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you're likely to get an endless stream of complaning users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlaying concepts.
 - [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitely pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
-- [Google Ads API: `BillingCap` enum](https://developers.google.com/ad-manager/api/reference/v201911/CompanyService.BillingCap) - Capped actuals: monthly with rollover, an optimized pricing scheme to limit surprises from customers.
 - [AWS EC2 T2 Instances Demystified: Don't Learn The Hard Way](https://roberttisdale.com/aws-ec2-t2-instances-demystified-dont-learn-hard-way/) - An example of really tricky burstable instances which accrues and limits its own amount of CPU usage credits.
+
+### Subscription Plans
+
+Highly popular for SaaS businesses, subscription plans are easy to comprehend.
+
+- TODO
+
+### Hybrid
+
+Uncommon pricing schemes.
+
+- [Google Ads API: `BillingCap` enum](https://developers.google.com/ad-manager/api/reference/v201911/CompanyService.BillingCap) - Capped actuals: monthly with rollover, an optimized pricing scheme to limit surprises from customers, in which we more or less sell quotas.
+
+### Strategy
+
+Theory and practical insight to help you choose the right price point.
+
+- [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/) - Which numbers should you use? How high should it be? Should it be rounded? This guide has 42 tricks to help you choose the best price.
+- [Finding the max revenue price mark for digital products](https://medium.com/@hovm/finding-the-max-revenue-price-mark-for-digital-products-24cef24f746d) - `TL;DR: to find the optimal price that provides maximum revenue for your product you will need to field-test several price points; you then reconstruct the revenue curve and find the peak.`.
+- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - `The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.`.
+- [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
 
 
 ## Product Catalog
