@@ -99,6 +99,8 @@ The central repository of all available services, products, variants, options an
 
 ## Calculator
 
+Simulate a virtual invoice depending on the resource you plan to use.
+
 - [Cloud Cost Calculator](https://github.com/scalyr/cloud-costs) - Web-based tool for finding the cheapest cloud servers for a given set of requirements.
 - [Cloud Computing Comparison Engine](https://www.cloudorado.com)
 - [EC2Instances.info](https://ec2instances.info) - Easy Amazon EC2 Instance Comparison.
@@ -106,7 +108,7 @@ The central repository of all available services, products, variants, options an
 
 ## Cost Forecast
 
-To provide visibility to customers on metered, utility-like billing pricing scheme, having a way to forecast costs is required.
+Help your customers predict their upcoming and future consumption based on their past usage.
 
 - [GCP Cost Forecast](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html)
 - [AWS Forecast product](https://aws.amazon.com/forecast/)
