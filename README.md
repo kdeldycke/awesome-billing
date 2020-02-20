@@ -26,9 +26,9 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [Taxes](#taxes)
 - [Invoice](#invoice)
 - [Payments](#payments)
-- [Receipt](#receipt)
-- [Credit Cards](#credit-cards)
-- [Bank Accounts](#bank-accounts)
+  - [Receipt](#receipt)
+  - [Credit Cards](#credit-cards)
+  - [Bank Accounts](#bank-accounts)
 - [Fraud](#fraud)
   - [Credit Cards](#credit-cards)
   - [Trust Score](#trust-score)
@@ -205,16 +205,14 @@ The invoice materialize a consumed service or purchased product, wiating to be s
 - How ACH works: A developer perspective, [part 1](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/), [part 2](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-2/), [part 3](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-3/), [part 4](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-4/).
 - [Handling system failures during payment communication](https://blogs.dropbox.com/tech/2017/09/handling-system-failures-during-payment-communication/) - Dropbox's experience trying to account for an unreliable payment provider.
 
-
-## Receipt
+### Receipt
 
 A receipt materialize the payment transaction.
 
 - [The humble receipt gets a brilliant redesign](https://www.fastcompany.com/90347782/the-humble-receipt-gets-a-brilliant-redesign) - When a Netflix data engineer revisit receipts.
 - [The long, long history of long, long CVS receipts](https://www.vox.com/the-goods/2018/10/10/17956950/why-are-cvs-pharmacy-receipts-so-long)
 
-
-## Credit Cards
+### Credit Cards
 
 The most popular payment device.
 
@@ -223,8 +221,7 @@ The most popular payment device.
 - [Address Verification System](https://en.wikipedia.org/wiki/Address_Verification_System) - A system checking the matching of customer's billing addresses with the one associated with the credit card.
 - [pci-blackbox](https://github.com/trustly/pci-blackbox) - PCI-DSS compliant card system built on PostgreSQL and PL/pgSQL.
 
-
-## Bank Accounts
+### Bank Accounts
 
 The old-fashioned way of payment: by the way of banks.
 
