@@ -203,6 +203,7 @@ The invoice materialize a consumed service or purchased product, wiating to be s
 
 ## Payments
 
+- [The Best Payment Gateway for Startups](http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment paroviders, their pricing and models.
 - [Avoiding Double Payments in a Distributed Payments System](https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb) - RDBMS were build for banks around transactions to solve that specific issue. Then NoSQL came forcing us to carefully implement systems to avoid double spending.
 - [Monzo's bank transfers post-mortem](https://monzo.com/blog/2019/06/20/why-bank-transfers-failed-on-30th-may-2019/) - Or why you should be prepared for and work around gateway provider's outages.
 - [How to Build an Insurance Company](https://www.moderntreasury.com/journal/how-to-build-an-insurance-company) - The importance of payment ops architecture.
