@@ -37,6 +37,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 - [UX/UI](#ux-ui)
 - [Business Intelligence](#business-intelligence)
   - [Metrics](#metrics)
+  - [Data Engineering](#data-engineering)
   - [Tools](#tools)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
@@ -301,6 +302,17 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 - [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - `How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.`
 - [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A way to segment users based on Recency, Frequency and Monetary value.
 - [A Quantitative Approach to Product Market Fit](https://tribecap.co/a-quantitative-approach-to-product-market-fit/) - Metrics produced above have a greater reach, as they're used as important signals to validate product-market fit.
+
+### Data Engineering
+
+To industrialize data production and consumption, your need data engineers to clean up, persist and consolidate data. Only after you get these data fundations you might think of onboarding data scientists.
+
+- [AI vs Data Science vs Data Engineering](https://blog.insightdatascience.com/how-emerging-ai-roles-fit-in-the-data-landscape-d4cd922c389b) - `Data Engineers build data pipelines and infrastructure to ensure a constant availability of transformed data. Data Scientists analyze and build models from these data to develop new product features or drive the bottom line of the business.`. As for AI professionals, their focus is on cognitive automation.
+- [Ten Ways Your Data Project is Going to Fail](https://www.martingoodson.com/ten-ways-your-data-project-is-going-to-fail/) - You don't need data scientists. `For ETL, hire data engineers. For reporting, hire BI analysts. The end.`.
+- [Cargo cult data science](http://blog.richardweiss.org/2017/07/25/data-science-in-organizations.html) - `Data science is best viewed as a form of company culture, rather than a set of technologies. However, many firms will try to create that company culture by acquiring data-science technology, rather than working on their culture.`.
+- [Why not use Double or Float to represent currency?](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency/3730040#3730040) - Because of precision: floats and doubles cannot accurately represent the base 10 multiples that we use for money.
+- [Never Use Floats for Money](https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html) - `This is precisely the problem we have when trying to represent 10^-1, or 0.1 in binary. There is not an exact binary representation of 0.1 or 0.01.`.
+- [European Spreadsheet Risks Interest Group - Horror Stories](http://www.eusprig.org/horror-stories.htm) - A collection of cases in which uncontrolled and untested spreadsheet models led to lost revenue, mispricing, poor decision making, fraud and systemic financial failure.
 
 ### Tools
 
