@@ -40,6 +40,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
   - [Data Engineering](#data-engineering)
   - [Tools](#tools)
 - [Competitive Analysis](#competitive-analysis)
+- [Commercial Solutions](#commercial-solutions)
 - [History](#history)
 - [Others](#others)
 
@@ -336,13 +337,14 @@ A bunch of resources to keep track of the current status and progress of all com
 - [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/).
 
 
+## Commercial Solutions
+
+- [Orbitera](https://www.orbitera.com) - GCP's billing subsadiary.
+- [OpenCell](https://opencellsoft.com) - Monetization platform originating from an open-source telco billing project.
+- [keygen](https://keygen.sh) - Sell and manage license keys.
+
+
 ## History
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) -
 Accounting paintings were a significant genre in Dutch art.
-
-
-## Others
-
-- https://keygen.sh  - Commercial service to sell and manage license keys.
-- [Why not use Double or Float to represent currency?](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency/3730040#3730040) - Because of precision: floats and doubles cannot accurately represent the base 10 multiples that we use for money.
