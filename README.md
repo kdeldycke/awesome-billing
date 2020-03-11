@@ -57,11 +57,14 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
 From monthly subscription to commodity-like on-the-go consumption, and including shopping-cart like funnel, there's plenty of scheme out there to structure your product's pricing.
 
 - [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Not only huge and complete collection of pricing scheme, but also the psychological effect and impact on revenue model.
+- [Business Model Patterns](https://reasonstreet.co/business-model-library/) - A list of 11 different ways to sell products and services.
+- [Axial - Business models](https://axial.substack.com/p/axial-business-models) - 38 models for inspiration.
 
 ### Usage-based Pricing
 
 The default, dynamic scheme for cloud resources.
 
+- [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - `The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone’s best interest.`. Also details issues with other pricing models.
 - [Socially Optimal Pricing of Cloud Computing Resources](https://webee.technion.ac.il/people/shimkin/PAPERS/Menache-CloudPricing-Conf2011.pdf) - `The socially optimal operating point is unique, and can be sustained by a linear, usage-based tariff, which charges a fixed price per unit resource and unit time.`. This paper justify of usage-based pricing for cloud resources.
 - `Billing is not complex on purpose: it's the price to pay for elasticity.` ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you're likely to get an endless stream of complaning users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlaying concepts.
 - [Riemann sum](https://en.wikipedia.org/wiki/Riemann_sum) - The starting point about quantization of usage.
