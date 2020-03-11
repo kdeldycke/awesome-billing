@@ -130,7 +130,7 @@ Help your customers predict their upcoming and future consumption based on their
 A marketplace connect supply with demand that lead to a financial transaction. If there is no payment involved, then it is an aggregator, or a hub. Not a marketplace.
 
 - [Customized Regression Model for Airbnb Dynamic Pricing](https://www.kdd.org/kdd2018/accepted-papers/view/customized-regression-model-for-airbnb-dynamic-pricing) - This paper describes the pricing strategy model deployed at Airbnb.
-- [Papers we love: Auctions and Bidding](https://github.com/papers-we-love/papers-we-love/tree/master/economics#auctions-and-bidding) - A collection of papers on bidding and auctions. 
+- [Papers we love: Auctions and Bidding](https://github.com/papers-we-love/papers-we-love/tree/master/economics#auctions-and-bidding) - A collection of papers on bidding and auctions.
 - [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, `"Asking people what they'd pay for and how much rarely works." (...) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.`.
 - [19 Tactics to Solve the Chicken-or-Egg Problem and Grow Your Marketplace](https://www.nfx.com/post/19-marketplace-tactics-for-overcoming-the-chicken-or-egg-problem) - `Which comes first, the supply or the demand? Chicken or egg?`.
 - How to Kickstart and Scale a Marketplace Business: [Constrain the marketplace](https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace); Decide which side of the marketplace to concentrate on; Drive initial supply; Drive initial demand. A 4-parts series with dozen of interviews of people with direct experience building and scaling marketplaces.
@@ -192,6 +192,7 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 ## Taxes
 
 - [Council Directive 2006/112/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL) - European Union reference on the common system of VAT.
+- [2017 Tax Software Developer's Guides](https://www.mass.gov/lists/2017-tax-software-developers-guides) - A list of test cases for developers to test their tax code against.
 - [{Digital,Cloud,Electronic,Online} Services VAT Rate Database](https://github.com/kdeldycke/vat-rates) - Centralize applicable VAT rates on foreign online services, for each country of residence (including territorial exceptions).
 - [Global VAT & GST on digital services](https://www.avalara.com/vatlive/en/global-vat-gst-on-e-services.html) – List of countries requiring application of taxes on foreign provided online services.
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
@@ -283,6 +284,7 @@ Synthetic score based on a collection of signals are often the best proxy of use
 Best tools to automate fraud detection.
 
 - [Benford's law](https://en.wikipedia.org/wiki/Benford's_law) - Digit distribution can be a signal of accounting fraud.
+- [Integer percentages as electoral falsification fingerprints](https://arxiv.org/pdf/1410.6059.pdf) - In the same spirit as above, this paper show that frequency of reported round numbers in election is a signal of man-made anomalies. Might be applicable in some fraud-fighting area.
 - [Huber loss](https://en.wikipedia.org/wiki/Huber_loss) - `A loss function used in robust regression, that is less sensitive to outliers in data than the squared error loss.`.
 - [Peak Detection in the Python World](https://blog.ytotech.com/2015/11/01/findpeaks-in-python/) - Simple way to detect outliers.
 
@@ -347,13 +349,22 @@ A bunch of resources to keep track of the current status and progress of all com
 - [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price) - Web app that collects and graphs EC2 Spot Prices.
 - [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes).
 - [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
+- [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
 - [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/).
 
 
 ## Commercial Solutions
 
 - [Orbitera](https://www.orbitera.com) - GCP's billing subsidiary.
+- [16 Online Subscription Billing Tools](https://www.analyzo.com/search/online-subscription-billing-tools/106) - An up-to-date list of subscription and recurring billing services.
 - [OpenCell](https://opencellsoft.com) - Monetization platform originating from an open-source telco billing project.
+- [Laravel Spark](https://spark.laravel.com) - Package that provides scaffolding for all of the stuff you don't want to code: subscription and team billing, invoices, but also user accounts features.
+- [Bullet Train](https://bullettrain.co) - Same as above, but for Ruby on Rails.
+- [ASP.NET Zero](https://aspnetzero.com) - Multi-tenancy, authentication and authorization, invoices and payments.
+- [Chargebee](https://www.chargebee.com) - Subscription billing & revenue operations.
+- [Armatic Billing & Invoicing Software](https://www.armatic.com/billing) - Invoices, accounts receivable.
+- [Sensus Billing Access Application](https://sensus.com/products/billing-access/) - Billing and metering solutions for utility companies.
+- [Quaderno](https://quaderno.io) - Calculate sales tax, VAT, and GST; automate receipts.
 - [keygen](https://keygen.sh) - Sell and manage license keys.
 
 
@@ -361,3 +372,4 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) -
 Accounting paintings were a significant genre in Dutch art.
+- [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
