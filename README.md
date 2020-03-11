@@ -29,6 +29,7 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
   - [Receipt](#receipt)
   - [Credit Cards](#credit-cards)
   - [Bank Accounts](#bank-accounts)
+  - [Online Payments](#online-payments)
 - [Fraud](#fraud)
   - [Credit Cards](#credit-cards)
   - [Trust Score](#trust-score)
@@ -241,6 +242,12 @@ The old-fashioned way of payment: by the way of banks.
 - [Open IBAN](https://openiban.com) - Free and Public IBAN Validation and Calculation Webservice. 
 - [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC Codes for personal use only.
 - [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
+
+### Online Payments
+
+The usual money transfer services.
+
+- [The untold story of Stripe](https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that `once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.`.
 
 
 ## Fraud
