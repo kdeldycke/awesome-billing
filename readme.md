@@ -2,7 +2,7 @@
 
 <img align="right" width="50%" src="./cloud-software-stack-billing.jpg"/>
 
-In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
+In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as in the image on the right:
 
 This knowledge base cover the far second far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the customers, the products and the business. The [other pillar being Identity and Access Management (IAM)](https://github.com/kdeldycke/awesome-iam/).
 
