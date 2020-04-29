@@ -43,7 +43,6 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 - [Competitive Analysis](#competitive-analysis)
 - [Commercial Solutions](#commercial-solutions)
 - [History](#history)
-- [Others](#others)
 
 
 ## Basics
