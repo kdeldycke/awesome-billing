@@ -376,6 +376,12 @@ Accounting paintings were a significant genre in Dutch art.
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
 
+## Contributing
+
+Your contributions are always welcome! Please take a look at the
+[contribution guidelines](./.github/contributing.md) first.
+
+
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
