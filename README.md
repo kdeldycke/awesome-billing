@@ -1,4 +1,4 @@
-# 💰 Awesome Billing and Payments
+# 💰 Awesome Billing and Payments [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
 In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
 
