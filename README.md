@@ -31,11 +31,11 @@ This knowledge base cover the far second far right perimeter of the cloud stack.
   - [Bank Accounts](#bank-accounts)
   - [Online Payments](#online-payments)
 - [Fraud](#fraud)
-  - [Credit Cards](#credit-cards)
+  - [Cards](#cards)
   - [Trust Score](#trust-score)
   - [Statistics](#statistics)
   - [Billing](#billing)
-- [UX/UI](#ux-ui)
+- [UX/UI](#uxui)
 - [Business Intelligence](#business-intelligence)
   - [Metrics](#metrics)
   - [Data Engineering](#data-engineering)
@@ -261,7 +261,7 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 - [Detecting fraudulent activity in a cloud using privacy-friendly data aggregates](https://arxiv.org/pdf/1411.6721v1.pdf) - Discusses a method to detect fraudulent activity (launching DDoS attacks, Bitcoin mining, ...) by using non-intrusive, privacy-friendly data: billing data.
 - [Awesome List of IAM: Fraud links](https://github.com/kdeldycke/awesome-iam#fraud) - Section dedicated to fraud management related to user accounts, from our sister repository.
 
-### Credit Cards
+### Cards
 
 The majority of fraud is exploiting the most common popular payment device: credit cards.
 
