@@ -374,3 +374,11 @@ A bunch of resources to keep track of the current status and progress of all com
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) -
 Accounting paintings were a significant genre in Dutch art.
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
+
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+Content of this repository is licensed under the [Creative Commons CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
+To the extent possible under law, [Kevin Deldycke](https://kevin.deldycke.com)
+has waived all copyright and related or neighboring rights to this work.
