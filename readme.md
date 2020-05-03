@@ -75,7 +75,7 @@ The default, dynamic scheme for cloud resources.
 
 Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
-- TODO
+- [`f-license`](https://github.com/furkansenharputlu/f-license) - Open-source license key generation and verification tool in Go.
 
 ### Hybrid
 
