@@ -311,6 +311,7 @@ As stakeholder of the billing pipeline, you sat on all the critical data to meas
 
 Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
+- [Startup financial models - 12 templates compared for SaaS](https://www.stephnass.com/blog/startup-financial-model) - A great source of inspiration to get better visibility in your operations.
 - [16 Startup Metrics](https://a16z.com/2015/08/21/16-metrics/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
 - [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - Churn rate is not a meaningful metric, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
 - [Analyzing Churn Rates, Free Trials, and Other Metrics](https://jlongster.com/analyizing-profit-metrics) - “I didn't know anything about how to determine pricing or structure plans. My background is software development — finding insights in the mixture of churn rates, free trials, and all these other metrics seemed like magic.”
