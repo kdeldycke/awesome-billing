@@ -319,6 +319,7 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 - [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A way to segment users based on Recency, Frequency and Monetary value.
 - [A Quantitative Approach to Product Market Fit](https://tribecap.co/a-quantitative-approach-to-product-market-fit/) - Metrics produced above have a greater reach, as they're used as important signals to validate product-market fit.
 - [Startup growth calculator](http://growth.tlb.org) - Simple yet effective profitability calculator for startups.
+- [An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa) - Great breakdown of Visa business models and metrics.
 
 ### Data Engineering
 
