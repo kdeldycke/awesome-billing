@@ -176,6 +176,7 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 - [Django Hordak](https://django-hordak.readthedocs.io) - Core functionality of a double entry accounting system for Django.
 - [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 - [Books, an immutable double-entry accounting database service](https://developer.squareup.com/blog/books-an-immutable-double-entry-accounting-database-service/) - Explain the basic data model of a double-entry accounting system relying on Google Spanner for internal use at Square.
+- [Triple‐entry accounting with blockchain: How far have we come?](https://onlinelibrary.wiley.com/doi/abs/10.1111/acfi.12556) - “Triple‐entry accounting is a new and a more efficient way to address fundamental trust and transparency issues that plague current accounting systems. Triple‐entry accounting with blockchain, when properly implemented, can fundamentally improve accounting.”
 
 
 ## Coupons and Vouchers
