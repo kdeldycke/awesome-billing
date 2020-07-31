@@ -164,14 +164,31 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 
 ## Accounting
 
-- [Accounting for Developers 101](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4).
-- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html).
-- [Algebraic Models for Accounting Systems](https://www.amazon.com/Algebraic-Models-For-Accounting-Systems/dp/9814287113) - This book is about the application of abstract algebra to the analysis of accounting systems.
-- [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Learn accounting & bookkeeping for free.
-- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.co.uk/Accounts-Demystified-Astonishingly-Simple-Accounting/dp/0273744704/).
-- [Tutorial on multiple currency accounting](https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html) - An excellent resource for implementing multi-currency accounting systems.
-- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/Financial-Intelligence-Entrepreneurs-Really-Numbers/dp/1422119157).
+### Double-Entry Model
+
+The core concept of accounting is double-entry. It is the most critical part to grasp in order to properly design any robust system that tracks money.
+
+- [Accounting for Developers 101](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4) - A general introduction to history and vocabulary of accounting.
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html) - Describes how to view accounting in the form of graphs in which money flows, then how these movements are materialized in the financial statements of a small company.
+- [The Double-Entry Counting Method](https://beancount.github.io/docs/the_double_entry_counting_method.html) - Same premise as above, but way more detailed and complete, as it adds reporting and implementation details.
 - [Accounting Memento For Entrepreneurs (US GAAP)](https://www.odoo.com/documentation/functional/accounting.html) - An interactive form to play with accounting concepts.
+
+### Bookkeeping
+
+- [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
+
+### Analytics
+
+- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.co.uk/Accounts-Demystified-Astonishingly-Simple-Accounting/dp/0273744704/) - Helps you learn how to analyse and monitor your company's financial performance.
+- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/Financial-Intelligence-Entrepreneurs-Really-Numbers/dp/1422119157) - Allows you to fully understand how to use financial data to make better decisions for your business.
+- [Algebraic Models for Accounting Systems](https://www.amazon.com/Algebraic-Models-For-Accounting-Systems/dp/9814287113) - Advanced abstract algebra applied to the analysis of accounting systems.
+
+### Currencies
+
+- [Tutorial on multiple currency accounting](https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html) - An excellent resource for implementing multi-currency accounting systems.
+
+### Software
+
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 - And a list of graphical accounting tools: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
 - [Moonpig: a billing system that doesn't suck](https://blog.plover.com/prog/Moonpig.html) - Design decisions behind a billing and accounting system. Key takeaway: some companies still pays by checks; do not use floats; complex customer workflows; date and time issues; mutable data.
