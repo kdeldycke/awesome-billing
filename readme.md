@@ -9,7 +9,6 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 ## Contents
 
 - [Basics](#basics)
@@ -25,6 +24,11 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
   - [Cloud Resources](#cloud-resources)
   - [Online Ads](#online-ads)
 - [Accounting](#accounting)
+  - [Double-Entry Model](#double-entry-model)
+  - [Bookkeeping](#bookkeeping)
+  - [Analytics](#analytics)
+  - [Currencies](#currencies)
+  - [Software](#software)
 - [Coupons and Vouchers](#coupons-and-vouchers)
 - [Taxes](#taxes)
 - [Invoice](#invoice)
