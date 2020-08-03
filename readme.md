@@ -7,6 +7,9 @@ In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/
 This knowledge base cover the first of the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
 
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Basics](#basics)
@@ -43,6 +46,8 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 - [Competitive Analysis](#competitive-analysis)
 - [Commercial Solutions](#commercial-solutions)
 - [History](#history)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ## Basics
