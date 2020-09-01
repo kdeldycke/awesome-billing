@@ -191,6 +191,7 @@ Everything you need to know about the daily practice of keeping your accounting 
 - And a list of graphical accounting tools: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
 - [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 - [Frappe Books](https://github.com/frappe/books) - Free Desktop book-keeping software for small-businesses and freelancers.
+- [Luca](https://github.com/brandon-rhodes/luca) - YAML accounting and JSON tax forms.
 
 ### Software design and implementation
 
@@ -245,6 +246,7 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 - [OpenTimestamps](https://opentimestamps.org) - Go beyond the solution above, and timestamp immutable document directly on Bitcoin's blockchain.
 - [Manta](https://github.com/hql287/Manta) - Flexible invoicing desktop app with beautiful & customizable templates.
 - [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - A self-hosted open-source application for managing your invoices, clients and payments.
+- [InvoiceGenerator](https://github.com/by-cx/InvoiceGenerator) - Library to generate a simple invoices.
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
 
