@@ -192,6 +192,7 @@ Everything you need to know about the daily practice of keeping your accounting 
 - [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 - [Frappe Books](https://github.com/frappe/books) - Free Desktop book-keeping software for small-businesses and freelancers.
 - [Luca](https://github.com/brandon-rhodes/luca) - YAML accounting and JSON tax forms.
+- [Sequence](https://github.com/decimals/sequence) - API that store, validate and reports asset movements. Also known as a Ledger. Sequence is immutable, scalable, and easy to use.
 
 ### Software design and implementation
 
