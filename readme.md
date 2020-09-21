@@ -209,9 +209,9 @@ Now that you're somewhat familiar with the concepts and practive of accounting, 
 
 Once you've got your accounts in order, you can start extracting insights and metrics your financial data.
 
-- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.co.uk/Accounts-Demystified-Astonishingly-Simple-Accounting/dp/0273744704/) - Helps you learn how to analyse and monitor your company's financial performance.
-- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/Financial-Intelligence-Entrepreneurs-Really-Numbers/dp/1422119157) - Allows you to fully understand how to use financial data to make better decisions for your business.
-- [Algebraic Models for Accounting Systems](https://www.amazon.com/Algebraic-Models-For-Accounting-Systems/dp/9814287113) - Advanced abstract algebra applied to the analysis of accounting systems.
+- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://amzn.com/0273744704/?tag=kevideld-20) - Helps you learn how to analyse and monitor your company's financial performance.
+- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://amzn.com/1422119157/?tag=kevideld-20) - Allows you to fully understand how to use financial data to make better decisions for your business.
+- [Algebraic Models for Accounting Systems](https://amzn.com/9814287113/?tag=kevideld-20) - Advanced abstract algebra applied to the analysis of accounting systems.
 
 ### Currencies
 
