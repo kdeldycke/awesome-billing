@@ -86,6 +86,7 @@ The default, dynamic scheme for cloud resources.
 
 Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
+- [Pricing low-touch SaaS](https://stripe.com/en-in/atlas/guides/saas-pricing) - “In low-touch SaaS, the most common way packages are presented are as different columns in a pricing grid, with each column corresponding to a plan, offered at a different price, with differential access to features or maximum allowable usage along some axis interesting to the business.”
 - [`f-license`](https://github.com/furkansenharputlu/f-license) - Open-source license key generation and verification tool in Go.
 
 ### Hybrid
