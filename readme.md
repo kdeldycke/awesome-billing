@@ -6,7 +6,6 @@ In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/
 
 This knowledge base cover the first of the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
 
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
@@ -53,12 +52,10 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
 ## Basics
 
 - [Open guide to AWS Billing and Cost Management](https://github.com/open-guides/og-aws#billing-and-cost-management)
 - [Major use-cases for cloud services from a ROI standpoint](https://news.ycombinator.com/item?id=19830022)
-
 
 ## Pricing
 
@@ -80,7 +77,6 @@ The default, dynamic scheme for cloud resources.
 - [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitly pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 - [AWS EC2 T2 Instances Demystified: Don't Learn The Hard Way](https://roberttisdale.com/aws-ec2-t2-instances-demystified-dont-learn-hard-way/) - An example of really tricky burstable instances which accrues and limits its own amount of CPU usage credits.
 - [“Designing billing for a service can be really challenging”](https://news.ycombinator.com/item?id=23536919) - Personal anecdote on the design of the pricing plan for AWS Simple Email Service.
-
 
 ### Subscription Plans
 
@@ -106,13 +102,11 @@ Theory and practical insight to help you choose the right price point.
 - [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - “The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.”
 - [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
 
-
 ## Product Catalog
 
 The central repository of all available services, products, variants, options and pricing available to the customer to purchase.
 
 - [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time)
-
 
 ## Calculator
 
@@ -121,7 +115,6 @@ Simulate a virtual invoice depending on the resource you plan to use.
 - [Cloud Cost Calculator](https://github.com/scalyr/cloud-costs) - Web-based tool for finding the cheapest cloud servers for a given set of requirements.
 - [Cloud Computing Comparison Engine](https://www.cloudorado.com)
 - [EC2Instances.info](https://ec2instances.info) - Easy Amazon EC2 Instance Comparison.
-
 
 ## Cost Forecast
 
@@ -135,7 +128,6 @@ Help your customers predict their upcoming and future consumption based on their
 - [GCP Cost Forecast](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html)
 - [AWS Forecast product](https://aws.amazon.com/forecast/)
 - [How to save money on your AWS bill](https://twitter.com/QuinnyPig/status/1091041507342086144).
-
 
 ## Marketplace
 
@@ -171,7 +163,6 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 - [RTB Budget Pacing Summarized](https://github.com/PragmaticLab/RTB_Budget_Pacing_Summarized) - A collection of budget pacing resources for targeted online advertisements.
 - [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
 - [`RTB4Free`](https://github.com/RTB4FREE) - Open Source Bidder and Demand Side Platform (DSP).
-
 
 ## Accounting
 
@@ -220,7 +211,6 @@ Global companies needs to know how to juggle between local currencies.
 
 - [Tutorial on multiple currency accounting](https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html) - An excellent resource for implementing multi-currency accounting systems.
 
-
 ## Coupons and Vouchers
 
 - [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - “Implementing price reductions ranging from 9–70% for large purchases, we found re- markably little impact on revenue, either positively or negatively.”
@@ -230,7 +220,6 @@ Global companies needs to know how to juggle between local currencies.
 - [China's Pinduoduo reports theft of online discount vouchers to police](https://www.reuters.com/article/us-pinduoduo-china/chinas-pinduoduo-reports-theft-of-online-discount-vouchers-to-police-idUSKCN1PE05J) - The next level of fraud: “an online collective exploited a loophole on its platform to ‘steal’ tens of millions of yuan worth of discount vouchers”.
 - [Council Directive 2016/1065 as regards the treatment of vouchers](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1065) - European directive on the application of VAT when vouchers are involved.
 
-
 ## Taxes
 
 - [Council Directive 2006/112/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL) - European Union reference on the common system of VAT.
@@ -239,7 +228,6 @@ Global companies needs to know how to juggle between local currencies.
 - [Global VAT & GST on digital services](https://www.avalara.com/vatlive/en/global-vat-gst-on-e-services.html) – List of countries requiring application of taxes on foreign provided online services.
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
 - “British supermarkets (…) charge you a fee for their backend card processing, but they subtract that fee from your checkout price.” ([source](https://news.ycombinator.com/item?id=22047028)) -  Which allows them to [claim the VAT on processing fees as input tax](https://www.gov.uk/guidance/vat-guide-notice-700#section4).
-
 
 ## Invoice
 
@@ -256,7 +244,6 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
 - [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
-
 
 ## Payments
 
@@ -300,7 +287,6 @@ The usual money transfer services.
 
 - [The untold story of Stripe](https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that “once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.”
 
-
 ## Fraud
 
 There's monetary incentives to exploit your business. Be prepared to fight hordes of fraudsters and shady users.
@@ -343,14 +329,12 @@ Best tools to automate fraud detection.
 - [The Challenges of Operating a Computing Cloud and Charging for its Use](https://web.stanford.edu/class/cs349d/docs/theimer.pdf) - Skip the first 90% of this presentation by an AWS VP (which is about general system reliability). The last four slides are a good summary of what billing cloud services entails, especially the use of soft quotas to limit fraud.
 - [Fraud in Telephony Networks](http://www.s3.eurecom.fr/docs/eurosp17_sahin.pdf) - Most of telephony frauds gravitates around billing and the metering of micro-transactions. This paper feature a taxonomy (on page 6) differentiating the root causes, vulnerabilities, exploitation techniques, and the way fraudsters can benefits from them.
 
-
 ## UX/UI
 
 Users gets easily angry when it comes to money. UX and UI might helps a lot to reduce frustration.
 
 - [Apple Subscriptions HIG](https://developer.apple.com/design/human-interface-guidelines/subscriptions/overview/) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
 - [Which has a higher conversion rate: A single long ecommerce checkout form or a multi-step one?](https://capitalandgrowth.org/questions/2055/which-has-a-higher-conversion-rate-a-single-long-e.html) - Focus first on other things in the cart, like easing anxiety and second-guessing by adding reassurance (trust marks, testimonials) near the credit card and completion steps, as well as some guarantee language that you may have used earlier in the product exploration process.
-
 
 ## Business Intelligence
 
@@ -393,7 +377,6 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 - [`insights`](https://github.com/mariusandra/insights) - Insights is a tool to visually explore a PostgreSQL database, with an emphasis on generating graphs that show business performance over time.
 - [`falcon`](https://github.com/plotly/falcon) - Free, open-source SQL client for Windows and Mac with builtin graphs.
 
-
 ## Competitive Analysis
 
 A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
@@ -405,7 +388,6 @@ A bunch of resources to keep track of the current status and progress of all com
 - [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
 - [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
 - [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/).
-
 
 ## Commercial Solutions
 
@@ -421,19 +403,16 @@ A bunch of resources to keep track of the current status and progress of all com
 - [Quaderno](https://quaderno.io) - Calculate sales tax, VAT, and GST; automate receipts.
 - [keygen](https://keygen.sh) - Sell and manage license keys.
 
-
 ## History
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) -
 Accounting paintings were a significant genre in Dutch art.
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
-
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the
 [contribution guidelines](./.github/contributing.md) first.
-
 
 ## License
 
