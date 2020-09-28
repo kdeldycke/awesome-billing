@@ -255,6 +255,7 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 - [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
+- [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
 
 
 ## Payments
