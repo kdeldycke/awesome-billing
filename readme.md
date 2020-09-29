@@ -244,6 +244,7 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
 - [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
+- [Universal Business Language](https://en.wikipedia.org/wiki/Universal_Business_Language) - Most invoicing software can read and write UBL documents (XML) for data transfer.
 
 ## Payments
 
@@ -277,6 +278,7 @@ The most popular payment device.
 
 The old-fashioned way of payment: by the way of banks.
 
+- [A (shallow) dive into the American banking system](https://blog.yossarian.net/2019/12/25/A-shallow-dive-into-the-American-banking-system) - Collection of miscellaneous notes primarily focused on the common cases of routable accounts, i.e. checking and savings.
 - [Open IBAN](https://openiban.com) - Free and public IBAN validation and calculation webservice.
 - [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC vodes for personal use only.
 - [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
@@ -285,6 +287,7 @@ The old-fashioned way of payment: by the way of banks.
 
 The usual money transfer services.
 
+- [UPI 101: The Basics](https://the-other-side.blog/upi-the-basics/) - “In this article, we will learn about India's Unified Payments Interface. A four-year-old payment scheme that has been accounting for 40-45% of digital payments across India.”
 - [The untold story of Stripe](https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that “once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.”
 
 ## Fraud
