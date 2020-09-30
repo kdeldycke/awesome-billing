@@ -104,9 +104,12 @@ Theory and practical insight to help you choose the right price point.
 
 ## Product Catalog
 
-The central repository of all available services, products, variants, options and pricing available to the customer to purchase.
+The central repository of all available services, products, variants, options and pricing available to the customer to purchase. Catalogs for cloud services are most of the time tailor-made, but there is some classic PDM solutions ([Product Data Management](https://en.wikipedia.org/wiki/Product_information_management), a.k.a. Product Information Management) out there that might fit the bill.
 
 - [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time)
+- [Akeneo PIM](https://github.com/akeneo/pim-community-dev) - The open-source variant of the commercial Akeneo products.
+- [Pimcore](https://github.com/pimcore/pimcore)
+- [OpenPIM](https://github.com/openpim)
 
 ## Calculator
 
