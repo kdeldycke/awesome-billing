@@ -418,4 +418,4 @@ Accounting paintings were a significant genre in Dutch art.
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the
-[contribution guidelines](./.github/contributing.md) first.
+[contribution guidelines](.github/contributing.md) first.
