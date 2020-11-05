@@ -30,6 +30,7 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
   - [Currencies](#currencies)
 - [Coupons and Vouchers](#coupons-and-vouchers)
 - [Taxes](#taxes)
+  - [European VAT](#european-vat)
 - [Invoice](#invoice)
 - [Payments](#payments)
   - [Receipt](#receipt)
