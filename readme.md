@@ -64,6 +64,7 @@ From monthly subscription to commodity-like on-the-go consumption, and including
 - [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Not only huge and complete collection of pricing scheme, but also the psychological effect and impact on revenue model.
 - [Business Model Patterns](https://reasonstreet.co/business-model-library/) - A list of 11 different ways to sell products and services.
 - [Axial - Business models](https://axial.substack.com/p/axial-business-models) - 38 models for inspiration.
+- [The Network Monetization Map: Aligning Incentives with Revenue](https://medium.com/breadcrumb/the-network-monetization-map-aligning-incentives-with-revenue-b73c362d1ad5) - 6 models of monetization relying on network effect.
 
 ### Usage-based Pricing
 
