@@ -45,6 +45,7 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 - [UX/UI](#uxui)
 - [Business Intelligence](#business-intelligence)
   - [Metrics](#metrics)
+  - [Customer Lifetime Value](#customer-lifetime-value)
   - [Data Engineering](#data-engineering)
   - [Tools](#tools)
 - [Competitive Analysis](#competitive-analysis)
