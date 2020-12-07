@@ -3,6 +3,7 @@
 ## Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Basics](#basics)
@@ -243,7 +244,7 @@ The core concept of accounting is double-entry. It is the most critical part to 
 
 Everything you need to know about the daily practice of keeping your accounting data clean and tidy.
 
-- [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
+- [So, you want to learn Bookkeeping\!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
 
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 
@@ -425,7 +426,7 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 The majority of fraud is exploiting the most common popular payment device: credit cards.
 
-- [How I Stopped a Credit Card Thief From Ripping Off 3,537 People – and Saved Our Nonprofit in the Process](https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/) - Describe a fraud technique known as  "card testing", in which massive batch of stolen cards are checked for their validity against your API.
+- [How I Stopped a Credit Card Thief From Ripping Off 3,537 People – and Saved Our Nonprofit in the Process](https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/) - Describe a fraud technique known as "card testing", in which massive batch of stolen cards are checked for their validity against your API.
 
 - [How Candy Japan got credit card fraud somewhat under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control) - Suggestions involved either [warning signals](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) for trying to guess which orders might be fraud, or countermeasures to try to make things harder for the fraudsters.
 
@@ -435,7 +436,7 @@ The majority of fraud is exploiting the most common popular payment device: cred
 
 - [Training an ML model to score chargebacks](https://twitter.com/patio11/status/1315452323330621440) - An example of a platform's network effect, which allows to predict the likelyhood of winning a dispute.
 
-- [How credit card thieves use free-to-play apps to launder gains](https://kromtech.com/blog/security-center/digital-laundry) -  To prevent abuses, service provider must strengthen both credit card verification and the account creation process.
+- [How credit card thieves use free-to-play apps to launder gains](https://kromtech.com/blog/security-center/digital-laundry) - To prevent abuses, service provider must strengthen both credit card verification and the account creation process.
 
 ### Trust Score
 
@@ -595,9 +596,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) - Accounting paintings were a significant genre in Dutch art.
 
-- [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
+- [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page \#445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the
-[contribution guidelines](.github/contributing.md) first.
+Your contributions are always welcome\! Please take a look at the [contribution guidelines](.github/contributing.md) first.
