@@ -6,53 +6,10 @@ In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/
 
 This knowledge base cover the first of the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
-- [Basics](#basics)
-- [Pricing](#pricing)
-  - [Usage-based Pricing](#usage-based-pricing)
-  - [Subscription Plans](#subscription-plans)
-  - [Hybrid](#hybrid)
-  - [Strategy](#strategy)
-- [Product Catalog](#product-catalog)
-- [Calculator](#calculator)
-- [Cost Forecast](#cost-forecast)
-- [Marketplace](#marketplace)
-  - [Cloud Resources](#cloud-resources)
-  - [Online Ads](#online-ads)
-- [Accounting](#accounting)
-  - [Double-Entry Model](#double-entry-model)
-  - [Bookkeeping](#bookkeeping)
-  - [Software design and implementation](#software-design-and-implementation)
-  - [Analytics](#analytics)
-  - [Currencies](#currencies)
-- [Coupons and Vouchers](#coupons-and-vouchers)
-- [Taxes](#taxes)
-  - [European VAT](#european-vat)
-- [Invoice](#invoice)
-- [Payments](#payments)
-  - [Receipt](#receipt)
-  - [Credit Cards](#credit-cards)
-  - [Bank Accounts](#bank-accounts)
-  - [Online Payments](#online-payments)
-- [Fraud](#fraud)
-  - [Cards](#cards)
-  - [Trust Score](#trust-score)
-  - [Statistics](#statistics)
-  - [Billing](#billing)
-- [UX/UI](#uxui)
-- [Business Intelligence](#business-intelligence)
-  - [Metrics](#metrics)
-  - [Customer Lifetime Value](#customer-lifetime-value)
-  - [Data Engineering](#data-engineering)
-  - [Tools](#tools)
-- [Competitive Analysis](#competitive-analysis)
-- [Commercial Solutions](#commercial-solutions)
-- [History](#history)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 ## Basics
 
