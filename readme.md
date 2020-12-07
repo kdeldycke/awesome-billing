@@ -1,11 +1,5 @@
 # 💰 Awesome Billing and Payments [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-<img align="right" width="50%" src="./assets/cloud-software-stack-billing.jpg"/>
-
-In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture is described as in the right diagram:
-
-This knowledge base cover the first of the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
-
 ## Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -56,6 +50,18 @@ This knowledge base cover the first of the far perimeter of the cloud stack. It 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Basics
+
+<img align="right" width="50%" src="./assets/cloud-software-stack-billing.jpg"/>
+
+In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
+
+<!--lint disable double-link-->
+
+This knowledge base cover the first columnar perimeter on the right of the cloud stack. It is one of the transversal pillar of the ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
+
+<!--lint enable double-link-->
+
+Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
 
 - [Open guide to AWS Billing and Cost Management](https://github.com/open-guides/og-aws#billing-and-cost-management)
 
@@ -408,7 +414,11 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 - [Detecting fraudulent activity in a cloud using privacy-friendly data aggregates](https://arxiv.org/pdf/1411.6721v1.pdf) - Discusses a method to detect fraudulent activity (launching DDoS attacks, Bitcoin mining, …) by using non-intrusive, privacy-friendly data: billing data.
 
+<!--lint disable double-link-->
+
 - [Awesome List of IAM: Fraud links](https://github.com/kdeldycke/awesome-iam#fraud) - Section dedicated to fraud management related to user accounts, from our sister repository.
+
+<!--lint enable double-link-->
 
 - [Driving Global Fraud Losses Down While Empowering Business Growth](https://youtu.be/yJKWpTBVTiI?t=60) - In this talk by Uber Eats, we learn from the biggest payment processor that “growing businesses with declining loss rates is extremely rare in the industry”. Also, fraud can takes several forms: chargebacks on non-perishable goods, promo abuse, refunds…
 
