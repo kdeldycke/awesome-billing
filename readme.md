@@ -362,10 +362,15 @@ As stakeholder of the billing pipeline, you sat on all the critical data to meas
 Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 - [Startup financial models - 12 templates compared for SaaS](https://www.stephnass.com/blog/startup-financial-model) - A great source of inspiration to get better visibility in your operations.
+
 - [16 Startup Metrics](https://a16z.com/2015/08/21/16-metrics/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
+
 - [Thinking about growth and profit](https://jlongster.com/thinking-growth-profit) - Discuss the relationship between investments, profit and growth, and how it influence decisions on pricing, free trials and plan structure.
+
 - [A Quantitative Approach to Product Market Fit](https://tribecap.co/a-quantitative-approach-to-product-market-fit/) - Metrics produced above have a greater reach, as they're used as important signals to validate product-market fit.
+
 - [Startup growth calculator](http://growth.tlb.org) - Simple yet effective interactive profitability calculator for startups.
+
 - [An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa) - Great breakdown of Visa business models and metrics.
 
 ### Customer Lifetime Value
@@ -373,10 +378,15 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 How much net value do you produce per customer? The customer lifetime value (CLV, or LTV) quantify that, and understanding and acting on it is the most important part of your business's sales efforts.
 
 - [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - “On the surface, churn rate may seem like a natural proxy for changes in customer lifetimes. Let’s dig into why that is not true.” Churn rate is not a meaningful metric to compute CLV, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
+
 - [How to project customer retention](https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf) - A seminal paper, with a stronger approach compared to the one above: [the exponential distributions is replaced by a geometric model](https://news.ycombinator.com/item?id=24833319), better suited to monthly contracts.
+
 - [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A refined model of CLV, used to segment users based on Recency, Frequency and Monetary value.
+
 - [Churn Prediction](https://towardsdatascience.com/churn-prediction-3a4a36c2129a) - “How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.” Relies on XGBoost binary classification.
+
 - [Lifetimes](https://github.com/CamDavidsonPilon/lifetimes) - A full-featured Python package to analyze your users based on their "alive" and "dead" states.
+
 - [`retentionizer`](https://github.com/chrisclark/retentionizer) - Python package to show the projected retention rates for each cohort and calculate the LTV of a given customer in that cohort.
 
 ### Data Engineering
@@ -384,10 +394,15 @@ How much net value do you produce per customer? The customer lifetime value (CLV
 To industrialize data production and consumption, your need data engineers to clean up, persist and consolidate data. Only after you get these data foundation you might think of onboarding data scientists.
 
 - [AI vs Data Science vs Data Engineering](https://blog.insightdatascience.com/how-emerging-ai-roles-fit-in-the-data-landscape-d4cd922c389b) - “Data Engineers build data pipelines and infrastructure to ensure a constant availability of transformed data. Data Scientists analyze and build models from these data to develop new product features or drive the bottom line of the business.” As for AI professionals, their focus is on cognitive automation.
+
 - [Ten Ways Your Data Project is Going to Fail](https://www.martingoodson.com/ten-ways-your-data-project-is-going-to-fail/) - You don't need data scientists. “For ETL, hire data engineers. For reporting, hire BI analysts. The end.”
+
 - [Cargo cult data science](http://blog.richardweiss.org/2017/07/25/data-science-in-organizations.html) - “Data science is best viewed as a form of company culture, rather than a set of technologies. However, many firms will try to create that company culture by acquiring data-science technology, rather than working on their culture.”
+
 - [Why not use Double or Float to represent currency?](https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency/3730040#3730040) - Because of precision: floats and doubles cannot accurately represent the base 10 multiples that we use for money.
+
 - [Never Use Floats for Money](https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html) - “This is precisely the problem we have when trying to represent 10^-1, or 0.1 in binary. There is not an exact binary representation of 0.1 or 0.01.”
+
 - [European Spreadsheet Risks Interest Group - Horror Stories](http://www.eusprig.org/horror-stories.htm) - A collection of cases in which uncontrolled and untested spreadsheet models led to lost revenue, mispricing, poor decision making, fraud and systemic financial failure.
 
 ### Tools
@@ -395,11 +410,17 @@ To industrialize data production and consumption, your need data engineers to cl
 Software to build visualizations, dashboards, SQL queries and drill down into data.
 
 - [Practical Business Python](https://pbpython.com) - A blog collecting and spreading ideas on how to use Python more effectively in the business setting.
+
 - [`redash`](https://github.com/getredash/redash) - Connect and query your data sources, build dashboards to visualize data and share them with your company.
+
 - [Metabase](https://github.com/metabase/metabase) - Metabase is an open source solution to explore and visualize data and supports lots of databases.
+
 - [Apache Superset](https://github.com/apache/incubator-superset) - Enterprise-ready business intelligence web application.
+
 - [Meltano](https://gitlab.com/meltano/meltano) - Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it.
+
 - [`insights`](https://github.com/mariusandra/insights) - Insights is a tool to visually explore a PostgreSQL database, with an emphasis on generating graphs that show business performance over time.
+
 - [`falcon`](https://github.com/plotly/falcon) - Free, open-source SQL client for Windows and Mac with builtin graphs.
 
 ## Competitive Analysis
@@ -407,31 +428,48 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
 
 - [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/).
+
 - [AWS reserved instances vs saving plan](https://www.prosperops.com/assets/img/blog/ris_and_savings_plans.png).
+
 - [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price) - Web app that collects and graphs EC2 Spot Prices.
+
 - [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes).
+
 - [GCP billing news](https://www.gcpweekly.com/gcp-resources/tag/billing/) - From the unofficial Google Cloud Platform newsletter.
+
 - [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
+
 - [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/).
 
 ## Commercial Solutions
 
 - [Orbitera](https://www.orbitera.com) - GCP's billing subsidiary.
+
 - [16 Online Subscription Billing Tools](https://www.analyzo.com/search/online-subscription-billing-tools/106) - An up-to-date list of subscription and recurring billing services.
+
 - [OpenCell](https://opencellsoft.com) - Monetization platform originating from an open-source telco billing project.
+
 - [Laravel Spark](https://spark.laravel.com) - Package that provides scaffolding for all of the stuff you don't want to code: subscription and team billing, invoices, but also user accounts features.
+
 - [Bullet Train](https://bullettrain.co) - Same as above, but for Ruby on Rails.
+
 - [ASP.NET Zero](https://aspnetzero.com) - Multi-tenancy, authentication and authorization, invoices and payments.
+
 - [Chargebee](https://www.chargebee.com) - Subscription billing & revenue operations.
+
 - [Armatic Billing & Invoicing Software](https://www.armatic.com/billing) - Invoices, accounts receivable.
+
 - [Sensus Billing Access Application](https://sensus.com/products/billing-access/) - Billing and metering solutions for utility companies.
+
 - [Quaderno](https://quaderno.io) - Calculate sales tax, VAT, and GST; automate receipts.
+
 - [keygen](https://keygen.sh) - Sell and manage license keys.
 
 ## History
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) -
 Accounting paintings were a significant genre in Dutch art.
+
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
 ## Contributing
