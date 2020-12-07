@@ -1,4 +1,15 @@
-# 💰 Awesome Billing and Payments [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+<!--lint disable awesome-heading-->
+
+<p align="center">
+  <a href="https://github.com/kdeldycke/awesome-billing/">
+    <img src="https://github.com/kdeldycke/awesome-billing/raw/main/assets/awesome-billing-header.jpg" alt="💰 Awesome Billing and Payments">
+  </a>
+</p>
+
+<p align="center">
+  <strong>A curated list of resources on billing, pricing, accounting, payments, fraud and business intelligence.</strong>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
+</p>
 
 ## Contents
 
@@ -603,3 +614,7 @@ A bunch of resources to keep track of the current status and progress of all com
 ## Contributing
 
 Your contributions are always welcome\! Please take a look at the [contribution guidelines](.github/contributing.md) first.
+
+## Footnotes
+
+The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets/awesome-billing-header.jpg) is based on a modified [photo](https://unsplash.com/photos/u2zSzMTwIjQ) by [Denny Müller](https://unsplash.com/@redaquamedia).
