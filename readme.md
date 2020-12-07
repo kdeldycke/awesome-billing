@@ -231,7 +231,6 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 
 The core concept of accounting is double-entry. It is the most critical part to grasp in order to properly design any robust system that tracks money.
 
-
 - [Accounting for Developers 101](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4) - A general introduction to history and vocabulary of accounting.
 
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html) - Describes how to view accounting in the form of graphs in which money flows, then how these movements are materialized in the financial statements of a small company.
