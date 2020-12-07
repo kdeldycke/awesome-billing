@@ -94,14 +94,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
       - uses: sobolevn/misspell-fixer-action@0.1.0
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v3.5.1
         with:
           author: "Kevin Deldycke <kevin@deldycke.com>"
-          commit-message: "Fix typo."
-          title: "Typo"
+          commit-message: "[autofix] Typo"
+          title: "[autofix] Typo"
           body: >
-            [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
-            as defined by [workflow action](https://github.com/${{ github.repository }}/blob/${{ github.base_ref }}/.github/workflows/autofix.yaml).
-          labels: "typo"
+            [Auto-generated on run
+            #${{ github.run_id }}](https://github.com/${{ github.repository
+            }}/actions/runs/${{ github.run_id }}) as defined by [workflow
+            action](https://github.com/${{ github.repository
+            }}/blob/${{ github.base_ref }}/.github/workflows/autofix.yaml).
+          labels: "CI/CD"
           assignees: kdeldycke
-          branch: fix-typo
+          branch: autofix-typo
