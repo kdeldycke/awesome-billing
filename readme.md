@@ -241,6 +241,8 @@ Targeted online advertisements marketplaces have a lot in common with traditiona
 
 ## Accounting
 
+- “The Accounting department is usually backwards facing. The Finance department is usually forwards facing.” ([source](https://news.ycombinator.com/item?id=25366184))
+
 ### Double-Entry Model
 
 The core concept of accounting is double-entry. It is the most critical part to grasp in order to properly design any robust system that tracks money.
@@ -285,21 +287,23 @@ Now that you're somewhat familiar with the concepts and practive of accounting, 
 
 - [Triple‐entry accounting with blockchain: How far have we come?](https://onlinelibrary.wiley.com/doi/abs/10.1111/acfi.12556) - “Triple‐entry accounting is a new and a more efficient way to address fundamental trust and transparency issues that plague current accounting systems. Triple‐entry accounting with blockchain, when properly implemented, can fundamentally improve accounting.”
 
-### Analytics
-
-Once you've got your accounts in order, you can start extracting insights and metrics your financial data.
-
-- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://amzn.com/0273744704/?tag=kevideld-20) - Helps you learn how to analyse and monitor your company's financial performance.
-
-- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://amzn.com/1422119157/?tag=kevideld-20) - Allows you to fully understand how to use financial data to make better decisions for your business.
-
-- [Algebraic Models for Accounting Systems](https://amzn.com/9814287113/?tag=kevideld-20) - Advanced abstract algebra applied to the analysis of accounting systems.
-
 ### Currencies
 
 Global companies needs to know how to juggle between local currencies.
 
 - [Tutorial on multiple currency accounting](https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html) - An excellent resource for implementing multi-currency accounting systems.
+
+## Finance
+
+Once you've got your accounts in order, you can start extracting insights and metrics from your financial data.
+
+- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://amzn.com/0273744704/?tag=kevideld-20) - Helps you learn how to analyse and monitor your company's financial performance.
+
+- [The Games People Play With Cash Flow](https://commoncog.com/blog/cash-flow-games/) - “Malone created a new accounting metric, something he called ‘earnings before interest, depreciation, and taxes’, or EBITDA.” This is how a cable company CEO made sense of cash flow, like real-estate business did. The article starts with this example and describes other cash flow games for SaaS models.
+
+- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://amzn.com/1422119157/?tag=kevideld-20) - Allows you to fully understand how to use financial data to make better decisions for your business.
+
+- [Algebraic Models for Accounting Systems](https://amzn.com/9814287113/?tag=kevideld-20) - Advanced abstract algebra applied to the analysis of accounting systems.
 
 ## Coupons and Vouchers
 
