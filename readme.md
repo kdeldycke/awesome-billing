@@ -6,10 +6,9 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>A curated list of resources on billing, pricing, accounting, payments, fraud and business intelligence.</strong>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
-</p>
+<p>Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.</p>
+
+<p>This <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a> list helps software engineers <strong>bootstrap billing & payments systems, and make sense of invoicing, pricing, accounting, marketplace, fraud and business intelligence</strong>.</p>
 
 ## Contents
 
