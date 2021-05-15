@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/kdeldycke/awesome-billing/">
-    <img src="https://github.com/kdeldycke/awesome-billing/raw/main/assets/awesome-billing-header.jpg" alt="💰 Awesome Billing and Payments">
+    <img src="https://github.com/kdeldycke/awesome-billing/raw/main/assets/awesome-billing-header.jpg" alt="💰 Awesome Billing">
   </a>
 </p>
 
