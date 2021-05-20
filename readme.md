@@ -80,9 +80,11 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 - [Major use-cases for cloud services from a ROI standpoint](https://news.ycombinator.com/item?id=19830022)
 
+- [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations about plans change logic. All these topics are later detailed in dedicated sections below.
+
 ## Pricing
 
-From monthly subscription to commodity-like on-the-go consumption, and including shopping-cart like funnel, there's plenty of scheme out there to structure your product's pricing.
+From monthly subscription to commodity-like on-the-go consumption, there's plenty of scheme out there to structure your product's pricing. Including the good old shopping-cart funnel.
 
 - [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Not only huge and complete collection of pricing scheme, but also the psychological effect and impact on revenue model.
 
@@ -114,6 +116,8 @@ The default, dynamic scheme for cloud resources.
 
 - [“Designing billing for a service can be really challenging”](https://news.ycombinator.com/item?id=23536919) - Personal anecdote on the design of the pricing plan for AWS Simple Email Service.
 
+- [Subscription-based pricing is dead: Smart SaaS companies are shifting to usage-based models](https://techcrunch.com/2021/01/29/subscription-based-pricing-is-dead-smart-saas-companies-are-shifting-to-usage-based-models/) - Usage-based pricing is more optimal and more fair: it “allows a customer to start at a low cost, minimizing friction to getting started while still preserving the ability to monetize a customer over time”.
+
 ### Subscription Plans
 
 Highly popular for SaaS businesses, subscription plans are easy to comprehend.
@@ -132,7 +136,7 @@ Uncommon pricing schemes.
 
 ### Strategy
 
-Theory and practical insight to help you choose the right price point.
+Theory and practical insight to help you choose the right pricing tactics.
 
 - "There are two ways to make money. You can bundle, or you can unbundle." - [Jim Barksdale](https://hbr.org/podcast/2014/07/marc-andreessen-and-jim-barksdale-on-how-to-make-money.html#transcript-section).
 
@@ -140,11 +144,23 @@ Theory and practical insight to help you choose the right price point.
 
 - [The 7 factors to consider when pricing your startup product](https://tomtunguz.com/how-to-price-your-startups-product/) - Pricing is an offensive tool to reinforce your product value and underscore the company core marketing message.
 
+- [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
+
+### Market Research
+
+Survey methods and price discovery technics to find the right price point.
+
+- [Jeremy Howard - From Predictive Modelling to Optimization](https://youtu.be/vYrWTDxoeGg?t=542) - “In insurance, the price is the product. (…) How do I change price to make shitload of money?” Or how to deliver results (optimal price for a customer) instead of delivering data (calculating a customer's risk, which had been the standard approach used by actuaries previously).
+
+- [Gabor–Granger method](https://en.wikipedia.org/wiki/Gabor–Granger_method) - Used in surveys to determine the price for a new product or service. The results can be used to produce a demand chart and a revenue curve.
+
+- [Van Westendorp's Price Sensitivity Meter](https://en.wikipedia.org/wiki/Van_Westendorp%27s_Price_Sensitivity_Meter) - PSM is a market technique for determining consumer price preferences. Allows for drawing a revenue curve to estimate the price point delivering the maximum revenue.
+
+- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - “The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.” Then the author setup vickrey auction to discover price.
+
 - [Finding the max revenue price mark for digital products](https://medium.com/@hovm/finding-the-max-revenue-price-mark-for-digital-products-24cef24f746d) - “To find the optimal price that provides maximum revenue for your product you will need to field-test several price points; you then reconstruct the revenue curve and find the peak.”
 
-- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - “The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.”
-
-- [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
+- [Personalised pricing and EU law](https://www.econstor.eu/bitstream/10419/205221/1/de-Streel-Jacques.pdf) - Some cases of price personalisation are prohibited in EU due to consumer protection and data protection rules.
 
 ## Product Catalog
 
@@ -308,7 +324,9 @@ Once you've got your accounts in order, you can start extracting insights and me
 
 ## Coupons and Vouchers
 
-- [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - “Implementing price reductions ranging from 9–70% for large purchases, we found re- markably little impact on revenue, either positively or negatively.”
+- [CUDs vs. Commit Contracts vs. SUDs in Google Cloud](https://www.cloudbakers.com/blog/cuds-vs.-commit-contracts-vs.-suds-in-google-cloud) - Explain the differences between various types of discounts and commits in GCP.
+
+- [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - “Implementing price reductions ranging from 9–70% for large purchases, we found remarkably little impact on revenue, either positively or negatively.”
 
 - [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 
@@ -425,6 +443,8 @@ The usual money transfer services.
 - [UPI 101: The Basics](https://the-other-side.blog/upi-the-basics/) - “In this article, we will learn about India's Unified Payments Interface. A four-year-old payment scheme that has been accounting for 40-45% of digital payments across India.”
 
 - [The untold story of Stripe](https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that “once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.”
+
+- [Idempotency in the context of payments](https://developers.google.com/standard-payments/reference/idempotency) - “Idempotency prevents race conditions. Idempotency dictates that multiple identical requests from the same client do not result in a different final state.”
 
 ## Fraud
 
