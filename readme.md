@@ -24,6 +24,7 @@
   - [Subscription Plans](#subscription-plans)
   - [Hybrid](#hybrid)
   - [Strategy](#strategy)
+  - [Market Research](#market-research)
 - [Product Catalog](#product-catalog)
 - [Calculator](#calculator)
 - [Cost Forecast](#cost-forecast)
