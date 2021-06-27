@@ -46,6 +46,7 @@
   - [Credit Cards](#credit-cards)
   - [Bank Accounts](#bank-accounts)
   - [Online Payments](#online-payments)
+- [Contracts](#contracts)
 - [Fraud](#fraud)
   - [Cards](#cards)
   - [Trust Score](#trust-score)
@@ -323,11 +324,17 @@ Once you've got your accounts in order, you can start extracting insights and me
 
 - [Algebraic Models for Accounting Systems](https://amzn.com/9814287113/?tag=kevideld-20) - Advanced abstract algebra applied to the analysis of accounting systems.
 
-## Coupons and Vouchers
+## Contracts
+
+All the invoicing and payment terms and conditions are materialzed by the contract signed between the end-user and the service provider. That the source from where we derives all the rules of the billing cycle.
+
+- [Is this what Enterprise mean?](https://twitter.com/steffoz/status/1389946268764475394) - A use-case of badly designed contract management alienating big enterprise customers. See the [associated HN comments](https://news.ycombinator.com/item?id=27053246) on bulk license purchase.
 
 - [CUDs vs. Commit Contracts vs. SUDs in Google Cloud](https://www.cloudbakers.com/blog/cuds-vs.-commit-contracts-vs.-suds-in-google-cloud) - Explain the differences between various types of discounts and commits in GCP.
 
 - [Quantity discounts on a virtual good: The results of a massive pricing experiment](https://www.pnas.org/content/pnas/113/27/7323.full.pdf) - “Implementing price reductions ranging from 9–70% for large purchases, we found remarkably little impact on revenue, either positively or negatively.”
+
+## Coupons and Vouchers
 
 - [Raising Prices is Hard](https://www.backblaze.com/blog/raising-prices-is-hard/) - Backblaze post-mortem on raising prices on their main offer. They wanted to create an extension program based on credit system. This became a full-time job for a handful of their most senior engineers, and resulted in a six month project.
 
@@ -384,6 +391,8 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 - [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
 
 - [Universal Business Language](https://en.wikipedia.org/wiki/Universal_Business_Language) - Most invoicing software can read and write UBL documents (XML) for data transfer.
+
+- [EU eInvoicing](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing) - European standard on electronic invoice.
 
 ## Payments
 
