@@ -101,7 +101,7 @@ The default, dynamic scheme for cloud resources.
 
 - [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - “The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone's best interest.” Also details issues with other pricing models.
 
-- [Socially Optimal Pricing of Cloud Computing Resources](https://webee.technion.ac.il/people/shimkin/PAPERS/Menache-CloudPricing-Conf2011.pdf) - “The socially optimal operating point is unique, and can be sustained by a linear, usage-based tariff, which charges a fixed price per unit resource and unit time.” This paper justify of usage-based pricing for cloud resources.
+- [Socially Optimal Pricing of Cloud Computing Resources](https://webee.technion.ac.il/people/shimkin/PAPERS/Menache-CloudPricing-Conf2011.pdf) - “The socially optimal operating point is unique, and can be sustained by a linear, usage-based tariff, which charges a fixed price per unit resource and unit time.” This paper justify usage-based pricing for cloud resources.
 
 - [A Survey of Profit Optimization Techniques for Cloud Providers](https://dl.acm.org/doi/fullHtml/10.1145/3376917) - “The strategy of improving user service quality is discussed first, followed by the pricing strategy for cloud resources to maximize revenue.”
 
@@ -165,7 +165,7 @@ Survey methods and price discovery technics to find the right price point.
 
 ## Product Catalog
 
-The central repository of all available services, products, variants, options and pricing available to the customer to purchase. Catalogs for cloud services are most of the time tailor-made, but there is some classic PDM solutions ([Product Data Management](https://en.wikipedia.org/wiki/Product_information_management), a.k.a. Product Information Management) out there that might fit the bill.
+The central repository of all available services, products, variants, options and pricing available to the customer to purchase. Catalogs for cloud services are most of the time tailor-made, but there is some classic PDM solutions ([Product Data Management](https://en.wikipedia.org/wiki/Product_information_management), a.k.a. PIM for Product Information Management) out there that might fit the bill.
 
 - [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time)
 
@@ -249,7 +249,7 @@ This sub-section focus on bid/ask mechanism matching resource producer with cons
 
 ### Online Ads
 
-Targeted online advertisements marketplaces have a lot in common with traditional cloud marketplace. Some good inspiration there, from concepts to tech
+Targeted online advertisements marketplaces have a lot in common with traditional cloud marketplace. Some good inspiration there, from concepts to tech.
 
 - [RTB Budget Pacing Summarized](https://github.com/PragmaticLab/RTB_Budget_Pacing_Summarized) - A collection of budget pacing resources for targeted online advertisements.
 
@@ -433,7 +433,7 @@ The old-fashioned way of payment: by the way of banks.
 
 - [Open IBAN](https://openiban.com) - Free and public IBAN validation and calculation webservice.
 
-- [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC vodes for personal use only.
+- [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC codes for personal use only.
 
 - [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
 
