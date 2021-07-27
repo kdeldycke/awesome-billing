@@ -350,6 +350,8 @@ All the invoicing and payment terms and conditions are materialzed by the contra
 
 - [Council Directive 2016/1065 as regards the treatment of vouchers](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1065) - European directive on the application of VAT when vouchers are involved.
 
+- [The coupon code is a slap in the face](https://justinjackson.ca/the-coupon-code-is-a-slap-in-the-face) - Point the negative consequences of users encountering a blank coupon field without having a coupon. See the update at the end of the article with research backing up this anecdote.
+
 ## Taxes
 
 - [2017 Tax Software Developer's Guides](https://www.mass.gov/lists/2017-tax-software-developers-guides) - A list of test cases for developers to test their tax code against.
