@@ -78,9 +78,9 @@ This knowledge base cover the first columnar perimeter on the right of the cloud
 
 Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
 
-- [Open guide to AWS Billing and Cost Management](https://github.com/open-guides/og-aws#billing-and-cost-management)
+- [Open guide to AWS](https://github.com/open-guides/og-aws#billing-and-cost-management) - Links to the *Billing and Cost Management* section.
 
-- [Major use-cases for cloud services from a ROI standpoint](https://news.ycombinator.com/item?id=19830022)
+- [Use-cases for cloud services](https://news.ycombinator.com/item?id=19830022) - To optimize ROI, keep all regular workload in traditional architecture and reserve cloud computing for elastic and experimental projects.
 
 - [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations about plans change logic. All these topics are later detailed in dedicated sections below.
 
@@ -168,13 +168,15 @@ Survey methods and price discovery technics to find the right price point.
 
 The central repository of all available services, products, variants, options and pricing available to the customer to purchase. Catalogs for cloud services are most of the time tailor-made, but there is some classic PDM solutions ([Product Data Management](https://en.wikipedia.org/wiki/Product_information_management), a.k.a. PIM for Product Information Management) out there that might fit the bill.
 
-- [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time)
+- [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time) - All GCP SKUs available as an API.
 
 - [Akeneo PIM](https://github.com/akeneo/pim-community-dev) - The open-source variant of the commercial Akeneo products.
 
-- [Pimcore](https://github.com/pimcore/pimcore)
+- [Pimcore](https://github.com/pimcore/pimcore) - An open-source UI and database to manage product metadata, written in PHP Symfony.
 
-- [OpenPIM](https://github.com/openpim)
+- [OpenPIM](https://www.openpim.org) - A streamlined open-source project, focusing on PIM-only features.
+
+- [Comparing 3 open source PIM solutions](https://medium.com/@slavapedak/comparing-3-free-and-open-source-product-information-management-pim-solutions-e83a1898f91e) - Comparative study of the 3 projects above.
 
 ## Calculator
 
@@ -182,7 +184,7 @@ Simulate a virtual invoice depending on the resource you plan to use.
 
 - [Cloud Cost Calculator](https://github.com/scalyr/cloud-costs) - Web-based tool for finding the cheapest cloud servers for a given set of requirements.
 
-- [Cloud Computing Comparison Engine](https://www.cloudorado.com)
+- [Cloudorado](https://www.cloudorado.com) - A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit.
 
 - [EC2Instances.info](https://ec2instances.info) - Easy Amazon EC2 Instance Comparison.
 
@@ -200,9 +202,9 @@ Help your customers predict their upcoming and future consumption based on their
 
 - [Komiser](https://github.com/mlabouardy/komiser) - Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.
 
-- [GCP Cost Forecast](https://cloudplatform.googleblog.com/2018/07/predict-your-future-costs-with-google-cloud-billing-cost-forecast.html)
+- [GCP Cost Forecast](https://cloud.google.com//billing/docs/how-to/reports#cost-forecast) - An example of consumption trend line for resource consumption.
 
-- [AWS Forecast product](https://aws.amazon.com/forecast/)
+- [AWS Forecast](https://aws.amazon.com/forecast/) - A full-featured hosted product to perform forecasting on any time-series.
 
 - [How to save money on your AWS bill](https://twitter.com/QuinnyPig/status/1091041507342086144) - “The biggest cost savings there are: 1. Turning things off that you're not using; 2. Then spot instances; 3. Then reserved instances.”
 
@@ -424,7 +426,7 @@ A receipt materialize the payment transaction.
 
 - [The humble receipt gets a brilliant redesign](https://www.fastcompany.com/90347782/the-humble-receipt-gets-a-brilliant-redesign) - When a Netflix data engineer revisit receipts.
 
-- [The long, long history of long, long CVS receipts](https://www.vox.com/the-goods/2018/10/10/17956950/why-are-cvs-pharmacy-receipts-so-long)
+- [The long, long history of long, long CVS receipts](https://www.vox.com/the-goods/2018/10/10/17956950/why-are-cvs-pharmacy-receipts-so-long) - “CVS is a drugstore much like other drugstores, with one important difference: The receipts are very long.”
 
 ### Credit Cards
 
@@ -618,7 +620,7 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
 
-- [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
+- [DigitalOcean Billing changelog](http://docs.digitalocean.com/release-notes/billing/) - All the latest billing updates on DO.
 
 ## Commercial Solutions
 
