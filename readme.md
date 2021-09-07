@@ -294,6 +294,8 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 - [Sequence](https://github.com/decimals/sequence) - API that store, validate and reports asset movements. Also known as a Ledger. Sequence is immutable, scalable, and easy to use.
 
+- [Go DB Ledger](https://github.com/darcys22/godbledger) - An open source accounting system that aims to make the recording of double entry bookkeeping transactions programmable.
+
 ### Software design and implementation
 
 Now that you're somewhat familiar with the concepts and practive of accounting, here are some resources to help you implement that knowledge into software systems.
@@ -464,6 +466,8 @@ The usual money transfer services.
 
 - [Idempotency in the context of payments](https://developers.google.com/standard-payments/reference/idempotency) - “Idempotency prevents race conditions. Idempotency dictates that multiple identical requests from the same client do not result in a different final state.”
 
+- [Optimizing payments with machine learning](https://dropbox.tech/machine-learning/optimizing-payments-with-machine-learning) - Describes a classic payment workflow, then how machine learning can replace hard-coded business rules and fine-tune the payment failures/retries loop to increase the success rates of charges.
+
 ## Fraud
 
 There's monetary incentives to exploit your business. Be prepared to fight hordes of fraudsters and shady users.
@@ -555,6 +559,8 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 - [Startup growth calculator](http://growth.tlb.org) - Simple yet effective interactive profitability calculator for startups.
 
 - [An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa) - Great breakdown of Visa business models and metrics.
+
+- [The SaaS Financial Model You’ll Actually Use](https://baremetrics.com/blog/saas-financial-model) - A complete tour of the financials of a statup, which gives you extra-context on how the metrics you produce fit into the larger picture.
 
 ### Customer Lifetime Value
 
