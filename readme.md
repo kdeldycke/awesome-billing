@@ -560,7 +560,7 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 - [An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa) - Great breakdown of Visa business models and metrics.
 
-- [The SaaS Financial Model You’ll Actually Use](https://baremetrics.com/blog/saas-financial-model) - A complete tour of the financials of a statup, which gives you extra-context on how the metrics you produce fit into the larger picture.
+- [The SaaS Financial Model You'll Actually Use](https://baremetrics.com/blog/saas-financial-model) - A complete tour of the financials of a statup, which gives you extra-context on how the metrics you produce fit into the larger picture.
 
 ### Customer Lifetime Value
 
