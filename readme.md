@@ -296,6 +296,10 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 - [Go DB Ledger](https://github.com/darcys22/godbledger) - An open source accounting system that aims to make the recording of double entry bookkeeping transactions programmable.
 
+- [Ledger](https://github.com/numary/ledger) - A scriptable financial ledger, designed to make it easy to model complex financial transactions.
+
+- [Akaunting](https://github.com/akaunting/akaunting) - Open source software designed for small businesses and freelancers.
+
 ### Software design and implementation
 
 Now that you're somewhat familiar with the concepts and practive of accounting, here are some resources to help you implement that knowledge into software systems.
