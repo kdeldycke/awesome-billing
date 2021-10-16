@@ -428,6 +428,10 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 
 - [Why was I charged?](https://wpchrg.wordpress.com) - Under a constant stream of user complaints about payments, WordPress created a dedicated subdomains to help customers understand unexpected transactions. The trick is to add the URL of that kind of site directly in the bank statement.
 
+- [moov](https://github.com/moov-io) - Open-source infrastructure for financial technology.
+
+- [Fintech Open Source Foundation](https://github.com/finos) - Another set of open-source projects for financial projects.
+
 ### Receipt
 
 A receipt materialize the payment transaction.
