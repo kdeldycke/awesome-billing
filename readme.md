@@ -14,6 +14,52 @@
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
+- [Basics](#basics)
+- [Pricing](#pricing)
+  - [Usage-based Pricing](#usage-based-pricing)
+  - [Subscription Plans](#subscription-plans)
+  - [Hybrid](#hybrid)
+  - [Strategy](#strategy)
+  - [Market Research](#market-research)
+- [Product Catalog](#product-catalog)
+- [Calculator](#calculator)
+- [Cost Forecast](#cost-forecast)
+- [Marketplace](#marketplace)
+  - [Cloud Resources](#cloud-resources)
+  - [Online Ads](#online-ads)
+- [Accounting](#accounting)
+  - [Double-Entry Model](#double-entry-model)
+  - [Bookkeeping](#bookkeeping)
+  - [Software design and implementation](#software-design-and-implementation)
+  - [Currencies](#currencies)
+- [Finance](#finance)
+- [Contracts](#contracts)
+- [Coupons and Vouchers](#coupons-and-vouchers)
+- [Taxes](#taxes)
+  - [European VAT](#european-vat)
+- [Invoice](#invoice)
+- [Payments](#payments)
+  - [Receipt](#receipt)
+  - [Credit Cards](#credit-cards)
+  - [Bank Accounts](#bank-accounts)
+  - [Online Payments](#online-payments)
+- [Fraud](#fraud)
+  - [Cards](#cards)
+  - [Trust Score](#trust-score)
+  - [Statistics](#statistics)
+  - [Billing](#billing)
+- [UX/UI](#uxui)
+- [Business Intelligence](#business-intelligence)
+  - [Metrics](#metrics)
+  - [Customer Lifetime Value](#customer-lifetime-value)
+  - [Data Engineering](#data-engineering)
+  - [Tools](#tools)
+- [Competitive Analysis](#competitive-analysis)
+- [Commercial Solutions](#commercial-solutions)
+- [History](#history)
+
+<!-- mdformat-toc end -->
+
 ## Basics
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-billing.jpg"/>
@@ -106,7 +152,7 @@ Survey methods and price discovery technics to find the right price point.
 
 - [Jeremy Howard - From Predictive Modelling to Optimization](https://youtu.be/vYrWTDxoeGg?t=542) - “In insurance, the price is the product. (…) How do I change price to make shitload of money?” Or how to deliver results (optimal price for a customer) instead of delivering data (calculating a customer's risk, which had been the standard approach used by actuaries previously).
 
-- [Gabor–Granger method](https://en.wikipedia.org/wiki/Gabor–Granger_method) - Used in surveys to determine the price for a new product or service. The results can be used to produce a demand chart and a revenue curve.
+- [Gabor–Granger method](https://en.wikipedia.org/wiki/Gabor%E2%80%93Granger_method) - Used in surveys to determine the price for a new product or service. The results can be used to produce a demand chart and a revenue curve.
 
 - [Van Westendorp's Price Sensitivity Meter](https://en.wikipedia.org/wiki/Van_Westendorp%27s_Price_Sensitivity_Meter) - PSM is a market technique for determining consumer price preferences. Allows for drawing a revenue curve to estimate the price point delivering the maximum revenue.
 
@@ -232,7 +278,7 @@ The core concept of accounting is double-entry. It is the most critical part to 
 
 Everything you need to know about the daily practice of keeping your accounting data clean and tidy.
 
-- [So, you want to learn Bookkeeping\!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
+- [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
 
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 
@@ -302,7 +348,7 @@ All the invoicing and payment terms and conditions are materialzed by the contra
 
 - [Details on Expiring DigitalOcean Credits](https://blog.digitalocean.com/details-on-expiring-digitalocean-credits/) - The reason you have to add an time limit on credits: unused ones accounts as liabilities on our balance sheet.
 
-- [Hacking Scooters: How I Created $100k Worth Of Free Rides](https://webcache.googleusercontent.com/search?q=cache:7hrzYYk5-IwJ:https://fant.io/p/hacking-voi/) - A cautionary tale on how promo codes can be exploited to get unlimited free rides.
+- [Hacking Scooters: How I Created \$100k Worth Of Free Rides](https://webcache.googleusercontent.com/search?q=cache:7hrzYYk5-IwJ:https://fant.io/p/hacking-voi/) - A cautionary tale on how promo codes can be exploited to get unlimited free rides.
 
 - [China's Pinduoduo reports theft of online discount vouchers to police](https://www.reuters.com/article/us-pinduoduo-china/chinas-pinduoduo-reports-theft-of-online-discount-vouchers-to-police-idUSKCN1PE05J) - The next level of fraud: “an online collective exploited a loophole on its platform to ‘steal’ tens of millions of yuan worth of discount vouchers”.
 
@@ -618,11 +664,11 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) - Accounting paintings were a significant genre in Dutch art.
 
-- [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page \#445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
+- [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
 ## Contributing
 
-Your contributions are always welcome\! Please take a look at the [contribution guidelines](.github/contributing.md) first.
+Your contributions are always welcome! Please take a look at the [contribution guidelines](.github/contributing.md) first.
 
 ## Footnotes
 
