@@ -12,57 +12,7 @@
 
 ## Contents
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Basics](#basics)
-- [Pricing](#pricing)
-  - [Usage-based Pricing](#usage-based-pricing)
-  - [Subscription Plans](#subscription-plans)
-  - [Hybrid](#hybrid)
-  - [Strategy](#strategy)
-  - [Market Research](#market-research)
-- [Product Catalog](#product-catalog)
-- [Calculator](#calculator)
-- [Cost Forecast](#cost-forecast)
-- [Marketplace](#marketplace)
-  - [Cloud Resources](#cloud-resources)
-  - [Online Ads](#online-ads)
-- [Accounting](#accounting)
-  - [Double-Entry Model](#double-entry-model)
-  - [Bookkeeping](#bookkeeping)
-  - [Software design and implementation](#software-design-and-implementation)
-  - [Currencies](#currencies)
-- [Finance](#finance)
-- [Contracts](#contracts)
-- [Coupons and Vouchers](#coupons-and-vouchers)
-- [Taxes](#taxes)
-  - [European VAT](#european-vat)
-- [Invoice](#invoice)
-- [Payments](#payments)
-  - [Receipt](#receipt)
-  - [Credit Cards](#credit-cards)
-  - [Bank Accounts](#bank-accounts)
-  - [Online Payments](#online-payments)
-- [Fraud](#fraud)
-  - [Cards](#cards)
-  - [Trust Score](#trust-score)
-  - [Statistics](#statistics)
-  - [Billing](#billing)
-- [UX/UI](#uxui)
-- [Business Intelligence](#business-intelligence)
-  - [Metrics](#metrics)
-  - [Customer Lifetime Value](#customer-lifetime-value)
-  - [Data Engineering](#data-engineering)
-  - [Tools](#tools)
-- [Competitive Analysis](#competitive-analysis)
-- [Commercial Solutions](#commercial-solutions)
-- [History](#history)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
 ## Basics
 
