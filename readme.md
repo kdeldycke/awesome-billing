@@ -96,7 +96,7 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 
 ### Usage-based Pricing
 
-The default, dynamic scheme for cloud resources.
+The dynamic scheme for elastic resources.
 
 - [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - “The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone's best interest.” Also details issues with other pricing models.
 
@@ -117,6 +117,8 @@ The default, dynamic scheme for cloud resources.
 - [“Designing billing for a service can be really challenging”](https://news.ycombinator.com/item?id=23536919) - Personal anecdote on the design of the pricing plan for AWS Simple Email Service.
 
 - [Subscription-based pricing is dead: Smart SaaS companies are shifting to usage-based models](https://techcrunch.com/2021/01/29/subscription-based-pricing-is-dead-smart-saas-companies-are-shifting-to-usage-based-models/) - Usage-based pricing is more optimal and more fair: it “allows a customer to start at a low cost, minimizing friction to getting started while still preserving the ability to monetize a customer over time”.
+
+- [Electropedia: Tariffs for electricity](https://www.electropedia.org/iev/iev.nsf/index?openform&part=691) - Before the cloud, there was another metered resource priced by its usage: electricity. Here is a detailed (and multi-lingual) taxanomy of its vocabularity from the International Electrotechnical Commission.
 
 ### Subscription Plans
 
