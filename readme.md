@@ -534,6 +534,8 @@ Best tools to automate fraud detection.
 
 ### Billing
 
+- [Developing a billing system for a neobank] (https://arnon.dk/5-things-i-learned-developing-billing-system/) - Why it was not that simple, by the PM of Billing of Pleo 
+
 - [More than 600 million users installed Android 'fleeceware' apps from the Play Store](https://www.zdnet.com/article/more-than-600-million-users-installed-android-fleeceware-apps-from-the-play-store/) - A new kind of fraud, in which apps silently keep charging users after the end of the trial period.
 
 - [CEO Fraud](https://www.knowbe4.com/ceo-fraud) - A billing team responsible for collecting payment is prey to this kind of fraud, in which the CEO is impersonated to commend exceptional payment transactions.
