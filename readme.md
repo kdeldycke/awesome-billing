@@ -85,7 +85,7 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 - [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations about plans change logic. All these topics are later detailed in dedicated sections below.
 
-- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the anti-chamber of data engineering.” ([source](https://twitter.com/kdeldycke/status/1422564355799924736))
+- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” ([source](https://twitter.com/kdeldycke/status/1422564355799924736))
 
 ## Pricing
 
@@ -141,7 +141,7 @@ Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
 Uncommon pricing schemes.
 
-- [The Three Part Tariff](https://tomtunguz.com/three-part-tariffs/) - Beyond linear pricing, there is a place for an additional platform fee and free-tier component in the pricing structure.
+- [The Three Part Tariff](https://tomtunguz.com/three-part-tariffs/) - Beyond linear pricing, there is a place for additional platform fees and free-tiers in the pricing structure.
 
 - [Google Ads API: `BillingCap` enum](https://developers.google.com/ad-manager/api/reference/v201911/CompanyService.BillingCap) - Capped actuals: monthly with rollover, an optimized pricing scheme to limit surprises from customers, in which we more or less sell quotas.
 
@@ -169,7 +169,7 @@ Survey methods and price discovery technics to find the right price point.
 
 - [Van Westendorp's Price Sensitivity Meter](https://en.wikipedia.org/wiki/Van_Westendorp%27s_Price_Sensitivity_Meter) - PSM is a market technique for determining consumer price preferences. Allows for drawing a revenue curve to estimate the price point delivering the maximum revenue.
 
-- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - “The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.” Then the author setup vickrey auction to discover price.
+- [Pricing niche products](https://kevinlynagh.com/notes/pricing-niche-products/) - “The most compelling argument against simply picking a price, though, is that it limits how much you can learn about your market.” Then the author setup vickrey auctions to discover price.
 
 - [Finding the max revenue price mark for digital products](https://medium.com/@hovm/finding-the-max-revenue-price-mark-for-digital-products-24cef24f746d) - “To find the optimal price that provides maximum revenue for your product you will need to field-test several price points; you then reconstruct the revenue curve and find the peak.”
 
