@@ -659,9 +659,7 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/) - The source of all new features added to the billing perimeter.
 
-- [AWS reserved instances vs saving plan](https://www.prosperops.com/assets/img/blog/ris_and_savings_plans.png) - A feature matrix of the different scheme and their average dicounts.
-
-- [EC2 Spot Price Tracker](https://github.com/grosskur/ec2price) - Web app that collects and graphs EC2 Spot Prices.
+- [AWS reserved instances vs saving plan](https://www.prosperops.com/wp-content/uploads/ris_and_savings_plans.png) - A feature matrix of the different scheme and their average dicounts.
 
 - [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes) - Latest changes of GCP billing features.
 
