@@ -594,11 +594,13 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 ### Customer Lifetime Value
 
-How much net value do you produce per customer? The customer lifetime value (CLV, or LTV) quantify that, and understanding and acting on it is the most important part of your business's sales efforts.
+How much net value do you produce per customer? The Customer Lifetime Value (CLV, or LTV for Life-Time Value) quantify that. Understanding and acting on it is the most important part of your business's sales efforts.
 
-- [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - “On the surface, churn rate may seem like a natural proxy for changes in customer lifetimes. Let's dig into why that is not true.” Churn rate is not a meaningful metric to compute CLV, as during the customer lifetime the churn probability is not constant. Most of the time because of your free trial and vouchers.
+- [You're all calculating churn rates wrong](https://medium.com/swlh/youre-all-calculating-churn-rates-wrong-cbab072cd992) - “On the surface, churn rate may seem like a natural proxy for changes in customer lifetimes. Let's dig into why that is not true.” Churn rate is not a meaningful metric to compute CLV: during the customer lifetime, the churn probability is not constant. Most of the time because of your free trial and vouchers. This article illustrate the influence of the distribution used to model the probability of a customer quitting.
 
-- [How to project customer retention](https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf) - A seminal paper, with a stronger approach compared to the one above: [the exponential distributions is replaced by a geometric model](https://news.ycombinator.com/item?id=24833319), better suited to monthly contracts.
+- [How to project customer retention](https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf) - A seminal paper, with a stronger approach compared to the one above: [the exponential distributions is replaced by a geometric model](https://news.ycombinator.com/item?id=24833319), which is better suited to discrete time intervals like monthly contracts, the former being more appropriate to continuous time process.
+
+- [Survival Analysis For Customer Retention](https://two-wrongs.com/survival-analysis-for-customer-retention.html) - Illustrates how retention can be better modelled using a survival function like [Kaplan–Meier survival curves](https://two-wrongs.com/bootstrapping-kaplan-meier-confidence-intervals.html).
 
 - [RFM (customer value)](https://en.wikipedia.org/wiki/RFM_%28customer_value%29) - A refined model of CLV, used to segment users based on Recency, Frequency and Monetary value.
 
