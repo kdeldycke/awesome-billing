@@ -304,7 +304,7 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 ### Software design and implementation
 
-Now that you're somewhat familiar with the concepts and practive of accounting, here are some resources to help you implement that knowledge into software systems.
+Now that you're somewhat familiar with the concepts and practice of accounting, here are some resources to help you implement that knowledge into software systems.
 
 - [Moonpig: a billing system that doesn't suck](https://blog.plover.com/prog/Moonpig.html) - Design decisions behind a billing and accounting system. Key takeaway: some companies still pays by checks; do not use floats; complex customer workflows; date and time issues; mutable data.
 
