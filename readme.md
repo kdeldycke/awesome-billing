@@ -384,11 +384,23 @@ All the invoicing and payment terms and conditions are materialzed by the contra
 
 The invoice materialize a consumed service or purchased product, waiting to be settled by a payment transaction.
 
-- [On GCP invoiced billing](https://news.ycombinator.com/item?id=17517479) - [Invoiced billing](https://cloud.google.com/billing/docs/how-to/invoiced-billing) (B2B-friendly payment by the customer after the service is consumed and an invoice issued) is a pain on GCP.
+- [On GCP invoiced billing](https://news.ycombinator.com/item?id=17517479) - [Invoiced billing](https://cloud.google.com/billing/docs/how-to/invoiced-billing) is a B2B-friendly payment happening after the service is consumed and an invoice issued. It seems to be a pain to setup on GCP but I suspect is a consequence of trying to reduce (costly) fraud.
+
+### Structure
+
+- [Content of EU invoices](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL#d1e6510-1-1) - The information required on a EU invoice is detailed by Article 226, Section 4 (Content of invoices) of Council Directive 2006/112/EC on the common system of VAT.
+
+### Integrity
+
+Once issued, an invoice must be immutable.
 
 - [Digital signatures: how Sleek leverages Cloud HSM to guarantee the integrity of legal documents](https://medium.com/google-developers/digital-signatures-how-sleek-leverages-cloud-hsm-to-guarantee-the-integrity-of-legal-documents-a7bd3b82faf6) - Here is a great way to rely on GCP's HSM to digitally sign documents and provide an immutable audit-trail. Might be applied to invoices as well as contract agreements.
 
 - [OpenTimestamps](https://opentimestamps.org) - Go beyond the solution above, and timestamp immutable document directly on Bitcoin's blockchain.
+
+- [Credit note](https://en.wikipedia.org/wiki/Credit_note) - Because an invoice is immutable, the only way to fully or partially cancel it is to produce a credit note.
+
+### Generators
 
 - [Manta](https://github.com/hql287/Manta) - Flexible invoicing desktop app with beautiful & customizable templates.
 
@@ -402,7 +414,11 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 
+### Extrators
+
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
+
+### Electronic invoices
 
 - [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
 
