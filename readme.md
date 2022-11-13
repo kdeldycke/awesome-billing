@@ -60,7 +60,7 @@
   - [Data Engineering](#data-engineering)
   - [Tools](#tools)
 - [Competitive Analysis](#competitive-analysis)
-- [Commercial Solutions](#commercial-solutions)
+  - [Cloud providers](#cloud-providers)
 - [History](#history)
 
 <!-- mdformat-toc end -->
