@@ -155,6 +155,8 @@ Theory and practical insight to help you choose the right pricing tactics.
 
 - [The 7 factors to consider when pricing your startup product](https://tomtunguz.com/how-to-price-your-startups-product/) - Pricing is an offensive tool to reinforce your product value and underscore the company core marketing message.
 
+- [The Anatomy of SaaS Pricing Strategy](https://www.priceintelligently.com/hubfs/Price-Intelligently-SaaS-Pricing-Strategy.pdf) - Explain how to articulate the pricing of SaaS businesses around the product strategy.
+
 - [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
 
 ### Market Research
