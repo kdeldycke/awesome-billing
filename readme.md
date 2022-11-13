@@ -73,17 +73,17 @@ In a Stanford class providing an [overview of cloud computing](http://web.stanfo
 
 <!--lint disable double-link-->
 
-This knowledge base cover the first columnar perimeter on the right of the cloud stack. It is one of the transversal pillar of the ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
+Billing is one of the transversal pillar of the ecosystem, where customers, products and business meets. The [other pillar being Identity and Access Management (IAM) 👤](https://github.com/kdeldycke/awesome-iam/).
 
 <!--lint enable double-link-->
 
-Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
+This highlight the strategic importance of the domain, not only for cloud providers but virtually for any business, especially those who are software-centric.
 
-- [Open guide to AWS](https://github.com/open-guides/og-aws#billing-and-cost-management) - Links to the *Billing and Cost Management* section.
-
-- [Use-cases for cloud services](https://news.ycombinator.com/item?id=19830022) - To optimize ROI, keep all regular workload in traditional architecture and reserve cloud computing for elastic and experimental projects.
+- [Pricing, my only growth hack at Qonto](https://getlago.substack.com/p/pricing-my-only-growth-hack-at-qonto?s=r) - Most businesses don't know how to iterate over pricing: sales teams dictates them without involvement of the people in charge of implementation, which ends up in frustration for all. That's why you need to recognize billing as a critical function of your organization.
 
 - [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations about plans change logic. All these topics are later detailed in dedicated sections below.
+
+- [Open guide to AWS](https://github.com/open-guides/og-aws#billing-and-cost-management) - Links to the *Billing and Cost Management* section which details the broad characteristics of billing for a cloud provider.
 
 - How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” ([source](https://twitter.com/kdeldycke/status/1422564355799924736))
 
@@ -104,6 +104,8 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 The dynamic scheme for elastic resources.
 
 - [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - “The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone's best interest.” Also details issues with other pricing models.
+
+- [Use-cases for cloud services](https://news.ycombinator.com/item?id=19830022) - The reason usage-based pricing makes even more sense for cloud services: to optimize ROI, keep all regular workload in traditional architecture and reserve cloud computing for elastic and experimental projects.
 
 - [Socially Optimal Pricing of Cloud Computing Resources](https://webee.technion.ac.il/people/shimkin/PAPERS/Menache-CloudPricing-Conf2011.pdf) - “The socially optimal operating point is unique, and can be sustained by a linear, usage-based tariff, which charges a fixed price per unit resource and unit time.” This paper justify usage-based pricing for cloud resources.
 
