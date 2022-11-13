@@ -661,6 +661,8 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 
 A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
 
+### Cloud providers
+
 - [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/) - The source of all new features added to the billing perimeter.
 
 - [AWS reserved instances vs saving plan](https://www.prosperops.com/wp-content/uploads/ris_and_savings_plans.png) - A feature matrix of the different scheme and their average dicounts.
@@ -671,33 +673,9 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
 
-- [DigitalOcean Billing changelog](http://docs.digitalocean.com/release-notes/billing/) - All the latest billing updates on DO.
-
-## Commercial Solutions
-
 - [Orbitera](https://www.orbitera.com) - GCP's billing subsidiary.
 
-- [16 Online Subscription Billing Tools](https://www.analyzo.com/search/online-subscription-billing-tools/106) - An up-to-date list of subscription and recurring billing services.
-
-- [OpenCell](https://opencellsoft.com) - Monetization platform originating from an open-source telco billing project.
-
-- [Laravel Spark](https://spark.laravel.com) - Package that provides scaffolding for all of the stuff you don't want to code: subscription and team billing, invoices, but also user accounts features.
-
-- [Bullet Train](https://bullettrain.co) - Same as above, but for Ruby on Rails.
-
-- [ASP.NET Zero](https://aspnetzero.com) - Multi-tenancy, authentication and authorization, invoices and payments.
-
-- [Nextless JS](https://nextlessjs.com) - Everything you need to build a SaaS products in Node.js with React and Serverless: Authentication and authorization, invoices and payments.
-
-- [Chargebee](https://www.chargebee.com) - Subscription billing & revenue operations.
-
-- [Armatic Billing & Invoicing Software](https://www.armatic.com/billing) - Invoices, accounts receivable.
-
-- [Sensus Billing Access Application](https://sensus.com/products/billing-access/) - Billing and metering solutions for utility companies.
-
-- [Quaderno](https://quaderno.io) - Calculate sales tax, VAT, and GST; automate receipts.
-
-- [keygen](https://keygen.sh) - Sell and manage license keys.
+- [DigitalOcean Billing changelog](http://docs.digitalocean.com/release-notes/billing/) - All the latest billing updates on DO.
 
 ## History
 
