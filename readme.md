@@ -86,9 +86,9 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 From monthly subscription to commodity-like on-the-go consumption, there's plenty of scheme out there to structure your product's pricing. Including the good old shopping-cart funnel.
 
-- [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Not only huge and complete collection of pricing scheme, but also the psychological effect and impact on revenue model.
+- [Don't just roll the dice – Software pricing guide](https://neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf) - Huge and complete collection of pricing scheme, with their psychological effect and impact on revenue model.
 
-- [Business Model Patterns](https://reasonstreet.co/business-model-library/) - A list of 11 different ways to sell products and services.
+- [Business Model Patterns](https://reasonstreet.co/business-model-library/) - A list of 15 different ways to sell products and services.
 
 - [Axial - Business models](https://axial.substack.com/p/axial-business-models) - 38 models for inspiration.
 
