@@ -120,6 +120,8 @@ The dynamic scheme for elastic resources.
 
 - [Electropedia: Tariffs for electricity](https://www.electropedia.org/iev/iev.nsf/index?openform&part=691) - Before the cloud, there was another metered resource priced by its usage: electricity. Here is a detailed (and multi-lingual) taxanomy of its vocabularity from the International Electrotechnical Commission.
 
+- [Lago](https://github.com/getlago/lago) - Open-source metering & usage-based billing.
+
 ### Subscription Plans
 
 Highly popular for SaaS businesses, subscription plans are easy to comprehend.
