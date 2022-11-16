@@ -77,7 +77,7 @@ Billing is one of the transversal pillar of the ecosystem, where customers, prod
 
 <!--lint enable double-link-->
 
-This highlight the strategic importance of the domain, not only for cloud providers but virtually for any business, especially those who are software-centric.
+This highlight the strategic importance of the domain, not only for cloud providers but virtually any business, especially those who are software-centric.
 
 - [Pricing, my only growth hack at Qonto](https://getlago.substack.com/p/pricing-my-only-growth-hack-at-qonto?s=r) - Most businesses don't know how to iterate over pricing: sales teams dictates them without involvement of the people in charge of implementation, which ends up in frustration for all. That's why you need to recognize billing as a critical function of your organization.
 
