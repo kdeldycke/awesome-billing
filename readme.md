@@ -409,7 +409,11 @@ The invoice materialize a consumed service or purchased product, waiting to be s
 
 ### Structure
 
+<!--lint disable double-link-->
+
 - [Content of EU invoices](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL#d1e6510-1-1) - The information required on a EU invoice is detailed by Article 226, Section 4 (Content of invoices) of Council Directive 2006/112/EC on the common system of VAT.
+
+<!--lint enable double-link-->
 
 ### Integrity
 
