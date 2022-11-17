@@ -297,7 +297,7 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 - [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
 
-- [Reconciliation: A game designed to frustrate the player](https://bam.kalzumeus.com/archive/a-game-that-intentionally-frustrates-the-player/) - “Reconciliation is a business process which arises almost entirely because of a lack of structured data in the pipelines that convey money between businesses.” Hacks to streamline the process are: add arbitrary discount to produce unique trailing decimals, setup a couple of virtual bank accounts as proxy,
+- [Reconciliation: A game designed to frustrate the player](https://bam.kalzumeus.com/archive/a-game-that-intentionally-frustrates-the-player/) - “Reconciliation is a business process which arises almost entirely because of a lack of structured data in the pipelines that convey money between businesses”. There are some hack to streamline the process, like adding an arbitrary discount to produce unique trailing decimals, or setup a couple of virtual bank accounts as proxy.
 
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 
@@ -393,7 +393,11 @@ All the invoicing and payment terms and conditions are materialzed by the contra
 
 - [How to correctly setup SaaS subscriptions to charge VAT in Europe](https://medium.com/slight-pause/how-to-setup-saas-subscriptions-correctly-to-charge-vat-in-europe-d75d857b5d01) - “If you think you can just setup a simple Stripe integration and move on, like us, you'd be sadly mistaken.”
 
+<!--lint disable double-link-->
+
 - [Council Directive 2006/112/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L:2006:347:FULL) - European Union reference on the common system of VAT.
+
+<!--lint enable double-link-->
 
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
 
