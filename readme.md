@@ -79,6 +79,8 @@ Billing is one of the transversal pillar of the ecosystem, where customers, prod
 
 This highlight the strategic importance of the domain, not only for cloud providers but virtually any business, especially those who are software-centric.
 
+- [PriceOps.org](https://priceops.org) - The 5 Pillars of PriceOps define a methodology for pricing model definition and implementation that supports iteration, safety, and organizational alignment.
+
 - [Pricing, my only growth hack at Qonto](https://getlago.substack.com/p/pricing-my-only-growth-hack-at-qonto?s=r) - Most businesses don't know how to iterate over pricing: sales teams dictates them without involvement of the people in charge of implementation, which ends up in frustration for all. That's why you need to recognize billing as a critical function of your organization.
 
 - [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations about plans change logic. All these topics are later detailed in dedicated sections below.
