@@ -537,6 +537,8 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 - [Driving Global Fraud Losses Down While Empowering Business Growth](https://youtu.be/yJKWpTBVTiI?t=60) - In this talk by Uber Eats, we learn from the biggest payment processor that “growing businesses with declining loss rates is extremely rare in the industry”. Also, fraud can takes several forms: chargebacks on non-perishable goods, promo abuse, refunds…
 
+- [Awesome Fraud Detection Research Papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) - Papers sourced from several conferences on all sort of fraud: credit card, payment transactions, loans, customs inspections, money laundering networks, and more.
+
 ### Cards
 
 The majority of fraud is exploiting the most common popular payment device: credit cards.
