@@ -165,6 +165,8 @@ Theory and practical insight to help you choose the right pricing tactics.
 
 - [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
 
+- [Monetization, Pricing and PMF, Lessons from Elena Verna](https://www.getlago.com/blog/elena-verna-on-monetization) - Explains the role of monetization, its difference with pricing and how to iterate on it.
+
 ### Market Research
 
 Survey methods and price discovery technics to find the right price point.
