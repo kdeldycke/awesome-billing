@@ -537,6 +537,8 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 - [Driving Global Fraud Losses Down While Empowering Business Growth](https://youtu.be/yJKWpTBVTiI?t=60) - In this talk by Uber Eats, we learn from the biggest payment processor that “growing businesses with declining loss rates is extremely rare in the industry”. Also, fraud can takes several forms: chargebacks on non-perishable goods, promo abuse, refunds…
 
+- [KYC and AML: beyond the acronyms](https://www.bitsaboutmoney.com/archive/kyc-and-aml-beyond-the-acronyms/) - KYC is nuanced and fuzzy, because it is a stochastic process to reduce risk.
+
 - [Awesome Fraud Detection Research Papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) - Papers sourced from several conferences on all sort of fraud: credit card, payment transactions, loans, customs inspections, money laundering networks, and more.
 
 ### Cards
@@ -674,6 +676,8 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 ## Competitive Analysis
 
 A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
+
+- [Patents on billing systems of the dot-com era](https://news.ycombinator.com/item?id=34773821) - All of them have been abandonned and constitute prior art. This means there is nothing to prevent anybody to implement or commercialize these concepts.
 
 ### Cloud providers
 
