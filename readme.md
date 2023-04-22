@@ -545,6 +545,8 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 The majority of fraud is exploiting the most common popular payment device: credit cards.
 
+- [Reproducible Machine Learning for Credit Card Fraud detection](https://fraud-detection-handbook.github.io/fraud-detection-handbook/) - A practical handbook on how to identify patterns in transactions.
+
 - [How I Stopped a Credit Card Thief From Ripping Off 3,537 People – and Saved Our Nonprofit in the Process](https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/) - Describe a fraud technique known as "card testing", in which massive batch of stolen cards are checked for their validity against your API.
 
 - [How Candy Japan got credit card fraud somewhat under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control) - Suggestions involved either [warning signals](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) for trying to guess which orders might be fraud, or countermeasures to try to make things harder for the fraudsters.
