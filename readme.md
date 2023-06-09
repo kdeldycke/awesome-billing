@@ -6,6 +6,14 @@
   </a>
 </p>
 
+<p align="center">
+  <strong>Yᴏᴜʀ Pᴀʏᴍᴇɴᴛ & Bɪʟʟɪɴɢ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
+  <br/>
+  <sup>You can add a link to your company or project here: <a href="https://github.com/sponsors/kdeldycke">back me up via a GitHub sponsorship</a>.</sup>
+</p>
+
+---
+
 <p>Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.</p>
 
 <p>This <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a> list helps software engineers <strong>bootstrap billing & payments systems, and make sense of invoicing, pricing, accounting, marketplace, fraud and business intelligence</strong>.</p>
