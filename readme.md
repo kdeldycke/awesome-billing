@@ -7,9 +7,11 @@
 </p>
 
 <p align="center">
-  <strong>Yᴏᴜʀ Pᴀʏᴍᴇɴᴛ & Bɪʟʟɪɴɢ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
-  <br/>
-  <sup>You can add a link to your company or project here: <a href="https://github.com/sponsors/kdeldycke">back me up via a GitHub sponsorship</a>.</sup>
+  <a href="https://github.com/sponsors/kdeldycke">
+    <strong>Yᴏᴜʀ Pᴀʏᴍᴇɴᴛ & Bɪʟʟɪɴɢ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
+    <br/>
+    <sup>You can add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
+  </a>
 </p>
 
 ---
