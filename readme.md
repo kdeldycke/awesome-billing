@@ -72,6 +72,7 @@ ______________________________________________________________________
 - [Competitive Analysis](#competitive-analysis)
   - [Cloud providers](#cloud-providers)
 - [History](#history)
+- [Humour](#humour)
 
 <!-- mdformat-toc end -->
 
