@@ -14,7 +14,7 @@
   </a>
 </p>
 
----
+______________________________________________________________________
 
 <p>Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.</p>
 
