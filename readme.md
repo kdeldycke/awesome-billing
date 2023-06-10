@@ -254,13 +254,13 @@ A marketplace connect supply with demand that lead to a financial transaction. I
 
 This sub-section focus on bid/ask mechanism matching resource producer with consumers. Most of the time these are one-sided markets with the big platform trying to amortized under-utilized inventory.
 
-- [Incentive Engineering for Computational Resource Management](https://agoric.com/assets/pdf/papers/incentive-engineering-for-computational-resource-management.pdf) - Paper exploring the “mechanisms for the allocation of processor time and storage that are compatible both with programming practice and with market mechanisms.”
+- [Incentive Engineering for Computational Resource Management](https://papers.agoric.com/assets/pdf/papers/incentive-engineering-for-computational-resource-management.pdf) - Paper exploring the “mechanisms for the allocation of processor time and storage that are compatible both with programming practice and with market mechanisms.”
 
 - [Pricing of Service in Clouds: Optimal Response and Strategic Interactions](http://www.sigmetrics.org/mama/2013/abstracts2013/UrgaonkarEtAl.pdf) - “How should the consumer modulate its demand to optimize its profits? (…) How should the provider and consumer negotiate the specific pricing structure they will employ?” Covers non-linear models, tiered pricing, elastic demand, consumer et provider strategies.
 
 - [Dynamic Cloud Pricing for Revenue Maximization](https://henryhxu.github.io/share/hxu-tcc2013.pdf) - “Amazon's spot price is unlikely to be set according to market supply and demand. Rather, price oscillates within a very narrow band most of the time, which is more likely to be an artifact of some pricing algorithm with predetermined reserve price.”
 
-- [Usage Patterns and the Economics of the Public Cloud](https://vita.mcafee.cc/PDF/EconPublicCloud.pdf) - “We examine the economics of demand and supply in cloud computing. (…) These results explain why fixed prices currently prevail despite the seeming need for time-varying dynamics. Examining the actual CPU utilization provides a lens into the future. (…) demand fluctuations would be on par with the three classic industries where dynamic pricing is important (hotels, electricity, airlines) and dynamic prices would be essential for efficiency.”
+- [Usage Patterns and the Economics of the Public Cloud](https://mc4f.ee/Papers/PDF/EconPublicCloud.pdf) - “We examine the economics of demand and supply in cloud computing. (…) These results explain why fixed prices currently prevail despite the seeming need for time-varying dynamics. Examining the actual CPU utilization provides a lens into the future. (…) demand fluctuations would be on par with the three classic industries where dynamic pricing is important (hotels, electricity, airlines) and dynamic prices would be essential for efficiency.”
 
 - [Maximizing Profit of Cloud Brokers under Quantized Billing Cycles: a Dynamic Pricing Strategy based on Ski-Rental Problem](https://arxiv.org/pdf/1507.02545.pdf) - “The key idea of our algorithms is to use pricing signal to regulate user demand. One may argue that such an algorithm gives poor service to the user as it pushes tasks out of the queue in order to maximize cloud broker's profit.”
 
@@ -308,7 +308,7 @@ The core concept of accounting is double-entry. It is the most critical part to 
 
 Everything you need to know about the daily practice of keeping your accounting data clean and tidy.
 
-- [So, you want to learn Bookkeeping!](http://www.dwmbeancounter.com/tutorial/Tutorial.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
+- [So, you want to learn Bookkeeping!](https://www.dwmbeancounter.com/BCTutorials/BCIntro/index.html) - Focus on the daily operations of recording and maintaining the transactions of a business.
 
 - [Reconciliation: A game designed to frustrate the player](https://bam.kalzumeus.com/archive/a-game-that-intentionally-frustrates-the-player/) - “Reconciliation is a business process which arises almost entirely because of a lack of structured data in the pipelines that convey money between businesses”. There are some hack to streamline the process, like adding an arbitrary discount to produce unique trailing decimals, or setup a couple of virtual bank accounts as proxy.
 
@@ -356,15 +356,15 @@ Global companies needs to know how to juggle between local currencies.
 
 Once you've got your accounts in order, you can start extracting insights and metrics from your financial data.
 
-- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://amzn.com/0273744704/?tag=kevideld-20) - Helps you learn how to analyse and monitor your company's financial performance.
+- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.com/dp/0273744704?&linkCode=ll1&tag=kevideld-20&linkId=f491ee18c48fdaf3226904a39612cc22&language=en_US&ref_=as_li_ss_tl) - Helps you learn how to analyse and monitor your company's financial performance.
 
 - [The Games People Play With Cash Flow](https://commoncog.com/blog/cash-flow-games/) - “Malone created a new accounting metric, something he called ‘earnings before interest, depreciation, and taxes’, or EBITDA.” This is how a cable company CEO made sense of cash flow, like real-estate business did. The article starts with this example and describes other cash flow games for SaaS models.
 
-- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://amzn.com/1422119157/?tag=kevideld-20) - Allows you to fully understand how to use financial data to make better decisions for your business.
+- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/dp/1422119157?&linkCode=ll1&tag=kevideld-20&linkId=8d87e9235a1a05c4e0bec4b25230f28d&language=en_US&ref_=as_li_ss_tl) - Allows you to fully understand how to use financial data to make better decisions for your business.
 
 - [What is FinOps](https://www.finops.org/introduction/what-is-finops/) - A framework for tech finance and business leadership teams to share the same language and processes of cloud operations and management.
 
-- [Algebraic Models for Accounting Systems](https://amzn.com/9814287113/?tag=kevideld-20) - Advanced abstract algebra applied to the analysis of accounting systems.
+- [Algebraic Models for Accounting Systems](https://www.amazon.com/dp/9814287113?&linkCode=ll1&tag=kevideld-20&linkId=3d8973d09f9143db8db8639615d12413&language=en_US&ref_=as_li_ss_tl) - Advanced abstract algebra applied to the analysis of accounting systems.
 
 ## Contracts
 
@@ -474,7 +474,7 @@ Once issued, an invoice must be immutable.
 
 - [How to Build an Insurance Company](https://www.moderntreasury.com/journal/how-to-build-an-insurance-company) - The importance of payment ops architecture.
 
-- [EU's Late Payment Directive](https://ec.europa.eu/growth/smes/support/late-payment_en) - European rules on applicable fees for late payments.
+- [EU's Late Payment Directive](https://single-market-economy.ec.europa.eu/smes/sme-strategy/late-payment-directive_en) - European rules on applicable fees for late payments.
 
 - [High failure rate of Point Of Sale devices in the upper Midwest](https://news.ycombinator.com/item?id=20043944) - The root cause? People wearing a lot of wool in low humidity air, generating a lot of static.
 
@@ -506,7 +506,7 @@ The most popular payment device.
 
 - [Address Verification System](https://en.wikipedia.org/wiki/Address_Verification_System) - A system checking the matching of customer's billing addresses with the one associated with the credit card.
 
-- [pci-blackbox](https://github.com/trustly/pci-blackbox) - PCI-DSS compliant card system built on PostgreSQL and PL/pgSQL.
+- [pci-blackbox](https://github.com/pjfoley/pci-blackbox) - PCI-DSS compliant card system built on PostgreSQL and PL/pgSQL.
 
 ### Bank Accounts
 
@@ -608,7 +608,7 @@ Best tools to automate fraud detection.
 
 Users gets easily angry when it comes to money. UX and UI might helps a lot to reduce frustration.
 
-- [Apple Subscriptions HIG](https://developer.apple.com/design/human-interface-guidelines/subscriptions/overview/) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
+- [Apple In-app purchase Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/in-app-purchase#Autorenewable-subscriptions) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
 
 - [Which has a higher conversion rate: A single long ecommerce checkout form or a multi-step one?](https://capitalandgrowth.org/questions/2055/which-has-a-higher-conversion-rate-a-single-long-e.html) - Focus first on other things in the cart, like easing anxiety and second-guessing by adding reassurance (trust marks, testimonials) near the credit card and completion steps, as well as some guarantee language that you may have used earlier in the product exploration process.
 
@@ -632,7 +632,7 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 - [An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa) - Great breakdown of Visa business models and metrics.
 
-- [The SaaS Financial Model You'll Actually Use](https://baremetrics.com/blog/saas-financial-model) - A complete tour of the financials of a statup, which gives you extra-context on how the metrics you produce fit into the larger picture.
+- [The SaaS Financial Model You'll Actually Use](https://web.archive.org/web/20230205234207/https://baremetrics.com/blog/saas-financial-model) - A complete tour of the financials of a statup, which gives you extra-context on how the metrics you produce fit into the larger picture.
 
 ### Customer Lifetime Value
 
@@ -666,7 +666,7 @@ To industrialize data production and consumption, your need data engineers to cl
 
 - [Never Use Floats for Money](https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html) - “This is precisely the problem we have when trying to represent 10^-1, or 0.1 in binary. There is not an exact binary representation of 0.1 or 0.01.”
 
-- [European Spreadsheet Risks Interest Group - Horror Stories](http://www.eusprig.org/horror-stories.htm) - A collection of cases in which uncontrolled and untested spreadsheet models led to lost revenue, mispricing, poor decision making, fraud and systemic financial failure.
+- [European Spreadsheet Risks Interest Group - Horror Stories](https://eusprig.org/research-info/horror-stories/) - A collection of cases in which uncontrolled and untested spreadsheet models led to lost revenue, mispricing, poor decision making, fraud and systemic financial failure.
 
 ### Tools
 
@@ -696,7 +696,7 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/) - The source of all new features added to the billing perimeter.
 
-- [AWS reserved instances vs saving plan](https://www.prosperops.com/wp-content/uploads/ris_and_savings_plans.png) - A feature matrix of the different scheme and their average dicounts.
+- [AWS reserved instances vs saving plan](https://www.prosperops.com/wp-content/uploads/2022/01/ris_and_savings_plans.png) - A feature matrix of the different scheme and their average dicounts.
 
 - [GCP billing release notes](https://cloud.google.com/billing/docs/release-notes) - Latest changes of GCP billing features.
 
@@ -704,7 +704,7 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [More choice, less complexity: New Compute Engine pricing options on tap](https://cloud.google.com/blog/products/compute/more-choice-less-complexity-new-compute-engine-pricing-options-on-tap) - A wrap-up of recent GCP pricing features.
 
-- [Orbitera](https://www.orbitera.com) - GCP's billing subsidiary.
+- [Orbitera](https://en.wikipedia.org/wiki/Orbitera) - GCP's billing subsidiary.
 
 - [DigitalOcean Billing changelog](http://docs.digitalocean.com/release-notes/billing/) - All the latest billing updates on DO.
 
