@@ -21,9 +21,9 @@ ______________________________________________________________________
   — Yuval Noah Harari<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
 </p>
 
-<p>Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.</p>
+Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.
 
-<p>This <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a> list helps software engineers <strong>bootstrap billing & payments systems, and make sense of invoicing, pricing, accounting, marketplace, fraud and business intelligence</strong>.</p>
+This [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) list helps software engineers **bootstrap billing & payments systems, and make sense of invoicing, pricing, accounting, marketplace, fraud and business intelligence**.
 
 ## Contents
 
