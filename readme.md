@@ -16,6 +16,11 @@
 
 ______________________________________________________________________
 
+<p align="center">
+  <i>Money is the most universal and most efficient system of mutual trust ever devised.</i><br>
+  — Yuval Noah Harari<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
+</p>
+
 <p>Any company needs at one point to get money from customers. That's when things gets messy for us developers, as we try to reconcile the complexity of the business with our software stack.</p>
 
 <p>This <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a> list helps software engineers <strong>bootstrap billing & payments systems, and make sense of invoicing, pricing, accounting, marketplace, fraud and business intelligence</strong>.</p>
@@ -727,3 +732,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 ## Footnotes
 
 The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets/awesome-billing-header.jpg) is based on a modified [photo](https://unsplash.com/photos/u2zSzMTwIjQ) by [Denny Müller](https://unsplash.com/@redaquamedia).
+
+<!--lint disable no-undefined-references-->
+
+<a name="intro-quote-def">\[1\]</a>: [*Sapiens: A Brief History of Humankind*](https://www.amazon.com/dp/0062316095?_encoding=UTF8&psc=1&linkCode=ll1&tag=kevideld-20&linkId=71ccb002da0dbe49c502954960175b66&language=en_US&ref_=as_li_ss_tl) (Harper, 2015). [\[↑\]](#intro-quote-ref)
