@@ -495,7 +495,7 @@ Once issued, an invoice must be immutable.
 
 A receipt materialize the payment transaction.
 
-- [The humble receipt gets a brilliant redesign](https://www.fastcompany.com/90347782/the-humble-receipt-gets-a-brilliant-redesign) - When a Netflix data engineer revisit receipts.
+- [The humble receipt gets a brilliant redesign](https://susielu.com/data-viz/reviziting-the-receipt) - When a Netflix data engineer revisit receipts.
 
 - [The long, long history of long, long CVS receipts](https://www.vox.com/the-goods/2018/10/10/17956950/why-are-cvs-pharmacy-receipts-so-long) - “CVS is a drugstore much like other drugstores, with one important difference: The receipts are very long.”
 
