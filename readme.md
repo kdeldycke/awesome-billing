@@ -14,7 +14,7 @@
   </a>
 </p>
 
-______________________________________________________________________
+---
 
 <p align="center">
   <i>Money is the most universal and most efficient system of mutual trust ever devised.</i><br>
