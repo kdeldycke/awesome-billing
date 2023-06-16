@@ -459,8 +459,6 @@ Once issued, an invoice must be immutable.
 
 - [Refact](http://en.userstudio.fr/projects/refact/) - A design project trying to revamp a phone bill with infographics.
 
-- [GOBL Builder](https://build.gobl.org) - Build invoices using JSON anywhere in the world.
-
 ### Extrators
 
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
