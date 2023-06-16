@@ -471,6 +471,8 @@ Once issued, an invoice must be immutable.
 
 - [EU eInvoicing](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eInvoicing) - European standard on electronic invoice.
 
+- [GOBL](https://gobl.org) - JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one.
+
 ## Payments
 
 - [The Best Payment Gateway for Startups](http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
