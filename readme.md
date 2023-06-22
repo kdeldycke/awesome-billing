@@ -101,6 +101,8 @@ This highlight the strategic importance of the domain, not only for cloud provid
 
 - [Open guide to AWS](https://github.com/open-guides/og-aws#billing-and-cost-management) - Links to the *Billing and Cost Management* section which details the broad characteristics of billing for a cloud provider.
 
+- [Billed for ¥21,120, invoiced at ¥2,112,000 and paid ¥2,112,000](https://twitter.com/kur/status/1668082843728367616) - [Get rid of integers and floats for monetary values](https://twitter.com/kdeldycke/status/1599113889093890049). Use decimals. Or face the risks of anomalous x100 charges.
+
 - How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” ([source](https://twitter.com/kdeldycke/status/1422564355799924736))
 
 ## Pricing
