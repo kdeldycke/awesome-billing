@@ -133,7 +133,7 @@ The dynamic scheme for elastic resources.
 
 - “Billing is not complex on purpose: it's the price to pay for elasticity.” ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlaying concepts.
 
-- [Octane's Meter Types](https://docs.getoctane.io/docs/meter-types#gauges) - Nice illustrations of the quantization applied to time and value quantums on variable usages.
+- [Octane's Meter Types](https://docs.getoctane.io/data-types-reporting-types-and-aggregations#Wggma) - Nice illustrations of the quantization applied to time and value quantums on variable usages.
 
 - [Riemann sum](https://en.wikipedia.org/wiki/Riemann_sum) - The starting point about quantization of usage.
 
