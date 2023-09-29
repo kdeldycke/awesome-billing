@@ -229,11 +229,11 @@ Help your customers predict their upcoming and future consumption based on their
 
 - [Transforming Financial Forecasting with Data Science and Machine Learning at Uber](https://www.uber.com/blog/transforming-financial-forecasting-machine-learning/) - Discusses how Uber apply data science and machine learning in their financial planning platforms.
 
-- [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices) - [Facebook's Prophet](https://facebook.github.io/prophet/) (which [uses Stan underneath](https://statmodeling.stat.columbia.edu/2017/03/01/facebooks-prophet-uses-stan/)), seems to be worth checking to implement a cost forecast tool while taking care of seasonality.
+- [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices) - Great introduction on how time series can be used to evaluate business problems.
 
-- [Forecasting with sktime](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb) - A tutorial on how to use past data to make temporal forward predictions. And read the [difference between sktime and the Prophet project](https://news.ycombinator.com/item?id=24543861) mentionned above.
+- [Forecasting with sktime](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb) - A more detailed tutorial on how to use past data to make temporal forward predictions. And be aware of the [differences between sktime and the Prophet project](https://news.ycombinator.com/item?id=24543861) mentionned in the article above.
 
-- [Darts](https://github.com/unit8co/darts) - Python library for user-friendly forecasting and anomaly detection on time series. It wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the models in [Darts expects](expect that your data comes at a very regular interval) your data to come at a very regular interval and make a lot of assumptions on their shape.
+- [Darts](https://github.com/unit8co/darts) - Python library for user-friendly forecasting and anomaly detection on time series. It wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the [models in Darts expects](https://news.ycombinator.com/item?id=37665435) that your data comes at a very regular interval, and make a lot of assumptions about their shape.
 
 - [Komiser](https://github.com/mlabouardy/komiser) - Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.
 
