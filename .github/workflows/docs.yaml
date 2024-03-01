@@ -23,6 +23,8 @@ jobs:
       pr_branch: ${{ steps.template_sync.outputs.pr_branch }}
     steps:
       - uses: actions/checkout@v4.1.1
+        with:
+          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
       - name: Sync from template repo
         id: template_sync
         uses: AndreasAugustin/actions-template-sync@v1.8.0
