@@ -37,6 +37,12 @@ jobs:
           pr_commit_msg: "[sync] Updates from `awesome-template` repository"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
+          is_pr_cleanup: true
+
+      - name: Print PR branch ID
+        run: |
+          echo "PR branch ID: ${{ steps.template_sync.outputs.pr_branch }}"
+
       - name: Checkout template sync PR
         uses: actions/checkout@v4.1.1
         with:
