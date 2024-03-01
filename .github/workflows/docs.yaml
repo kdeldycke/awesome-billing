@@ -24,22 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.1
         with:
+          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
+          # awesome-template.
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
       - name: Sync from template repo
         id: template_sync
         uses: AndreasAugustin/actions-template-sync@v1.8.0
         with:
-          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
-          # awesome-template.
-          github_token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           source_repo_path: kdeldycke/awesome-template
-          pr_title: "[sync] Update from `awesome-template` repository"
-          pr_commit_msg: "[sync] Update from `awesome-template` repository"
+          pr_title: "[sync] Updates from `awesome-template` repository"
+          pr_commit_msg: "[sync] Updates from `awesome-template` repository"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
-      - name: Print PR branch ID
-        run: |
-          echo "PR branch ID: ${{ steps.template_sync.outputs.pr_branch }}"
 
   # We need a new job to be able to re-call the actions/checkout action and fetch the new PR created above by
   # actions-template-sync. This is a known limitation: https://github.com/actions/checkout/issues/439
@@ -51,14 +47,14 @@ jobs:
     # XXX We could merge this second workflow to the one above if actions-template-sync support direct setup of hooks.
     # This is being discussed at: https://github.com/AndreasAugustin/actions-template-sync/issues/467
     steps:
-      - name: Print PR branch ID
-        run: |
-          echo "PR branch ID: ${{ needs.awesome-template-sync.outputs.pr_branch }}"
       - name: Checkout template sync PR
         uses: actions/checkout@v4.1.1
         with:
           ref: ${{ needs.awesome-template-sync.outputs.pr_branch }}
           fetch-depth: 0
+          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
+          # awesome-template.
+          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
       - name: Update repo URLs
         # Replace "/kdeldycke/awesome-template/" in URLs by "/kdeldycke/awesome-<repo_id>/".
         run: >
