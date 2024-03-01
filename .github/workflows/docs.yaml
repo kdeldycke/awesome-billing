@@ -19,8 +19,6 @@ jobs:
       startsWith(github.event.repository.name, 'awesome-')
       && github.event.repository.name != 'awesome-template'
     runs-on: ubuntu-22.04
-    outputs:
-      pr_branch: ${{ steps.template_sync.outputs.pr_branch }}
     steps:
       - uses: actions/checkout@v4.1.1
         with:
@@ -39,22 +37,10 @@ jobs:
           pr_commit_msg: "[sync] Updates from `awesome-template` repository"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
-
-  # We need a new job to be able to re-call the actions/checkout action and fetch the new PR created above by
-  # actions-template-sync. This is a known limitation: https://github.com/actions/checkout/issues/439
-  awesome-template-update:
-    name: Update awesome template
-    needs:
-      - awesome-template-sync
-    runs-on: ubuntu-22.04
-    # XXX We could merge this second workflow to the one above if actions-template-sync support direct setup of hooks.
-    # This is being discussed at: https://github.com/AndreasAugustin/actions-template-sync/issues/467
-    steps:
       - name: Checkout template sync PR
         uses: actions/checkout@v4.1.1
         with:
-          ref: ${{ needs.awesome-template-sync.outputs.pr_branch }}
-          fetch-depth: 0
+          ref: ${{ steps.template_sync.outputs.pr_branch }}
           # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
           # awesome-template.
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
@@ -63,11 +49,5 @@ jobs:
         run: >
           find ./.github/ -type f -iregex '.*\.\(md\|yaml\)$' -print -exec sed --quiet -i
           "s/\/kdeldycke\/awesome-template\//\/kdeldycke\/${{ github.event.repository.name }}\//gp" "{}" \;
-      - name: Push to PR
-        uses: peter-evans/create-pull-request@v6.0.1
-        with:
-          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
-          # awesome-template.
-          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
-          assignees: ${{ github.actor }}
-          commit-message: "[sync] Update template URLs"
+      - run: >
+          git push
