@@ -1,9 +1,0 @@
----
-name: Lint
-"on":
-  push:
-
-jobs:
-
-  lint:
-    uses: kdeldycke/workflows/.github/workflows/lint.yaml@v3.3.4
