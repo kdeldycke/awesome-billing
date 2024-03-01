@@ -31,6 +31,9 @@ jobs:
         id: template_sync
         uses: AndreasAugustin/actions-template-sync@v1.8.0
         with:
+          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
+          # awesome-template.
+          github_token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           source_repo_path: kdeldycke/awesome-template
           pr_title: "[sync] Updates from `awesome-template` repository"
           pr_commit_msg: "[sync] Updates from `awesome-template` repository"
