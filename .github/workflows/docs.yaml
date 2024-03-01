@@ -69,4 +69,3 @@ jobs:
         with:
           assignees: ${{ github.actor }}
           commit-message: "[sync] Update template URLs"
-          branch: ${{ needs.awesome-template-sync.outputs.pr_branch }}
