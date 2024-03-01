@@ -66,5 +66,8 @@ jobs:
       - name: Push to PR
         uses: peter-evans/create-pull-request@v6.0.1
         with:
+          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
+          # awesome-template.
+          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           assignees: ${{ github.actor }}
           commit-message: "[sync] Update template URLs"
