@@ -65,6 +65,11 @@ jobs:
         run: |
           git diff
 
+      - name: Setup Git
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
       - name: Show diff
         run: |
           git commit --all -m 'Update URLs'
