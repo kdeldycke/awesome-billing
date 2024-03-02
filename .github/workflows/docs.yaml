@@ -27,7 +27,7 @@ jobs:
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
       - name: Sync from template repo
         id: template_sync
-        uses: AndreasAugustin/actions-template-sync@v1.8.0
+        uses: AndreasAugustin/actions-template-sync@v1.8.1
         with:
           # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
           # awesome-template.
