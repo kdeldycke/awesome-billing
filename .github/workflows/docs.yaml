@@ -70,9 +70,10 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: Show diff
+      - name: Create commit
         run: |
           git commit --all -m 'Update URLs'
 
-      - run: >
+      - run: |
+          git config lfs.https://github.com/kdeldycke/awesome-billing.git/info/lfs.locksverify false
           git push
