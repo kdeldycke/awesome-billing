@@ -50,10 +50,24 @@ jobs:
           # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
           # awesome-template.
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: List commits
+        run: |
+          git log
+
       - name: Update repo URLs
         # Replace "/kdeldycke/awesome-template/" in URLs by "/kdeldycke/awesome-<repo_id>/".
         run: >
           find ./.github/ -type f -iregex '.*\.\(md\|yaml\)$' -print -exec sed -i
           "s/\/kdeldycke\/awesome-template\//\/kdeldycke\/${{ github.event.repository.name }}\//g" "{}" \;
+
+      - name: Show diff
+        run: |
+          git diff
+
+      - name: Show diff
+        run: |
+          git commit --all -m 'Update URLs'
+
       - run: >
           git push
