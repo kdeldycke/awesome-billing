@@ -65,15 +65,24 @@ jobs:
         run: |
           git diff
 
-      - name: Setup Git
+      - name: Setup Git user
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
+      - name: Deactivate LFS
+        run: |
+          git config lfs.https://github.com/kdeldycke/${{ github.event.repository.name }}.git/info/lfs.locksverify false
+
       - name: Create commit
         run: |
-          git commit --all -m 'Update URLs'
+          git commit --all -m 'Update template URLs with local ones'
 
-      - run: |
-          git config lfs.https://github.com/kdeldycke/awesome-billing.git/info/lfs.locksverify false
-          git push
+      - name: Squash commits
+        run: |
+          git reset --soft $(git merge-base main HEAD)
+          git commit --message "[sync] Updates from `awesome-template` repository"
+
+      - name: Push commit to PR
+        run: |
+          git push --force
