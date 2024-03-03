@@ -59,7 +59,7 @@ jobs:
       - name: Update repo URLs
         # Replace "/kdeldycke/awesome-template/" in URLs by "/kdeldycke/awesome-<repo_id>/".
         run: >
-          find ./.github/ -type f -iregex '.*\.\(md\|yaml\)$' -print -exec sed -i
+          find ./.github/ -type f -iregex ".*\.\(md\|yaml\)$" -print -exec sed -i
           "s/\/kdeldycke\/awesome-template\//\/kdeldycke\/${{ github.event.repository.name }}\//g" "{}" \;
 
       - name: Show diff
@@ -78,7 +78,7 @@ jobs:
 
       - name: Create commit
         run: |
-          git commit --all --message'Update template URLs with local ones'
+          git commit --all --message "Update template URLs with local ones"
 
       - name: Squash commits
         run: |
