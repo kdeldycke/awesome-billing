@@ -83,7 +83,7 @@ jobs:
       - name: Squash commits
         run: |
           git reset --soft $(git merge-base main HEAD)
-          git commit --message "[sync] Updates from `awesome-template`"
+          git commit --message "[sync] Updates from \`awesome-template\`"
 
       - name: Push commit to PR
         run: |
