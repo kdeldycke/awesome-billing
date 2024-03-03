@@ -19,25 +19,22 @@ jobs:
       startsWith(github.event.repository.name, 'awesome-')
       && github.event.repository.name != 'awesome-template'
     runs-on: ubuntu-22.04
+    # We need custom PAT through the whole job so we get workflow permissions to update all the boilerplate .github
+    # files from awesome-template.
     steps:
       - uses: actions/checkout@v4.1.1
         with:
-          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
-          # awesome-template.
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
       - name: Sync from template repo
         id: template_sync
         uses: AndreasAugustin/actions-template-sync@v1.8.1
         with:
-          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
-          # awesome-template.
           github_token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           source_repo_path: kdeldycke/awesome-template
           pr_title: "[sync] Updates from `awesome-template` repository"
           pr_commit_msg: "[sync] Updates from `awesome-template` repository"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
-          is_pr_cleanup: true
 
       - name: Print PR branch ID
         run: |
@@ -47,8 +44,6 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           ref: ${{ steps.template_sync.outputs.pr_branch }}
-          # We need custom PAT with workflows permissions so we can update all the boilerplate .github files from
-          # awesome-template.
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
 
       - name: List commits
@@ -65,24 +60,20 @@ jobs:
         run: |
           git diff
 
-      - name: Setup Git user
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+      - uses: peter-evans/create-pull-request@v6.0.1
+        with:
+          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
+          assignees: ${{ github.actor }}
+          commit-message: "[sync] Updates from `awesome-template`"
+          title: "[sync] Updates from `awesome-template`"
+          body: >
+            <details><summary><code>Workflow metadata</code></summary>
 
-      - name: Deactivate LFS
-        run: |
-          git config lfs.https://github.com/kdeldycke/${{ github.event.repository.name }}.git/info/lfs.locksverify false
 
-      - name: Create commit
-        run: |
-          git commit --all -m 'Update template URLs with local ones'
+            > [Auto-generated on run `#${{ github.run_id }}`](${{ github.event.repository.html_url }}/actions/runs/${{
+            github.run_id }}) by `${{ github.job }}` job from [`docs.yaml`](${{ github.event.repository.html_url
+            }}/blob/${{ github.sha }}/.github/workflows/docs.yaml) workflow.
 
-      - name: Squash commits
-        run: |
-          git reset --soft $(git merge-base main HEAD)
-          git commit --message "[sync] Updates from `awesome-template` repository"
 
-      - name: Push commit to PR
-        run: |
-          git push --force
+            </details>
+          branch: ${{ needs.awesome-template-sync.outputs.pr_branch }}
