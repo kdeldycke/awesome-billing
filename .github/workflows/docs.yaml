@@ -80,10 +80,11 @@ jobs:
         run: |
           git commit --all --message "Update template URLs with local ones"
 
-      - name: Combine the last commit with the previous one
+      - name: Combine the last 2 commits into one
         # See: https://stackoverflow.com/a/26172014
         run: |
-          git reset --soft HEAD~1
+          git reset --soft HEAD~2
+          git commit --message "[sync] Updates from `awesome-template`"
 
       - name: Push new commit history to PR
         run: |
