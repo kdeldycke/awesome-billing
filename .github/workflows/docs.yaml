@@ -90,7 +90,11 @@ jobs:
         run: |
           git reset --soft $(git merge-base main HEAD)
 
-      - name: Push new commit history to PR
+      - name: Create new commit
         run: |
           git commit --message "${{ env.PR_COMMIT_MSG }}"
+
+      - name: Push new commit history to PR
+        run: |
+          git clean -f -d
           git push --force
