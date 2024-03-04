@@ -55,6 +55,10 @@ jobs:
         # XXX Was introduced in https://github.com/AndreasAugustin/actions-template-sync/commit/5335a55
         run: |
           git config lfs.https://github.com/kdeldycke/${{ github.event.repository.name }}.git/info/lfs.locksverify false
+      - name: Setup Git user
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
       - name: Merge change to previous commit
         run: |
           git commit --all --amend --no-edit
