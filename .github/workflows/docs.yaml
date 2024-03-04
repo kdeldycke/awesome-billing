@@ -26,7 +26,6 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Sync from template repo
         id: template_sync
@@ -39,35 +38,22 @@ jobs:
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
 
-      - name: Print PR branch ID
-        run: |
-          echo "PR branch ID: ${{ steps.template_sync.outputs.pr_branch }}"
-
       - name: Checkout new template sync branch
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           ref: ${{ steps.template_sync.outputs.pr_branch }}
-          fetch-depth: 0
 
       # XXX We cannot rely on peter-evans/create-pull-request to manage the push of the new commit to the PR, as it
       # ends up with a: "Unexpected error: fatal: could not open '.git/COMMIT_EDITMSG': Permission denied".
       # See: https://github.com/AndreasAugustin/actions-template-sync/issues/484
       # So we manage the next steps with bare git calls.
 
-      - name: List commits
-        run: |
-          git log
-
       - name: Update repo URLs
         # Replace "/kdeldycke/awesome-template/" in URLs by "/kdeldycke/awesome-<repo_id>/".
         run: >
           find ./.github/ -type f -iregex ".*\.\(md\|yaml\)$" -print -exec sed -i
           "s/\/kdeldycke\/awesome-template\//\/kdeldycke\/${{ github.event.repository.name }}\//g" "{}" \;
-
-      - name: Show diff
-        run: |
-          git diff
 
       - name: Setup Git user
         run: |
