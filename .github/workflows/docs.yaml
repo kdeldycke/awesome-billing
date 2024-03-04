@@ -12,7 +12,6 @@ jobs:
   #docs:
   #  uses: kdeldycke/workflows/.github/workflows/docs.yaml@v3.3.4
 
-
   awesome-template-sync:
     name: Sync awesome template
     if: >
@@ -27,7 +26,6 @@ jobs:
         with:
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-
       - name: Sync from template repo
         id: template_sync
         uses: AndreasAugustin/actions-template-sync@v1.8.1
@@ -38,39 +36,28 @@ jobs:
           pr_commit_msg: "[sync] Updates from awesome-template"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
-
       - name: Checkout new template sync branch
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           ref: ${{ steps.template_sync.outputs.pr_branch }}
           fetch-depth: 0
-
       # XXX We cannot rely on peter-evans/create-pull-request to manage the push of the new commit to the PR, as it
       # ends up with a: "Unexpected error: fatal: could not open '.git/COMMIT_EDITMSG': Permission denied".
       # See: https://github.com/AndreasAugustin/actions-template-sync/issues/484
       # So we manage the next steps with bare git calls.
-
       - name: Update repo URLs
         # Replace "/kdeldycke/awesome-template/" in URLs by "/kdeldycke/awesome-<repo_id>/".
         run: >
           find ./.github/ -type f -iregex ".*\.\(md\|yaml\)$" -print -exec sed -i
           "s/\/kdeldycke\/awesome-template\//\/kdeldycke\/${{ github.event.repository.name }}\//g" "{}" \;
-
-      - name: Setup Git user
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
       - name: Deactivate LFS
         # XXX Was introduced in https://github.com/AndreasAugustin/actions-template-sync/commit/5335a55
         run: |
           git config lfs.https://github.com/kdeldycke/${{ github.event.repository.name }}.git/info/lfs.locksverify false
-
       - name: Merge change to previous commit
         run: |
           git commit --all --amend --no-edit
-
       - name: Push new commit to PR
         run: |
           git push --force
