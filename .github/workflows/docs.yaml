@@ -19,8 +19,6 @@ jobs:
       startsWith(github.event.repository.name, 'awesome-')
       && github.event.repository.name != 'awesome-template'
     runs-on: ubuntu-22.04
-    env:
-      PR_COMMIT_MSG: "[sync] Updates from awesome-template"
     # We need custom PAT through the whole job so we get workflow permissions to update all the boilerplate .github
     # files from awesome-template.
     steps:
@@ -37,7 +35,7 @@ jobs:
           github_token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           source_repo_path: kdeldycke/awesome-template
           pr_title: "[sync] Updates from `awesome-template`"
-          pr_commit_msg: ${{ env.PR_COMMIT_MSG }}
+          pr_commit_msg: "[sync] Updates from awesome-template"
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
 
@@ -81,20 +79,10 @@ jobs:
         run: |
           git config lfs.https://github.com/kdeldycke/${{ github.event.repository.name }}.git/info/lfs.locksverify false
 
-      - name: Create commit
+      - name: Merge change to previous commit
         run: |
-          git commit --all --message "Update template URLs with local ones"
+          git commit --all --amend --no-edit
 
-      - name: Combine the last 2 commits into one
-        # See: https://stackoverflow.com/a/26172014
-        run: |
-          git reset --soft $(git merge-base main HEAD)
-
-      - name: Create new commit
-        run: |
-          git clean -f -d
-          git commit --message "${{ env.PR_COMMIT_MSG }}"
-
-      - name: Push new commit history to PR
+      - name: Push new commit to PR
         run: |
           git push --force
