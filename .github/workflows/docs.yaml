@@ -80,9 +80,10 @@ jobs:
         run: |
           git commit --all --message "Update template URLs with local ones"
 
-      - name: Reset branch to main
+      - name: Combine the last commit with the previous one
+        # See: https://stackoverflow.com/a/26172014
         run: |
-          git reset --soft $(git merge-base main HEAD)
+          git reset --soft HEAD~1
 
 
       # git commit --message "[sync] Updates from \`awesome-template\`"
@@ -94,8 +95,6 @@ jobs:
       - uses: peter-evans/create-pull-request@v6.0.1
         with:
           assignees: ${{ github.actor }}
-          commit-message: "[sync] Updates from `awesome-template`"
-          title: "[sync] Updates from `awesome-template`"
           body: >
             <details><summary><code>Workflow metadata</code></summary>
 
