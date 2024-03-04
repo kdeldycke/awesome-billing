@@ -43,11 +43,14 @@ jobs:
         run: |
           echo "PR branch ID: ${{ steps.template_sync.outputs.pr_branch }}"
 
-      - name: Checkout new template sync branch
-        uses: actions/checkout@v4.1.1
-        with:
-          token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
-          ref: ${{ steps.template_sync.outputs.pr_branch }}
+      #- name: Checkout new template sync branch
+      #  uses: actions/checkout@v4.1.1
+      #  with:
+      #    token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
+      #    ref: ${{ steps.template_sync.outputs.pr_branch }}
+
+      - run: |
+          git checkout ${{ steps.template_sync.outputs.pr_branch }}
 
       # XXX We cannot rely on peter-evans/create-pull-request to manage the push of the new commit to the PR, as it
       # ends up with a: "Unexpected error: fatal: could not open '.git/COMMIT_EDITMSG': Permission denied".
