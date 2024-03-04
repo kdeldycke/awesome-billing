@@ -85,25 +85,6 @@ jobs:
         run: |
           git reset --soft HEAD~1
 
-
-      # git commit --message "[sync] Updates from \`awesome-template\`"
-
-      #- name: Push commit to PR
-      #  run: |
-      #    git push --force
-
-      - uses: peter-evans/create-pull-request@v6.0.1
-        with:
-          assignees: ${{ github.actor }}
-          body: >
-            <details><summary><code>Workflow metadata</code></summary>
-
-
-            > [Auto-generated on run `#${{ github.run_id }}`](${{ github.event.repository.html_url }}/actions/runs/${{
-            github.run_id }}) by `${{ github.job }}` job from [`autofix.yaml`](${{ github.event.repository.html_url
-            }}/blob/${{ github.sha }}/.github/workflows/autofix.yaml) workflow.
-
-
-            </details>
-          labels: "📚 documentation"
-          branch: ${{ steps.template_sync.outputs.pr_branch }}
+      - name: Push new commit history to PR
+        run: |
+          git push --force
