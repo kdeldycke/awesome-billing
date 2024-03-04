@@ -85,9 +85,9 @@ jobs:
       - name: Combine the last 2 commits into one
         # See: https://stackoverflow.com/a/26172014
         run: |
-          git reset --soft HEAD~2
-          git commit --message "${{ env.PR_COMMIT_MSG }}"
+          git reset --soft $(git merge-base main HEAD)
 
       - name: Push new commit history to PR
         run: |
+          git commit --message "${{ env.PR_COMMIT_MSG }}"
           git push --force
