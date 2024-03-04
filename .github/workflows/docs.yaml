@@ -19,6 +19,8 @@ jobs:
       startsWith(github.event.repository.name, 'awesome-')
       && github.event.repository.name != 'awesome-template'
     runs-on: ubuntu-22.04
+    env:
+      PR_COMMIT_MSG: "[sync] Updates from awesome-template"
     # We need custom PAT through the whole job so we get workflow permissions to update all the boilerplate .github
     # files from awesome-template.
     steps:
@@ -33,7 +35,7 @@ jobs:
           github_token: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT || secrets.GITHUB_TOKEN }}
           source_repo_path: kdeldycke/awesome-template
           pr_title: "[sync] Updates from `awesome-template`"
-          pr_commit_msg: "[sync] Updates from `awesome-template`"
+          pr_commit_msg: ${{ env.PR_COMMIT_MSG }}
           pr_branch_name_prefix: "sync-awesome-template"
           pr_labels: "📚 documentation"
 
@@ -84,7 +86,7 @@ jobs:
         # See: https://stackoverflow.com/a/26172014
         run: |
           git reset --soft HEAD~2
-          git commit --message "[sync] Updates from `awesome-template`"
+          git commit --message "${{ env.PR_COMMIT_MSG }}"
 
       - name: Push new commit history to PR
         run: |
