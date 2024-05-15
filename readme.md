@@ -119,6 +119,8 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 
 - [The 5 Pillars of PriceOps](https://priceops.org) - A manifesto inspired by the DevOps movement in which pricing is no longer ossified, but is practiced as a responsive iteration process, and implemented as a flexible property of the system.
 
+- [SaaS pricing explorer](https://explorer.hyperline.co) - A collection of 1000+ pricing pages for inspiration.
+
 ### Usage-based Pricing
 
 The dynamic scheme for elastic resources.
