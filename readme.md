@@ -733,6 +733,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) - Accounting paintings were a significant genre in Dutch art.
 
+- [Graphic methods for presenting facts](https://archive.org/details/graphicmethodsfo00brinrich/page/336/mode/2up?view=theater&ui=embed&wrapper=false) - A way to optimize pricing using a physical model made in plaster of Paris, from 1914.
+
 ## Humour
 
 Billing is not funny.
