@@ -255,7 +255,7 @@ A marketplace connect supply with demand that lead to a financial transaction. I
 
 - [Papers we love: Auctions and Bidding](https://github.com/papers-we-love/papers-we-love/tree/master/economics#auctions-and-bidding) - A collection of papers on bidding and auctions.
 
-- [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, “‘Asking people what they'd pay for and how much rarely works.’ (…) \[but\] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.”
+- [Vickrey auction](https://en.wikipedia.org/wiki/Vickrey_auction) - Hinted by an [HN comment](https://news.ycombinator.com/item?id=19145391), in which yes, “‘Asking people what they'd pay for and how much rarely works.’ (…) [but] using a Vickrey auction, similar to Google's ad auction mechanism, can elicit a person's maximum willingness-to-pay.”
 
 - [19 Tactics to Solve the Chicken-or-Egg Problem and Grow Your Marketplace](https://www.nfx.com/post/19-marketplace-tactics-for-overcoming-the-chicken-or-egg-problem) - “Which comes first, the supply or the demand? Chicken or egg?”
 
@@ -733,7 +733,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - “Larry Page went to U of M and used the Michigan Terminal System. (…) when Google was working on App Engine, Page took inspiration from MTS and would exhort engineers to follow its example. (…) when I look at my AWS and GCP bills now, it feels very familiar!” ([source](https://news.ycombinator.com/item?id=35123587)) - The direct filiation between old-school university mainframes and current cloud services.
 
-- [£sd computing](https://en.wikipedia.org/wiki/£sd#Computing) - The IBM 1401 mainframe (1959) optionally supported pounds/shillings/pence (£sd) currency arithmetics in hardware.
+- [£sd computing](https://en.wikipedia.org/wiki/%C2%A3sd#Computing) - The IBM 1401 mainframe (1959) optionally supported pounds/shillings/pence (£sd) currency arithmetics in hardware.
+
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
 
 - [The vanished grandeur of accounting](https://www.bostonglobe.com/ideas/2014/06/07/the-vanished-grandeur-accounting/3zcbRBoPDNIryWyNYNMvbO/story.html) - Accounting paintings were a significant genre in Dutch art.
@@ -756,4 +757,4 @@ The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets
 
 <!--lint disable no-undefined-references-->
 
-<a name="intro-quote-def">\[1\]</a>: [*Sapiens: A Brief History of Humankind*](https://www.amazon.com/dp/0062316095?_encoding=UTF8&psc=1&linkCode=ll1&tag=kevideld-20&linkId=71ccb002da0dbe49c502954960175b66&language=en_US&ref_=as_li_ss_tl) (Harper, 2015). [\[↑\]](#intro-quote-ref)
+<a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://www.amazon.com/dp/0062316095?_encoding=UTF8&psc=1&linkCode=ll1&tag=kevideld-20&linkId=71ccb002da0dbe49c502954960175b66&language=en_US&ref_=as_li_ss_tl) (Harper, 2015). [[↑]](#intro-quote-ref)
