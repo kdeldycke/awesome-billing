@@ -181,6 +181,8 @@ Theory and practical insight to help you choose the right pricing tactics.
 
 - [The cup-of-coffee pricing fallacy](https://blog.gingerlime.com/2020/the-cup-of-coffee-pricing-fallacy/) - Explains why it is a sloppy analogy.
 
+- [Changing the Pricing Model](https://monkeynoodle.org/2024/02/10/changing-the-pricing-model/) - A couple of ways to re-license your product.
+
 ### Market Research
 
 Survey methods and price discovery techniques to find the right price point.
@@ -345,7 +347,7 @@ Now that you're somewhat familiar with the concepts and practice of accounting, 
 
 - [Books, an immutable double-entry accounting database service](https://developer.squareup.com/blog/books-an-immutable-double-entry-accounting-database-service/) - Explain the basic data model of a double-entry accounting system relying on Google Spanner for internal use at Square.
 
-- [TigerBeetle](https://github.com/coilhq/tigerbeetle) - A distributed financial accounting database to ensure that the money either moves, or doesn't move, that it doesn't get lost somewhere in between.
+- [TigerBeetle](https://github.com/coilhq/tigerbeetle) - A distributed financial accounting database to ensure that the money either moves, or doesn't move, that it doesn't get lost somewhere in between. It has been [tested on Jepsen](https://jepsen.io/analyses/tigerbeetle-0.16.11), which tested its strong serializability.
 
 - [Django Hordak](https://django-hordak.readthedocs.io) - Core functionality of a double entry accounting system for Django.
 
@@ -491,7 +493,9 @@ Once issued, an invoice must be immutable.
 
 - [Handling system failures during payment communication](https://blogs.dropbox.com/tech/2017/09/handling-system-failures-during-payment-communication/) - Dropbox's experience trying to account for an unreliable payment provider.
 
-- [Why was I charged?](https://wpchrg.wordpress.com) - Under a constant stream of user complaints about payments, WordPress created a dedicated subdomains to help customers understand unexpected transactions. The trick is to add the URL of that kind of site directly in the bank statement.
+- [Why was I charged?](https://wpchrg.wordpress.com) - Under a constant stream of user complaints about payments, WordPress created a dedicated subdomains to help customers understand unexpected transactions. The trick was to add this URL directly in the bank statement.
+
+- [Hyperswitch](https://github.com/juspay/hyperswitch) - Open-source backend for payment processing.
 
 - [moov](https://github.com/moov-io) - Open-source infrastructure for financial technology.
 
@@ -528,6 +532,8 @@ The old-fashioned way of payment: by the way of banks.
 - [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC codes for personal use only.
 
 - [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
+
+- [EPC QR code](https://en.wikipedia.org/wiki/EPC_QR_code) - EU standard for QR codes used to transfer money between bank accounts via SEPA.
 
 ### Online Payments
 
@@ -601,6 +607,8 @@ Best tools to automate fraud detection.
 
 - [Peak Detection in the Python World](https://blog.ytotech.com/2015/11/01/findpeaks-in-python/) - Simple way to detect outliers.
 
+- [Method to check if you swapped 2 digits](https://news.ycombinator.com/item?id=39021273) - Standard manual accounting trick employed when isolating an error in a double ledger.
+
 ### Billing
 
 - [More than 600 million users installed Android 'fleeceware' apps from the Play Store](https://www.zdnet.com/article/more-than-600-million-users-installed-android-fleeceware-apps-from-the-play-store/) - A new kind of fraud, in which apps silently keep charging users after the end of the trial period.
@@ -618,6 +626,8 @@ Users gets easily angry when it comes to money. UX and UI might helps a lot to r
 - [Apple In-app purchase Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/in-app-purchase#Autorenewable-subscriptions) - Guide and recommendation on how to make [auto-renewable subscriptions](https://developer.apple.com/app-store/subscriptions/) user-friendly.
 
 - [Which has a higher conversion rate: A single long ecommerce checkout form or a multi-step one?](https://capitalandgrowth.org/questions/2055/which-has-a-higher-conversion-rate-a-single-long-e.html) - Focus first on other things in the cart, like easing anxiety and second-guessing by adding reassurance (trust marks, testimonials) near the credit card and completion steps, as well as some guarantee language that you may have used earlier in the product exploration process.
+
+- [We tried to make billing backendless](https://useautumn.com/blog/backendless) - Failed attempt to move the billing experience by from backend to frontend because of security.
 
 ## Business Intelligence
 
@@ -718,6 +728,8 @@ A bunch of resources to keep track of the current status and progress of all com
 ## History
 
 - “Larry Page went to U of M and used the Michigan Terminal System. (…) when Google was working on App Engine, Page took inspiration from MTS and would exhort engineers to follow its example. (…) when I look at my AWS and GCP bills now, it feels very familiar!” ([source](https://news.ycombinator.com/item?id=35123587)) - The direct filiation between old-school university mainframes and current cloud services.
+
+- [Product Development as Iterated Taste](https://commoncog.com/product-development-iterated-taste/) - AWS sacrificed the simplicity of subscription pricing for S3 and went instead with a safe cost-following strategy because they had no clue how the users will use their service.
 
 - [£sd computing](https://en.wikipedia.org/wiki/%C2%A3sd#Computing) - The IBM 1401 mainframe (1959) optionally supported pounds/shillings/pence (£sd) currency arithmetics in hardware.
 
