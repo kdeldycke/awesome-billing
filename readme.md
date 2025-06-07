@@ -85,7 +85,7 @@ This [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindreso
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-billing.jpg"/>
 
-In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
+In a Stanford class providing an [overview of cloud computing](https://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
 
 <!--lint disable double-link-->
 
@@ -101,7 +101,7 @@ This highlight the strategic importance of the domain, not only for cloud provid
 
 - [Billed for ¥21,120, invoiced at ¥2,112,000 and paid ¥2,112,000](https://xunroll.com/thread/1668082843728367616) - [Get rid of integers and floats for monetary values](https://xunroll.com/thread/1599113889093890049). Use decimals. Or face the risks of anomalous x100 charges.
 
-- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” ([source](https://twitter.com/kdeldycke/status/1422564355799924736))
+- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” ([source](https://x.com/kdeldycke/status/1422564355799924736))
 
 ## Pricing
 
@@ -117,7 +117,7 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 
 - [The 5 Pillars of PriceOps](https://priceops.org) - A manifesto inspired by the DevOps movement in which pricing is no longer ossified, but is practiced as a responsive iteration process, and implemented as a flexible property of the system.
 
-- [SaaS pricing explorer](https://explorer.hyperline.co) - A collection of 1000+ pricing pages for inspiration.
+- [SaaS pricing explorer](https://saaspricingexplorer.hyperline.co) - A collection of 1000+ pricing pages for inspiration.
 
 ### Usage-based Pricing
 
