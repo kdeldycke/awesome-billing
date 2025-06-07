@@ -135,8 +135,6 @@ The dynamic scheme for elastic resources.
 
 - “Billing is not complex on purpose: it's the price to pay for elasticity.” ([source](https://twitter.com/kdeldycke/status/1214160678363246592)) - Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlying concepts.
 
-- [Octane's Meter Types](https://docs.getoctane.io/data-types-reporting-types-and-aggregations#Wggma) - Nice illustrations of the quantization applied to time and value quantums on variable usages.
-
 - [Riemann sum](https://en.wikipedia.org/wiki/Riemann_sum) - The starting point about quantization of usage.
 
 - [Allen's interval algebra](https://en.wikipedia.org/wiki/Allen%27s_interval_algebra) - Implementing usage-based pricing is tricky, and this algebra will help you organize temporal reasoning. Also see this [Stack Overflow question with clean schema](https://web.archive.org/web/20240413010618/https://stackoverflow.com/questions/12069082/allens-interval-algebra-operations-in-sql?rq=1).
