@@ -1,0 +1,74 @@
+{
+  "name": "@humanwhocodes/momoa",
+  "version": "3.3.8",
+  "description": "JSON AST parser, tokenizer, printer, traverser.",
+  "author": "Nicholas C. Zakas",
+  "type": "module",
+  "main": "dist/momoa.cjs",
+  "module": "dist/momoa.js",
+  "types": "dist/momoa.d.ts",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/momoa.d.cts",
+        "default": "./dist/momoa.cjs"
+      },
+      "import": {
+        "types": "./dist/momoa.d.ts",
+        "default": "./dist/momoa.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanwhocodes/momoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/humanwhocodes/momoa/issues"
+  },
+  "homepage": "https://github.com/humanwhocodes/momoa#readme",
+  "scripts": {
+    "build": "rollup -c && npm run fixup && tsc -p tsconfig.build.json && npm run copy-dts && npm run build-dcts",
+    "copy-dts": "node -e \"fs.copyFileSync('dist/momoa.d.ts', 'dist/momoa.d.cts')\"",
+    "build-dcts": "node tools/update-cts-references.js",
+    "fixup": "node tools/strip-typedef-aliases.js",
+    "lint": "eslint *.js src/*.js tests/*.js",
+    "perf": "npm run build && node tools/perf.js",
+    "regen": "npm run build && node tools/regenerate-test-data.js",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "test": "mocha tests/*.test.js && npm run test:types",
+    "test:types": "tsc --noEmit --project tests/types/tsconfig.json",
+    "test:attw": "attw --pack"
+  },
+  "keywords": [
+    "json",
+    "ast",
+    "json tree",
+    "abstract syntax tree"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.17.4",
+    "beautify-benchmark": "0.2.4",
+    "benchmark": "2.1.4",
+    "chai": "^4.3.7",
+    "eslint": "8.57.1",
+    "esm": "3.2.25",
+    "json-to-ast": "2.1.0",
+    "json5": "^2.2.3",
+    "mocha": "^11.0.0",
+    "npm-run-all2": "^7.0.0",
+    "rollup": "^4.19.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "sinon": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
