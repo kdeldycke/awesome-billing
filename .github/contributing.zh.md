@@ -165,7 +165,7 @@ $ npx awesome-lint
 
 ### 如何防止链接腐烂？
 
-[正如贡献者指出的](https://github.com/kdeldycke/awesome-engineering-team-management/issues/52#issue-1499417056)：
+[正如贡献者指出的](https://github.com/kdeldycke/awesome-engineering-team-management/issues/52)：
 
 > 这里的链接有下线的趋势。为了使这成为长期价值的资源，可以通过存档页面来避免链接腐烂。
 
@@ -239,4 +239,4 @@ $ npx awesome-lint
 
 但这是一个很大的努力，为了保持简单，我们只是在这个列表中收集外部文章。与此同时，如果您想添加谬误，我会要求潜在贡献者 [在其他地方托管它们](https://github.com/kdeldycke/awesome-falsehood/issues/46)。
 
-此外，如果我们必须在此仓库中托管原始谬误，我们可能必须 [检查许可证并寻求原作者的许可](https://github.com/kdeldycke/awesome-falsehood/issues/24#issuecomment-354112401)。
+此外，如果我们必须在此仓库中托管原始谬误，我们可能必须 [检查许可证并寻求原作者的许可](https://github.com/kdeldycke/awesome-falsehood/issues/24)。

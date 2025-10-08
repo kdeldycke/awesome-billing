@@ -165,7 +165,7 @@ Yes, but try to search first in the content produced by the author: sometimes th
 
 ### How to prevent link-rot?
 
-[As pointed by a contributor](https://github.com/kdeldycke/awesome-engineering-team-management/issues/52#issue-1499417056):
+[As pointed by a contributor](https://github.com/kdeldycke/awesome-engineering-team-management/issues/52):
 
 > The links here have a tendency to go offline. For this to be a resource of long term value, link-rot can be avoided by archiving the pages.
 
@@ -239,4 +239,4 @@ This might be a good idea to compile all falsehoods in the repository. It would 
 
 But that is a big endeavor, so to keep things simple, we just make a collection of external articles in this list. In the mean time, if you'd like to add falsehoods, I will ask potential contributors to [host them elsewhere](https://github.com/kdeldycke/awesome-falsehood/issues/46).
 
-Also, if we had to host the raw falsehoods in this repository, we might have to [check on the licence and seek permission from the original author](https://github.com/kdeldycke/awesome-falsehood/issues/24#issuecomment-354112401).
+Also, if we had to host the raw falsehoods in this repository, we might have to [check on the licence and seek permission from the original author](https://github.com/kdeldycke/awesome-falsehood/issues/24).
