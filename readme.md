@@ -569,6 +569,10 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 - [Awesome Fraud Detection Research Papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) - Papers sourced from several conferences on all sort of fraud: credit card, payment transactions, loans, customs inspections, money laundering networks, and more.
 
+- [Tazama](https://github.com/tazama-lf) - Open-source real-time transaction monitoring software for fraud and money laundering detection. This is just an engine to define rules, wight them, and apply them to transactions. There is nothing specific to payments or financial transactions.
+
+- [Mojaloop Fraud Risk Management](https://github.com/mojaloop/fraud_risk_management/tree/master/typology-214/src/rules) - Some examples of AML rules.
+
 ### Cards
 
 The majority of fraud is exploiting the most common popular payment device: credit cards.
