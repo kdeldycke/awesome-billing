@@ -631,6 +631,8 @@ Users gets easily angry when it comes to money. UX and UI might helps a lot to r
 
 - [We tried to make billing backendless](https://useautumn.com/blog/backendless) - Failed attempt to move the billing experience by from backend to frontend because of security.
 
+- [Pricing pages design](https://pricingpages.design) - A collection of pricing pages from various SaaS companies, to get inspiration on how to present your offers.
+
 ## Business Intelligence
 
 As stakeholder of the billing pipeline, you sat on all the critical data to measure and report on the health of the business.
