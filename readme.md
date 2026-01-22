@@ -739,6 +739,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [Product Development as Iterated Taste](https://commoncog.com/product-development-iterated-taste/) - AWS sacrificed the simplicity of subscription pricing for S3 and went instead with a safe cost-following strategy because they had no clue how the users will use their service.
 
+- [Israel demanded Google and Amazon use secret ‘wink’ to sidestep legal orders](https://www.theguardian.com/us-news/2025/oct/29/google-amazon-israel-contract-secret-code#how-the-secret-code-works) - Invoicing of random fees with coded amounts were used as a hidden signal to bypass legal obligations. Maybe that's why you need a flexible billing system after all.
+
 - [£sd computing](https://en.wikipedia.org/wiki/%C2%A3sd#Computing) - The IBM 1401 mainframe (1959) optionally supported pounds/shillings/pence (£sd) currency arithmetics in hardware.
 
 - [Engineering and Operations in the Bell System](http://bitsavers.trailing-edge.com/communications/westernElectric/books/Engineering_and_Operations_in_the_Bell_System_2ed_1984.pdf) - Starting at page #445, the "10.5 Billing Equipment and Systems" section describe the history and technical evolutions of Bell's phone calls metering and pricing.
