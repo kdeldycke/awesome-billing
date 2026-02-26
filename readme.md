@@ -161,6 +161,8 @@ Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
 - [`f-license`](https://github.com/furkansenharputlu/f-license) - Open-source license key generation and verification tool in Go.
 
+- [LastSaaS](https://github.com/jonradoff/lastsaas) - Open-source SaaS platform with Stripe billing integration including Checkout, Billing Portal, subscription management, credit bundles, and promotion codes. Go + React + MongoDB. MIT license.
+
 ### Hybrid
 
 Uncommon pricing schemes.
