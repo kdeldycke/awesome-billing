@@ -419,6 +419,8 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 ### European VAT
 
+- [eu-vat-rates-data](https://github.com/vatnode/eu-vat-rates-data-js) - EU VAT rates for all 27 member states + UK, fetched daily from the official European Commission TEDB and published automatically when rates change. Available for JavaScript, Python, PHP, Go, and Ruby.
+
 - [How to correctly setup SaaS subscriptions to charge VAT in Europe](https://medium.com/slight-pause/how-to-setup-saas-subscriptions-correctly-to-charge-vat-in-europe-d75d857b5d01) - “If you think you can just setup a simple Stripe integration and move on, like us, you'd be sadly mistaken.”
 
 <!--lint disable double-link-->
