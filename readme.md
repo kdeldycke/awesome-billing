@@ -721,6 +721,10 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - “You need a slightly more sophisticated developer team to cobble together a billing platform” ([source](https://www.techemails.com/i/124009734/google-pms-on-stripe)) - Google's Product Director take on building billing systems: you need a certain kind of engineers to tackle that domain. It is not for everyone.
 
+- [StackData SaaS Pricing Comparison](https://greg-rg-git.github.io/stackdata-store/tools/compare/) - Free interactive tool comparing pricing tiers across 128 B2B SaaS tools in 16 categories.
+
+- [StackData SaaS Pricing Dataset](https://github.com/Greg-RG-GIT/stackdata-store/releases/tag/v1.0-sample) - Free CSV sample with verified pricing for 78 SaaS tools across 13 categories (March 2026).
+
 ### Cloud providers
 
 - [AWS Cost Management announcements](https://aws.amazon.com/about-aws/whats-new/aws-cost-management/) - The source of all new features added to the billing perimeter.
