@@ -429,6 +429,8 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
 
+- [VerdeDesk](https://verdedesk.vercel.app) - Free Portugal freelancer tax guides and calculator covering IRS, VAT, social security, and green receipts (recibos verdes) for self-employed workers.
+
 ## Invoice
 
 The invoice materialize a consumed service or purchased product, waiting to be settled by a payment transaction.
