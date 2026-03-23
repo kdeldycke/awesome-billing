@@ -1,0 +1,11 @@
+[tool.repomatic]
+exclude = [
+    "changelog",
+    "labels",
+    "renovate",
+    "workflows/changelog.yaml",
+    "workflows/release.yaml",
+    "workflows/debug.yaml",
+    "workflows/renovate.yaml",
+    "skills",
+]
