@@ -113,9 +113,9 @@ There's also some specific rules depending on the list:
 Items are roughly ordered like so:
 
 1. At first we'll find content appealing to software developers or new managers. We're reaching for accessibility and targets the wider audience and provide a gentle introduction.
-1. Then we can have a couple of real use-cases or anecdotes, which makes the subject more hands-on and relatable.
-1. Third we might add a couple of reference material to generalize concepts, provide methodical solutions and expose broader thinking frameworks.
-1. At the end comes the most cynical or bleak content, which have some utility as cautionary tales, or as warning signals of deteriorating conditions.
+2. Then we can have a couple of real use-cases or anecdotes, which makes the subject more hands-on and relatable.
+3. Third we might add a couple of reference material to generalize concepts, provide methodical solutions and expose broader thinking frameworks.
+4. At the end comes the most cynical or bleak content, which have some utility as cautionary tales, or as warning signals of deteriorating conditions.
 
 ### [`awesome-falsehood`](https://github.com/kdeldycke/awesome-falsehood): candidates
 
