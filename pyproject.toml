@@ -1,23 +1,20 @@
+[tool.gitleaks]
+[tool.gitleaks.allowlist]
+description = "Twitter status IDs false positives"
+commits = [
+    "5b54ac1befb7a768a18b2abd4a7b091766ee7609",
+    "4607e5923f1889ce5136b1a6bdfbddd769cd7fc3",
+    "1cfd0513359a5ce20b538b6a637d40c4cc50a37f",
+]
+
 [tool.lychee]
 # Skip archive.ph and Sci-Hub because they restrict access to crawlers.
 # Skip HN because of rate-limiting.
 # See: https://github.com/lycheeverse/lychee/issues/989#issuecomment-1587208730
 # https://github.com/lycheeverse/lychee/pull/1147
 exclude = [
-    "archive.ph",
-    "sci-hub.st",
-    "ycombinator.com",
-    "x.com",
-]
-
-[tool.repomatic]
-exclude = [
-    "changelog",
-    "labels",
-    "renovate",
-    "workflows/changelog.yaml",
-    "workflows/release.yaml",
-    "workflows/debug.yaml",
-    "workflows/renovate.yaml",
-    "skills",
+    "archive\\.ph",
+    "sci-hub\\.st",
+    "ycombinator\\.com",
+    "x\\.com",
 ]
