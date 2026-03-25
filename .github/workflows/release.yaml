@@ -1,0 +1,20 @@
+---
+name: 🚀 Build & release
+"on":
+  push:
+    branches:
+      - main
+  pull_request:
+    branches-ignore:
+      - prepare-release
+      - "renovate/**"
+  workflow_dispatch:
+
+jobs:
+
+  release:
+    uses: kdeldycke/repomatic/.github/workflows/release.yaml@v6.7.0
+    secrets:
+      PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+      REPOMATIC_PAT: ${{ secrets.REPOMATIC_PAT }}
+      WORKFLOW_UPDATE_GITHUB_PAT: ${{ secrets.WORKFLOW_UPDATE_GITHUB_PAT }}
