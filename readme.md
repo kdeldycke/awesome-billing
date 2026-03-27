@@ -635,6 +635,8 @@ Best tools to automate fraud detection.
 
 - [Fraud in Telephony Networks](http://www.s3.eurecom.fr/docs/eurosp17_sahin.pdf) - Most of telephony frauds gravitates around billing and the metering of micro-transactions. This paper feature a taxonomy (on page 6) differentiating the root causes, vulnerabilities, exploitation techniques, and the way fraudsters can benefits from them.
 
+- [BillingWatch](https://github.com/rmbell09-lang/BillingWatch) - Self-hosted Stripe webhook monitor with 7 real-time anomaly detectors (duplicate charges, revenue drops, fraud spikes, silent subscription lapses). Built with FastAPI + SQLite. Alerts via Slack, email, and Discord.
+
 ## UX/UI
 
 Users gets easily angry when it comes to money. UX and UI might helps a lot to reduce frustration.
