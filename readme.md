@@ -421,6 +421,8 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 - [Streamlined Sales Tax Governing Board](https://www.streamlinedsalestax.org/about-us/about-sstgb) - A multi-states US initiative to automate and standadize sales tax accounting and collection.
 
+- [OpenAccountants](https://github.com/openaccountants/openaccountants) - 371 open-source tax classification skills across 134 countries, covering VAT/GST, income tax, and social contributions. Bank statement classifier with conservative defaults and three-outcome model (Classified, Assumed, Needs Input).
+
 ### European VAT
 
 - [How to correctly setup SaaS subscriptions to charge VAT in Europe](https://medium.com/slight-pause/how-to-setup-saas-subscriptions-correctly-to-charge-vat-in-europe-d75d857b5d01) - “If you think you can just setup a simple Stripe integration and move on, like us, you'd be sadly mistaken.”
