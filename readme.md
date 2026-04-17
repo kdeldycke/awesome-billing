@@ -469,6 +469,8 @@ Once issued, an invoice must be immutable.
 
 - [klirr](https://github.com/sajjon/klirr) - Zero-maintenance and smart FOSS CLI tool for generating beautiful invoices for services and expenses.
 
+- [ZapInvoice](https://zapinvoice.web.app) - Free invoice generator for freelancers. Create, customize, and download PDF invoices instantly with no signup required.
+
 ### Extractors
 
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
