@@ -147,9 +147,9 @@ The dynamic scheme for elastic resources.
 
 - [Electropedia: Tariffs for electricity](https://www.electropedia.org/iev/iev.nsf/index?openform&part=691) - Before the cloud, there was another metered resource priced by its usage: electricity. Here is a detailed (and multi-lingual) taxonomy of its vocabulary from the International Electrotechnical Commission.
 
-- [Lago](https://github.com/getlago/lago) - Open-source metering & usage-based billing in Ruby.
+- [Lago](https://github.com/getlago/lago) - 💸 Open-source metering & usage-based billing in Ruby. Lago SAS sells a hosted Cloud and Premium add-ons on top of the AGPL core.
 
-- [CGRateS](https://github.com/cgrates/cgrates) - An open-source, fast (50k+ CPS) and scalable (load-balancer + replication included) real-time billing for ISPs and Telecom Operators, written in Go.
+- [CGRateS](https://github.com/cgrates/cgrates) - 🆓 An open-source, fast (50k+ CPS) and scalable (load-balancer + replication included) real-time billing for ISPs and Telecom Operators, written in Go. Vendor-neutral, support-only commercial model.
 
 ### Subscription Plans
 
@@ -157,9 +157,9 @@ Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
 - [Pricing low-touch SaaS](https://stripe.com/en-in/atlas/guides/saas-pricing) - “In low-touch SaaS, the most common way packages are presented are as different columns in a pricing grid, with each column corresponding to a plan, offered at a different price, with differential access to features or maximum allowable usage along some axis interesting to the business.”
 
-- [Lotus](https://github.com/uselotus/lotus) - Open-source project to manage pricing & packaging infrastructure.
+- [Lotus](https://github.com/uselotus/lotus) - 💸 Open-source project to manage pricing & packaging infrastructure. Lotus Inc. monetizes via a hosted Cloud offering.
 
-- [`f-license`](https://github.com/furkansenharputlu/f-license) - Open-source license key generation and verification tool in Go.
+- [`f-license`](https://github.com/furkansenharputlu/f-license) - 🆓 Open-source license key generation and verification tool in Go. Solo-maintainer project, no commercial offering.
 
 ### Hybrid
 
@@ -205,21 +205,15 @@ The central repository of all available services, products, variants, options an
 
 - [GCP Product Catalog](https://cloud.google.com/blog/products/gcp/introducing-cloud-billing-catalog-api-gcp-pricing-in-real-time) - All GCP SKUs available as an API.
 
-- [Akeneo PIM](https://github.com/akeneo/pim-community-dev) - The open-source variant of the commercial Akeneo products.
-
-- [Pimcore](https://github.com/pimcore/pimcore) - An open-source UI and database to manage product metadata, written in PHP Symfony.
-
-- [OpenPIM](https://github.com/openpim) - A streamlined open-source project, focusing on PIM-only features.
-
-- [Comparing 3 open source PIM solutions](https://medium.com/@slavapedak/comparing-3-free-and-open-source-product-information-management-pim-solutions-e83a1898f91e) - Comparative study of the 3 projects above.
+- [Pimcore](https://github.com/pimcore/pimcore) - 💸 An open-source UI and database to manage product metadata, written in PHP Symfony. Pimcore GmbH sells Enterprise Subscription, PaaS, and proprietary modules on top of the GPL/POCL core.
 
 ## Calculator
 
 Simulate a virtual invoice depending on the resource you plan to use.
 
-- [Cloudorado](https://www.cloudorado.com) - A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit.
+- [Cloudorado](https://www.cloudorado.com) - 💸 A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit. Operated by Cloudorado as a commercial cloud-comparison product.
 
-- [EC2Instances.info](https://ec2instances.info) - Easy Amazon EC2 Instance Comparison.
+- [EC2Instances.info](https://ec2instances.info) - 💸 Easy Amazon EC2 Instance Comparison. Operated by Vantage as a free lead-gen surface for its commercial FinOps platform.
 
 ## Cost Forecast
 
@@ -231,15 +225,13 @@ Help your customers predict their upcoming and future consumption based on their
 
 - [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices) - Great introduction on how time series can be used to evaluate business problems.
 
-- [Forecasting with sktime](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb) - A more detailed tutorial on how to use past data to make temporal forward predictions. And be aware of the [differences between sktime and the Prophet project](https://news.ycombinator.com/item?id=24543861) mentioned in the article above.
+- [`sktime`](https://github.com/alan-turing-institute/sktime) - 🆓 Python library for time-series machine learning, governed by the Alan Turing Institute. See the [forecasting tutorial](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb) and the [differences between sktime and the Prophet project](https://news.ycombinator.com/item?id=24543861).
 
-- [Darts](https://github.com/unit8co/darts) - Python library for user-friendly forecasting and anomaly detection on time series. It wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the [models in Darts expects](https://news.ycombinator.com/item?id=37665435) that your data comes at a very regular interval, and make a lot of assumptions about their shape.
+- [Darts](https://github.com/unit8co/darts) - 💸 Python library for user-friendly forecasting and anomaly detection on time series, stewarded by Unit8 SA as a portfolio project for its paid consulting. Wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the [models in Darts expects](https://news.ycombinator.com/item?id=37665435) that your data comes at a very regular interval, and make a lot of assumptions about their shape.
 
-- [Komiser](https://github.com/mlabouardy/komiser) - Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.
+- [Komiser](https://github.com/mlabouardy/komiser) - 💸 Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations. Tailwarden sells a hosted SaaS on top.
 
 - [GCP Cost Forecast](https://cloud.google.com//billing/docs/how-to/reports#cost-forecast) - An example of consumption trend line for resource consumption.
-
-- [AWS Forecast](https://aws.amazon.com/forecast/) - A full-featured hosted product to perform forecasting on any time-series.
 
 - [How to save money on your AWS bill](https://threadreaderapp.com/thread/1091041507342086144.html) - “The biggest cost savings there are: 1. Turning things off that you're not using; 2. Then spot instances; 3. Then reserved instances.”
 
@@ -287,17 +279,15 @@ This sub-section focus on bid/ask mechanism matching resource producer with cons
 
 - [The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html) - When you're big enough that [creating an internal secondary market](https://medium.com/netflix-techblog/creating-your-own-ec2-spot-market-6dd001875f5) for instances makes economic sense.
 
-- [AutoSpotting](https://github.com/AutoSpotting/AutoSpotting) - Tool that easily and reliably converts (all) your existing AutoScaling groups to cheaper spot instances.
-
 ### Online Ads
 
 Targeted online advertisements marketplaces have a lot in common with traditional cloud marketplace. Some good inspiration there, from concepts to tech.
 
-- [RTB Budget Pacing Summarized](https://github.com/PragmaticLab/RTB_Budget_Pacing_Summarized) - A collection of budget pacing resources for targeted online advertisements.
+- [RTB Budget Pacing Summarized](https://github.com/PragmaticLab/RTB_Budget_Pacing_Summarized) - A reading list distilling research papers from Turn Inc., Yahoo, and LinkedIn on RTB budget pacing techniques. Static resource: dated but still a useful entry point into the literature.
 
 - [Samsung's online ads platform/exchange war story](https://github.com/eloraiby/fs-pacer/blob/master/fs-pacer.md) - How to scale to 5M bid request/s, 2ms Max Response Time.
 
-- [`RTB4Free`](https://github.com/RTB4FREE) - Open Source Bidder and Demand Side Platform (DSP).
+- [`RTB4Free`](https://github.com/RTB4FREE) - 🆓 Apache-2.0 OpenRTB 2.0-compliant bidder and Demand Side Platform (DSP). Largely dormant since late 2022, but the only OSS DSP reference in this niche.
 
 ## Accounting
 
@@ -325,21 +315,17 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 
-- And a list of graphical accounting tools: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
+- 🆓 A list of graphical accounting tools, all community-maintained OSS without paid editions: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
 
 - [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 
-- [Frappe Books](https://github.com/frappe/books) - Free Desktop book-keeping software for small-businesses and freelancers.
+- [Frappe Books](https://github.com/frappe/books) - 🆓 Free desktop book-keeping software for small-businesses and freelancers, with no paid edition.
 
-- [Luca](https://github.com/brandon-rhodes/luca) - YAML accounting and JSON tax forms.
+- [Luca](https://github.com/brandon-rhodes/luca) - 🆓 YAML accounting and JSON tax forms, solo-maintained.
 
-- [Sequence](https://github.com/decimals/sequence) - API that store, validate and reports asset movements. Also known as a Ledger. Sequence is immutable, scalable, and easy to use.
+- [Go DB Ledger](https://github.com/darcys22/godbledger) - 🆓 Open source accounting system that aims to make the recording of double entry bookkeeping transactions programmable.
 
-- [Go DB Ledger](https://github.com/darcys22/godbledger) - An open source accounting system that aims to make the recording of double entry bookkeeping transactions programmable.
-
-- [Ledger](https://github.com/numary/ledger) - A scriptable financial ledger, designed to make it easy to model complex financial transactions.
-
-- [Akaunting](https://github.com/akaunting/akaunting) - Open source software designed for small businesses and freelancers.
+- [Formance Ledger](https://github.com/formancehq/ledger) - 💸 MIT-licensed programmable double-entry ledger with the Numscript DSL, multi-currency, REST API, and Docker deployment usable standalone. Formance sells Enterprise add-ons (Wallets, Flows, Reconciliation, pre-built connectors, SSO, RBAC, audit logs) on top, but the core ledger is fully functional in OSS.
 
 ### Software design and implementation
 
@@ -349,11 +335,11 @@ Now that you're somewhat familiar with the concepts and practice of accounting, 
 
 - [Books, an immutable double-entry accounting database service](https://developer.squareup.com/blog/books-an-immutable-double-entry-accounting-database-service/) - Explain the basic data model of a double-entry accounting system relying on Google Spanner for internal use at Square.
 
-- [TigerBeetle](https://github.com/coilhq/tigerbeetle) - A distributed financial accounting database to ensure that the money either moves, or doesn't move, that it doesn't get lost somewhere in between. It has been [tested on Jepsen](https://jepsen.io/analyses/tigerbeetle-0.16.11), which tested its strong serializability.
+- [TigerBeetle](https://github.com/tigerbeetle/tigerbeetle) - 🆓 A distributed financial accounting database to ensure that the money either moves, or doesn't move, that it doesn't get lost somewhere in between. All features are in the Apache-2.0 OSS repo; TigerBeetle Inc. sells managed hosting and support, not gated features. It has been [tested on Jepsen](https://jepsen.io/analyses/tigerbeetle-0.16.11), which tested its strong serializability.
 
-- [Django Hordak](https://django-hordak.readthedocs.io) - Core functionality of a double entry accounting system for Django.
+- [Django Hordak](https://github.com/adamcharnock/django-hordak) - 🆓 Core functionality of a double entry accounting system for Django, single-maintainer MIT library.
 
-- [Managed accounts for Django](https://github.com/django-oscar/django-oscar-accounts) - A 'managed account' is an allocation of money that can be debited and credited.
+- [Managed accounts for Django](https://github.com/django-oscar/django-oscar-accounts) - 🆓 A 'managed account' is an allocation of money that can be debited and credited. Community-maintained django-oscar extension.
 
 - [Triple‐entry accounting with Blockchain: How far have we come?](https://sci-hub.st/10.1111/acfi.12556) - “Triple‐entry accounting is a new and a more efficient way to address fundamental trust and transparency issues that plague current accounting systems. Triple‐entry accounting with Blockchain, when properly implemented, can fundamentally improve accounting.”
 
@@ -413,7 +399,7 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 - [2017 Tax Software Developer's Guides](https://web.archive.org/web/20240227073911/https://www.mass.gov/lists/2017-tax-software-developers-guides) - A list of test cases for developers to test their tax code against.
 
-- [{Digital,Cloud,Electronic,Online} Services VAT Rate Database](https://github.com/kdeldycke/vat-rates) - Centralize applicable VAT rates on foreign online services, for each country of residence (including territorial exceptions).
+- [{Digital,Cloud,Electronic,Online} Services VAT Rate Database](https://github.com/kdeldycke/vat-rates) - 🆓 Centralize applicable VAT rates on foreign online services, for each country of residence (including territorial exceptions).
 
 - [Global VAT & GST on digital services](https://www.avalara.com/vatlive/en/global-vat-gst-on-e-services.html) - List of countries requiring application of taxes on foreign provided online services.
 
@@ -459,19 +445,19 @@ Once issued, an invoice must be immutable.
 
 ### Generators
 
-- [Manta](https://github.com/hql287/Manta) - Flexible invoicing desktop app with beautiful & customizable templates.
+- [Manta](https://github.com/hql287/Manta) - 🆓 Flexible invoicing desktop app with beautiful & customizable templates.
 
-- [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - A self-hosted open-source application for managing your invoices, clients and payments.
+- [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - 🆓 A self-hosted open-source application for managing your invoices, clients and payments. Community project, no paid edition.
 
-- [InvoiceGenerator](https://github.com/by-cx/InvoiceGenerator) - Library to generate a simple invoices.
+- [InvoiceGenerator](https://github.com/by-cx/InvoiceGenerator) - 🆓 Python library to generate simple invoices.
 
-- [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
+- [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - 🆓 For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
 
-- [klirr](https://github.com/sajjon/klirr) - Zero-maintenance and smart FOSS CLI tool for generating beautiful invoices for services and expenses.
+- [klirr](https://github.com/sajjon/klirr) - 🆓 Zero-maintenance FOSS CLI tool for generating beautiful invoices for services and expenses.
 
 ### Extractors
 
-- [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - Deep neural network to extract intelligent information from invoice documents.
+- [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - 🆓 Deep neural network to extract intelligent information from invoice documents.
 
 ### Electronic invoices
 
@@ -479,11 +465,11 @@ Once issued, an invoice must be immutable.
 
 - [EU eInvoicing](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+HUB) - European standard on electronic invoice.
 
-- [Factur-X](https://github.com/akretion/factur-x) - Python library to support the e-invoicing standard for France and Germany.
+- [Factur-X](https://github.com/akretion/factur-x) - 🆓 Python library to support the e-invoicing standard for France and Germany.
 
 - [Universal Business Language](https://en.wikipedia.org/wiki/Universal_Business_Language) - Most invoicing software can read and write UBL documents (XML) for data transfer.
 
-- [GOBL](https://gobl.org) - JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one.
+- [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
 ## Payments
 
@@ -505,11 +491,11 @@ Once issued, an invoice must be immutable.
 
 - [Why was I charged?](https://wpchrg.wordpress.com) - Under a constant stream of user complaints about payments, WordPress created a dedicated subdomains to help customers understand unexpected transactions. The trick was to add this URL directly in the bank statement.
 
-- [Hyperswitch](https://github.com/juspay/hyperswitch) - Open-source backend for payment processing.
+- [Hyperswitch](https://github.com/juspay/hyperswitch) - 💸 Open-source backend for payment processing. Juspay sells Hyperswitch Cloud and a self-host Enterprise edition; the OSS is functionally complete with 90+ connectors, vault, routing, 3DS, and fraud orchestration.
 
-- [moov](https://github.com/moov-io) - Open-source infrastructure for financial technology.
+- [moov](https://github.com/moov-io) - 🆓 Suite of Apache-2.0 libraries for financial technology, including [`moov-io/ach`](https://github.com/moov-io/ach), [`iso8583`](https://github.com/moov-io/iso8583), and [`watchman`](https://github.com/moov-io/watchman). No paid product on top.
 
-- [Fintech Open Source Foundation](https://github.com/finos) - Another set of open-source projects for financial projects.
+- [Fintech Open Source Foundation](https://github.com/finos) - 🆓 Linux Foundation project hosting open-source projects for financial services.
 
 ### Receipt
 
@@ -529,19 +515,17 @@ The most popular payment device.
 
 - [Address Verification System](https://en.wikipedia.org/wiki/Address_Verification_System) - A system checking the matching of customer's billing addresses with the one associated with the credit card.
 
-- [pci-blackbox](https://github.com/pjfoley/pci-blackbox) - PCI-DSS compliant card system built on PostgreSQL and PL/pgSQL.
-
 ### Bank Accounts
 
 The old-fashioned way of payment: by the way of banks.
 
 - [A (shallow) dive into the American banking system](https://blog.yossarian.net/2019/12/25/A-shallow-dive-into-the-American-banking-system) - Collection of miscellaneous notes primarily focused on the common cases of routable accounts, i.e. checking and savings.
 
-- [Open IBAN](https://openiban.com) - Free and public IBAN validation and calculation webservice.
+- [Open IBAN](https://openiban.com) - 🆓 Free and public IBAN validation and calculation webservice.
 
 - [Swift Codes](https://bank.codes/swift-code/) - Swift / BIC codes for personal use only.
 
-- [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - A repository that seems to scrape the website above.
+- [Swift Codes Repository](https://github.com/PeterNotenboom/SwiftCodes) - 🆓 Static JSON dataset of SWIFT/BIC codes for banks worldwide, scraped from the site above. Last refreshed in 2019 but still the largest free reference; SWIFT codes change slowly so the data remains broadly usable.
 
 - [EPC QR code](https://en.wikipedia.org/wiki/EPC_QR_code) - EU standard for QR codes used to transfer money between bank accounts via SEPA.
 
@@ -579,9 +563,9 @@ There's monetary incentives to exploit your business. Be prepared to fight horde
 
 - [Awesome Fraud Detection Research Papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) - Papers sourced from several conferences on all sort of fraud: credit card, payment transactions, loans, customs inspections, money laundering networks, and more.
 
-- [Tazama](https://github.com/tazama-lf) - Open-source real-time transaction monitoring software for fraud and money laundering detection. This is just an engine to define rules, wight them, and apply them to transactions. There is nothing specific to payments or financial transactions.
+- [Tazama](https://github.com/tazama-lf) - 🆓 Open-source real-time transaction monitoring software for fraud and money laundering detection, governed by the Tazama Linux Foundation project. This is just an engine to define rules, weight them, and apply them to transactions. There is nothing specific to payments or financial transactions.
 
-- [Mojaloop Fraud Risk Management](https://github.com/mojaloop/fraud_risk_management/tree/master/typology-214/src/rules) - Some examples of AML rules.
+- [Mojaloop Fraud Risk Management](https://github.com/mojaloop/fraud_risk_management/tree/master/typology-214/src/rules) - 🆓 Concrete AML rule implementations from the Mojaloop Foundation: transaction mirroring (90-100% amount-match window), multi-tier payee-graph traversal for layering detection, account-dormancy reactivation, large-transaction-payer, new-payee-transfer. Repo is archived but the rules are static reference material rarely seen elsewhere in OSS.
 
 ### Cards
 
@@ -685,9 +669,7 @@ How much value do you produce per customer? The Customer Lifetime Value (CLV, or
 
 - [Churn Prediction](https://towardsdatascience.com/customer-churn-prediction-with-text-and-interpretability-bd3d57af34b1/) - “How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.” Relies on XGBoost binary classification.
 
-- [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) - A full-featured Python package to analyze your users based on their "alive" and "dead" states.
-
-- [`retentionizer`](https://github.com/chrisclark/retentionizer) - Python package to show the projected retention rates for each cohort and calculate the LTV of a given customer in that cohort.
+- [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) - 💸 A full-featured Python package to analyze your users based on their "alive" and "dead" states. Apache-2.0 library stewarded by PyMC Labs (commercial consultancy selling services around it).
 
 ### Data Engineering
 
@@ -713,13 +695,11 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 
 - [Practical Business Python](https://pbpython.com) - A blog collecting and spreading ideas on how to use Python more effectively in the business setting.
 
-- [`redash`](https://github.com/getredash/redash) - Connect and query your data sources, build dashboards to visualize data and share them with your company.
+- [`redash`](https://github.com/getredash/redash) - 💸 Connect and query your data sources, build dashboards to visualize data and share them with your company. Owned by Databricks; the hosted SaaS shut down in 2021 and the project is now community-maintained under the Databricks org.
 
-- [Metabase](https://github.com/metabase/metabase) - An open source solution to explore and visualize data and supports lots of databases.
+- [Apache Superset](https://github.com/apache/superset) - 🆓 Enterprise-ready business intelligence web application, governed by the Apache Software Foundation.
 
-- [Apache Superset](https://github.com/apache/incubator-superset) - Enterprise-ready business intelligence web application.
-
-- [Meltano](https://github.com/meltano/meltano) - Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it.
+- [Meltano](https://github.com/meltano/meltano) - 💸 Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it. Meltano sells a managed Cloud and support SLA.
 
 ## Competitive Analysis
 
