@@ -157,7 +157,7 @@ Highly popular for SaaS businesses, subscription plans are easy to comprehend.
 
 - [Pricing low-touch SaaS](https://stripe.com/en-in/atlas/guides/saas-pricing) - “In low-touch SaaS, the most common way packages are presented are as different columns in a pricing grid, with each column corresponding to a plan, offered at a different price, with differential access to features or maximum allowable usage along some axis interesting to the business.”
 
-- [Lotus](https://github.com/uselotus/lotus) - 💸 Open-source project to manage pricing & packaging infrastructure. Lotus Inc. monetizes via a hosted Cloud offering.
+- [Lotus](https://github.com/uselotus/lotus) - 🆓 Open-source project to manage pricing & packaging infrastructure. Lotus Inc. only sells managed hosting on top of the MIT core.
 
 - [`f-license`](https://github.com/furkansenharputlu/f-license) - 🆓 Open-source license key generation and verification tool in Go. Solo-maintainer project, no commercial offering.
 
@@ -227,7 +227,7 @@ Help your customers predict their upcoming and future consumption based on their
 
 - [`sktime`](https://github.com/alan-turing-institute/sktime) - 🆓 Python library for time-series machine learning, governed by the Alan Turing Institute. See the [forecasting tutorial](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb) and the [differences between sktime and the Prophet project](https://news.ycombinator.com/item?id=24543861).
 
-- [Darts](https://github.com/unit8co/darts) - 💸 Python library for user-friendly forecasting and anomaly detection on time series, stewarded by Unit8 SA as a portfolio project for its paid consulting. Wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the [models in Darts expects](https://news.ycombinator.com/item?id=37665435) that your data comes at a very regular interval, and make a lot of assumptions about their shape.
+- [Darts](https://github.com/unit8co/darts) - 🆓 Python library for user-friendly forecasting and anomaly detection on time series, stewarded by Unit8 SA which only sells consulting around it (no paid library tier). Wraps a huge number of models, including [Prophet](https://facebook.github.io/prophet/). Great for experiments, but bear in mind that all the [models in Darts expects](https://news.ycombinator.com/item?id=37665435) that your data comes at a very regular interval, and make a lot of assumptions about their shape.
 
 - [Komiser](https://github.com/mlabouardy/komiser) - 💸 Open-source tool to stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations. Tailwarden sells a hosted SaaS on top.
 
@@ -669,7 +669,7 @@ How much value do you produce per customer? The Customer Lifetime Value (CLV, or
 
 - [Churn Prediction](https://towardsdatascience.com/customer-churn-prediction-with-text-and-interpretability-bd3d57af34b1/) - “How to use Python in a simplistic way to fuel your company's growth by applying the predictive approach to all your actions.” Relies on XGBoost binary classification.
 
-- [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) - 💸 A full-featured Python package to analyze your users based on their "alive" and "dead" states. Apache-2.0 library stewarded by PyMC Labs (commercial consultancy selling services around it).
+- [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) - 🆓 A full-featured Python package to analyze your users based on their "alive" and "dead" states. Apache-2.0 library stewarded by PyMC Labs, which only sells consulting services around it (no paid library tier).
 
 ### Data Engineering
 
@@ -695,11 +695,11 @@ Software to build visualizations, dashboards, SQL queries and drill down into da
 
 - [Practical Business Python](https://pbpython.com) - A blog collecting and spreading ideas on how to use Python more effectively in the business setting.
 
-- [`redash`](https://github.com/getredash/redash) - 💸 Connect and query your data sources, build dashboards to visualize data and share them with your company. Owned by Databricks; the hosted SaaS shut down in 2021 and the project is now community-maintained under the Databricks org.
+- [`redash`](https://github.com/getredash/redash) - 🆓 Connect and query your data sources, build dashboards to visualize data and share them with your company. Owned by Databricks but the hosted SaaS shut down in 2021, so the project is now community-maintained under the Databricks org with no paid Redash product.
 
 - [Apache Superset](https://github.com/apache/superset) - 🆓 Enterprise-ready business intelligence web application, governed by the Apache Software Foundation.
 
-- [Meltano](https://github.com/meltano/meltano) - 💸 Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it. Meltano sells a managed Cloud and support SLA.
+- [Meltano](https://github.com/meltano/meltano) - 🆓 Open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it. Meltano only sells managed Cloud hosting and support SLA on top of the OSS core.
 
 ## Competitive Analysis
 
