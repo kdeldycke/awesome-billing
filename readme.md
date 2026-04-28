@@ -15,7 +15,7 @@
     </picture>
     <br/>
     <strong>Real-time monetization infrastructure for AI.</strong><br/>
-    Usage-based metering, prepaid wallets, and a drop-in billing portal for AI products.
+    Bill in real time, charge from prepaid balances, and ship a branded customer portal without writing frontend.
   </a>
   <br/><br/>
 </p>
