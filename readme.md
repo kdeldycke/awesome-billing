@@ -7,6 +7,24 @@
 </p>
 
 <p align="center">
+  <sup>This list is <a href="#sponsor-def">sponsored<sup id="sponsor-ref">[0]</sup></a> by:</sup><br>
+</p>
+
+<p align="center">
+  <a href="https://credyt.ai/?utm_source=awesome-billing&utm_medium=referral&utm_campaign=awesome-billing-oss-sponsorship">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-dark-background.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-light-background.svg">
+      <img width="300" src="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-light-background.svg">
+    </picture>
+    <br/>
+    <strong>Real-time monetization infrastructure for AI.</strong><br/>
+    Usage-based metering, prepaid wallets, and a drop-in billing portal for AI products.
+  </a>
+  <br/><br/>
+</p>
+
+<p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
     <strong>Your brand → here 🚀</strong>
     <br/>
@@ -756,5 +774,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets/awesome-billing-header.jpg) is based on a modified [photo](https://unsplash.com/photos/u2zSzMTwIjQ) by [Denny Müller](https://unsplash.com/@redaquamedia).
 
 <!--lint disable no-undefined-references-->
+
+<a name="sponsor-def">[0]</a>: You can <a href="https://github.com/sponsors/kdeldycke">add your Billing product in the list of sponsors via a GitHub sponsorship</a>. [[↑]](#sponsor-ref)
 
 <a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://www.amazon.com/dp/0062316095?_encoding=UTF8&psc=1&linkCode=ll1&tag=kevideld-20&linkId=71ccb002da0dbe49c502954960175b66&language=en_US&ref_=as_li_ss_tl) (Harper, 2015). [[↑]](#intro-quote-ref)
