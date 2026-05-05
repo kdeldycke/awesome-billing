@@ -485,6 +485,8 @@ Once issued, an invoice must be immutable.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
+- [eleata Peppol API](https://peppol.eleata.io) - 💸 Hosted REST API + SDKs (Node, Python, Go) + GitHub Action wrapping Mustang for Peppol BIS 3, XRechnung, Factur-X (with native PDF/A-3 extraction), and UBL validation. Complements the self-hosted libraries already listed by adding a CI-friendly endpoint without a JVM dependency. Free tier 200/month.
+
 ## Payments
 
 - [The Best Payment Gateway for Startups](https://web.archive.org/web/20230204235716/http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
