@@ -485,6 +485,8 @@ Once issued, an invoice must be immutable.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
+- [Ma Facturation Electronique](https://mafacturation-electronique.fr/annuaire-pdp) - French B2B e-invoicing mandatory reform (Sept. 2026): directory of approved PDP (Plateformes de Dématérialisation Partenaires), compliance calendar, and guides for SMEs and sole traders.
+
 ## Payments
 
 - [The Best Payment Gateway for Startups](https://web.archive.org/web/20230204235716/http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
