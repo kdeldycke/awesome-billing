@@ -433,6 +433,10 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
 
+- [eu-vat-rates-data](https://github.com/vatnode/eu-vat-rates-data) - 🆓 Machine-readable VAT rates for 44 European countries (standard, reduced, super-reduced, parking), auto-synced daily from the European Commission's TEDB. Published to npm, PyPI, Packagist, RubyGems, and Go modules.
+
+- [vatnode](https://vatnode.dev) - EU VAT number validation API returning VIES consultation numbers, `checkId`, and `verifiedAt` for audit-ready reverse-charge invoicing.
+
 ## Invoice
 
 The invoice materialize a consumed service or purchased product, waiting to be settled by a payment transaction.
