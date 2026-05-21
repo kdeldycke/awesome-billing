@@ -137,6 +137,8 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 
 The dynamic scheme for elastic resources.
 
+- [Credyt](https://credyt.ai/?utm_source=awesome-billing&utm_medium=referral&utm_campaign=awesome-billing-oss-sponsorship) - Real-time monetization infrastructure for AI products: meter usage, charge from prepaid balances, and ship a branded customer portal without writing frontend. Commercial SaaS.
+
 - [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - “The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone's best interest.” Also details issues with other pricing models.
 
 - [Use-cases for cloud services](https://news.ycombinator.com/item?id=19830022) - The reason usage-based pricing makes even more sense for cloud services: to optimize ROI, keep all regular workload in traditional architecture and reserve cloud computing for elastic and experimental projects.
