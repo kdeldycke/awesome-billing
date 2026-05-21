@@ -269,6 +269,8 @@ In addition to [archived repositories](#why-removes-inactive-github-projects), w
 
 Acquisitions that result in the OSS repo being maintained-but-not-developed (Dependabot bumps and copyright touch-ups only, with the company's roadmap on a successor commercial product) are also grounds for removal in overcrowded sections.
 
+Category-wide obsolescence is also grounds for wholesale removal, even when individual projects in the category still meet the baseline criteria. When a paradigm shift makes a class of tools collectively redundant, the whole sub-section may be pruned rather than evaluated project-by-project. The historical entries can be recovered from git history if the paradigm reverses.
+
 ### Why my link was rejected?
 
 If your link was rejected, it must have been motivated and explained to the contributor as a comment to your PR.
