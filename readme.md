@@ -461,6 +461,8 @@ Once issued, an invoice must be immutable.
 
 ### Generators
 
+- [Invoice Chaser](https://ttcd77.github.io/invoice-chaser-templates/) - 💸 Invoice follow-up tool for freelancers: 5-stage email reminder system and interactive tracking dashboard. Free demo; full template pack for $9 one-time.
+
 - [Manta](https://github.com/hql287/Manta) - 🆓 Flexible invoicing desktop app with beautiful & customizable templates.
 
 - [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - 🆓 A self-hosted open-source application for managing your invoices, clients and payments. Community project, no paid edition.
