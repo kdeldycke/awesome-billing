@@ -422,6 +422,7 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 - “British supermarkets (…) charge you a fee for their backend card processing, but they subtract that fee from your checkout price.” ([source](https://news.ycombinator.com/item?id=22047028)) - Which allows them to [claim the VAT on processing fees as input tax](https://www.gov.uk/guidance/vat-guide-notice-700#section4).
 
 - [Streamlined Sales Tax Governing Board](https://www.streamlinedsalestax.org/about-us/about-sstgb) - A multi-states US initiative to automate and standadize sales tax accounting and collection.
+- [US State Sales Tax 2026](https://github.com/receiptedit/us-sales-tax-2026) - Open MIT-licensed dataset of 2026 US state sales tax rates, lodging taxes (TOT, occupancy, tourism), and grocery taxation rules for all 50 states. CSV, JSON, and free public REST API.
 
 ### European VAT
 
