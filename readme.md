@@ -229,6 +229,8 @@ The central repository of all available services, products, variants, options an
 
 Simulate a virtual invoice depending on the resource you plan to use.
 
+- [Infracost](https://github.com/infracost/infracost) - 💸 Cloud cost estimates from Terraform code, surfaced as a breakdown in the terminal or as a diff in pull requests before resources are provisioned. Infracost Inc. sells a hosted dashboard (Infracost Cloud) on top of the Apache-2.0 CLI.
+
 - [Cloudorado](https://www.cloudorado.com) - 💸 A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit. Operated by Cloudorado as a commercial cloud-comparison product.
 
 - [EC2Instances.info](https://ec2instances.info) - 💸 Easy Amazon EC2 Instance Comparison. Operated by Vantage as a free lead-gen surface for its commercial FinOps platform.
