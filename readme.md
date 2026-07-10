@@ -493,6 +493,8 @@ Once issued, an invoice must be immutable.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
+- [Striptu](https://striptu.com) - 💸 Turns Stripe payments into compliant local e-invoices across 13 European countries, handling VAT and national e-invoicing mandates (Poland's KSeF, EU ViDA) through vetted local accounting partners.
+
 ## Payments
 
 - [The Best Payment Gateway for Startups](https://web.archive.org/web/20230204235716/http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
