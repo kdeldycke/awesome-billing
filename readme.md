@@ -569,6 +569,8 @@ The usual money transfer services.
 
 - [Optimizing payments with machine learning](https://dropbox.tech/machine-learning/optimizing-payments-with-machine-learning) - Describes a classic payment workflow, then how machine learning can replace hard-coded business rules and fine-tune the payment failures/retries loop to increase the success rates of charges.
 
+- [x402: Payments for AI Agents](https://agentservices.to) - HTTP-native payment protocol enabling autonomous agents to pay for API access with stablecoins. Production deployment serves 54 services, 97 endpoints, 41 x402-paid, with an MCP server exposing 37 tools for crypto/market data. Live at `agentservices.to`.
+
 ## Fraud
 
 There's monetary incentives to exploit your business. Be prepared to fight hordes of fraudsters and shady users.
