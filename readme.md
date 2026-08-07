@@ -375,15 +375,15 @@ Once you've got your accounts in order, you can start extracting insights and me
 
 <!--lint ignore balanced-punctuation-->
 
-- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://www.amazon.com/dp/0273744704?&linkCode=ll1&tag=kevideld-20&linkId=f491ee18c48fdaf3226904a39612cc22&language=en_US&ref_=as_li_ss_tl) - Helps you learn how to analyse and monitor your company's financial performance.
+- [Accounts Demystified: The Astonishingly Simple Guide To Accounting](https://openlibrary.org/isbn/0273744704) - Helps you learn how to analyse and monitor your company's financial performance.
 
 - [The Games People Play With Cash Flow](https://commoncog.com/blog/cash-flow-games/) - “Malone created a new accounting metric, something he called ‘earnings before interest, depreciation, and taxes’, or EBITDA.” This is how a cable company CEO made sense of cash flow, like real-estate business did. The article starts with this example and describes other cash flow games for SaaS models.
 
-- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://www.amazon.com/dp/1422119157?&linkCode=ll1&tag=kevideld-20&linkId=8d87e9235a1a05c4e0bec4b25230f28d&language=en_US&ref_=as_li_ss_tl) - Allows you to fully understand how to use financial data to make better decisions for your business.
+- [Financial Intelligence for Entrepreneurs: What You Really Need to Know About the Numbers](https://openlibrary.org/isbn/1422119157) - Allows you to fully understand how to use financial data to make better decisions for your business.
 
 - [What is FinOps](https://www.finops.org/introduction/what-is-finops/) - A framework for tech finance and business leadership teams to share the same language and processes of cloud operations and management.
 
-- [Algebraic Models for Accounting Systems](https://www.amazon.com/dp/9814287113?&linkCode=ll1&tag=kevideld-20&linkId=3d8973d09f9143db8db8639615d12413&language=en_US&ref_=as_li_ss_tl) - Advanced abstract algebra applied to the analysis of accounting systems.
+- [Algebraic Models for Accounting Systems](https://openlibrary.org/isbn/9814287113) - Advanced abstract algebra applied to the analysis of accounting systems.
 
 ## Contracts
 
@@ -781,4 +781,4 @@ The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets
 
 <!--lint disable no-undefined-references-->
 
-<a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://www.amazon.com/dp/0062316095?_encoding=UTF8&psc=1&linkCode=ll1&tag=kevideld-20&linkId=71ccb002da0dbe49c502954960175b66&language=en_US&ref_=as_li_ss_tl) (Harper, 2015). [[↑]](#intro-quote-ref)
+<a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://openlibrary.org/isbn/0062316095) (Harper, 2015). [[↑]](#intro-quote-ref)
