@@ -235,6 +235,8 @@ Simulate a virtual invoice depending on the resource you plan to use.
 
 - [EC2Instances.info](https://ec2instances.info) - 💸 Easy Amazon EC2 Instance Comparison. Operated by Vantage as a free lead-gen surface for its commercial FinOps platform.
 
+- [SmartBizCalc](https://smartbizcalc.com) - 💸 A free suite of 395+ financial calculators for small businesses, covering taxes, insurance premiums, loan payments, profit margins, and startup costs. Ad-supported; no account required.
+
 ## Cost Forecast
 
 Help your customers predict their upcoming and future consumption based on their past usage.
