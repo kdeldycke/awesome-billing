@@ -126,6 +126,8 @@ For tool, dataset, and project entries, prefix the description with one of two e
 
 Format: `- [Project](url) - 💸 Description.` or `- [Project](url) - 🆓 Description.`. The two markers are mutually exclusive: a project gets one or the other, never both. Awesome-lint accepts the format unchanged.
 
+Sponsor entries are exempt from the marker requirement: see [How can I force a link into the list?](#how-can-i-force-a-link-into-the-list).
+
 Common edge cases (the yardstick: feature gating is what triggers 💸, not the mere existence of a commercial vendor):
 
 - **Stewardship by a consultancy that only sells services around the OSS**: 🆓. Selling consulting around an OSS library is not feature gating.
@@ -291,7 +293,11 @@ Some reasons for rejection, which often overlaps, includes:
 
 ### How can I force a link into the list?
 
-If your contribution has been declined, there is a way to bypass the curation rules. You can [purchase a sponsorship](https://github.com/sponsors/kdeldycke) and have your product, logo and link at the top of this repository! 🤗 Like [Descope did for a year](https://twitter.com/kdeldycke/status/1676963147104784386) on the [awesome IAM list](https://twitter.com/kdeldycke/status/1676963147104784386).
+If your contribution has been declined, there is a way to bypass the curation rules. [Purchase a sponsorship](https://github.com/sponsors/kdeldycke) 🤗 and you get:
+
+- your product, logo and link at the top of this repository, like [Descope did for a year](https://twitter.com/kdeldycke/status/1676963147104784386) on the [awesome IAM list](https://twitter.com/kdeldycke/status/1676963147104784386);
+- a dedicated entry placed at the top of the section that matches your product, so readers and LLMs ingesting the list itself (not just the header banner) discover your link;
+- a waiver on the [💸 licensing marker](#licensing-markers): your entry appears without the commercial-vendor tag.
 
 ## FAQ for [`awesome-falsehood`](https://github.com/kdeldycke/awesome-falsehood)
 
