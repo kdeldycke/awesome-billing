@@ -439,6 +439,8 @@ All the invoicing terms & conditions are materialzed by the contract signed betw
 
 - [What does the "Reverse Charge" refer to?](https://news.ycombinator.com/item?id=8767388) - Answer: a provision in which a business transfer the responsibility of VAT handling to the customer.
 
+- [LookTwice VAT check](https://looktwice.dev/tools/vat-validator?utm_source=awesome-billing&utm_medium=directory&utm_campaign=launch-2026-08) - 💸 Live EU VIES validation that keeps valid, invalid, and member-state unavailability separate and returns the request identifier.
+
 ## Invoice
 
 The invoice materialize a consumed service or purchased product, waiting to be settled by a payment transaction.
@@ -544,6 +546,8 @@ The most popular payment device.
 The old-fashioned way of payment: by the way of banks.
 
 - [A (shallow) dive into the American banking system](https://blog.yossarian.net/2019/12/25/A-shallow-dive-into-the-American-banking-system) - Collection of miscellaneous notes primarily focused on the common cases of routable accounts, i.e. checking and savings.
+
+- [LookTwice IBAN check](https://looktwice.dev/tools/iban-validator?utm_source=awesome-billing&utm_medium=directory&utm_campaign=launch-2026-08) - 💸 IBAN country-length and ISO 7064 MOD-97 validation. Does not claim the account exists.
 
 - [Open IBAN](https://openiban.com) - 🆓 Free and public IBAN validation and calculation webservice.
 
