@@ -28,3 +28,8 @@ exclude = [
   # binaries page links one per released binary.
   "^https://www\\.virustotal\\.com/gui/.*$",
 ]
+
+[tool.repomatic]
+# This repository pins no runner of its own: the thin callers delegate every job
+# to repomatic's reusable workflows, so a retiring image is upstream's to swap.
+runner-images = false
