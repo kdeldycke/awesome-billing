@@ -489,6 +489,8 @@ Once issued, an invoice must be immutable.
 
 - [Factur-X](https://github.com/akretion/factur-x) - 🆓 Python library to support the e-invoicing standard for France and Germany.
 
+- [awesome-einvoicing](https://github.com/facturxapi/awesome-einvoicing) - Sourced map of European e-invoicing specs, validators, libraries and corpora (EN 16931, Factur-X, ZUGFeRD, XRechnung, Peppol). Includes a no-API-key [GitHub Action](https://github.com/facturxapi/validate-einvoice) that runs the official ConnectingEurope EN16931 1.3.16 XSLT.
+
 - [Universal Business Language](https://en.wikipedia.org/wiki/Universal_Business_Language) - Most invoicing software can read and write UBL documents (XML) for data transfer.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
