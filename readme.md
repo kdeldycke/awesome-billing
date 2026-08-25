@@ -477,6 +477,8 @@ Once issued, an invoice must be immutable.
 
 - [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - 🆓 For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
 
+- [toolkitlabs-invoice](https://github.com/YtinuMoc/toolkitlabs-invoice) - 🆓 Browser invoice generator: fill seller, buyer, and line items, then print or save as PDF with no account or upload. Optional paid batch CLI (EUR 9 one-time) for CSV-to-invoice packs. [Live demo](https://ytinumoc.github.io/toolkitlabs-invoice/).
+
 ### Extractors
 
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - 🆓 Deep neural network to extract intelligent information from invoice documents.
