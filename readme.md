@@ -333,6 +333,8 @@ Everything you need to know about the daily practice of keeping your accounting 
 
 - [Reconciliation: A game designed to frustrate the player](https://bam.kalzumeus.com/archive/a-game-that-intentionally-frustrates-the-player/) - “Reconciliation is a business process which arises almost entirely because of a lack of structured data in the pipelines that convey money between businesses”. There are some hack to streamline the process, like adding an arbitrary discount to produce unique trailing decimals, or setup a couple of virtual bank accounts as proxy.
 
+- [Month-End Close](https://month-end-close.com/month-end-flux/) - Practical notes on month-end flux and variance analysis, including why commentary gets sent back and how to treat a residual that does not add up.
+
 - [Plain text accounting tools](https://plaintextaccounting.org/#software) - Extensive list of open-source personal finance projects that might be great to look into for inspiration on double-entry accounting and bookkeeping.
 
 - 🆓 A list of graphical accounting tools, all community-maintained OSS without paid editions: [GNUCash](https://gnucash.org) (GTK+), [Grisbi](https://grisbi.org) (C), [Firefly III](https://firefly-iii.org) (PHP).
