@@ -164,6 +164,7 @@ The dynamic scheme for elastic resources.
 - [Electropedia: Tariffs for electricity](https://www.electropedia.org/iev/iev.nsf/index?openform=&part=691) - Before the cloud, there was another metered resource priced by its usage: electricity. Here is a detailed (and multi-lingual) taxonomy of its vocabulary from the International Electrotechnical Commission.
 
 - [Lago](https://github.com/getlago/lago) - 💸 Open-source metering & usage-based billing in Ruby. Lago SAS sells a hosted Cloud and Premium add-ons on top of the AGPL core.
+- [billing-kit](https://github.com/QuxKit/billing-kit) - 💸 Usage metering, exact minor-unit money and a double-entry ledger as a TypeScript/Postgres library you embed, source-available under BUSL-1.1. QuxKit.AI sells hosted QuxCloud on top; billing your own customers is free.
 
 - [StripeMeter](https://github.com/geminimir/stripemeter) - 🆓 Open-source, Stripe-native usage metering in TypeScript. Reconciles computed usage against Stripe invoices for “pre-invoice parity”, with exactly-once processing and real-time cost projections.
 
