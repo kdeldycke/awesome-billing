@@ -467,6 +467,7 @@ Once issued, an invoice must be immutable.
 
 ### Generators
 
+- [Client Close Kit](https://darweesh128-cmd.github.io/client-close-kit/) - 🆓 Browser-only freelance invoice, quote, and [statement of account](https://darweesh128-cmd.github.io/client-close-kit/statement-of-account.html) generators (MIT, no signup).
 - [Invoice Builder](https://github.com/piratuks/invoice-builder) - 🆓 Offline-first desktop app to create, manage and export invoices and quotes to PDF, with all data kept in a local database you own.
 
 - [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - 🆓 A self-hosted open-source application for managing your invoices, clients and payments. Community project, no paid edition.
