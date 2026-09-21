@@ -787,4 +787,3 @@ The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets
 <!--lint disable no-undefined-references-->
 
 <a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://openlibrary.org/isbn/0062316095) (Harper, 2015). [[↑]](#intro-quote-ref)
-
