@@ -342,6 +342,7 @@ Everything you need to know about the daily practice of keeping your accounting 
 - [GnuCash Tutorial and Concepts Guide](https://www.gnucash.org/docs/v2.4/C/gnucash-guide/) - A complete tutorial on personal finance tracking with GnuCash.
 
 - [Frappe Books](https://github.com/frappe/books) - 🆓 Free desktop book-keeping software for small-businesses and freelancers, with no paid edition.
+- [OpenBooks](https://github.com/braedonsaunders/openbooks) - 🆓 Open-source accounting-first ERP for project-based multi-entity organizations (PostgreSQL double-entry ledger, AGPL-3.0).
 
 - [Luca](https://github.com/brandon-rhodes/luca) - 🆓 YAML accounting and JSON tax forms, solo-maintained.
 
@@ -786,3 +787,4 @@ The [header image](https://github.com/kdeldycke/awesome-billing/blob/main/assets
 <!--lint disable no-undefined-references-->
 
 <a name="intro-quote-def">[1]</a>: [*Sapiens: A Brief History of Humankind*](https://openlibrary.org/isbn/0062316095) (Harper, 2015). [[↑]](#intro-quote-ref)
+
