@@ -42,10 +42,4 @@ exclude = [
   "^https://star-history\\.com/.*$",
   # githubstatus.com returns 405 to HEAD requests from bots.
   "githubstatus\\.com",
-  "x\\.com",
 ]
-
-[tool.repomatic]
-# This repository pins no runner of its own: the thin callers delegate every job
-# to repomatic's reusable workflows, so a retiring image is upstream's to swap.
-runner-images = false
