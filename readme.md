@@ -479,6 +479,8 @@ Once issued, an invoice must be immutable.
 
 - [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - 🆓 For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
 
+- [BusinessOS](https://businessos.biz) - 🆓 Offline-first business platform with invoicing, expenses, cash flow, and customer management. Data stays on-device with optional encrypted sync.
+
 ### Extractors
 
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - 🆓 Deep neural network to extract intelligent information from invoice documents.
