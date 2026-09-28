@@ -7,20 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://credyt.ai/?utm_source=awesome-billing&utm_medium=referral&utm_campaign=awesome-billing-oss-sponsorship">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-dark-background.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-light-background.svg">
-      <img width="300" src="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/credyt-logo-light-background.svg">
-    </picture>
-    <br/>
-    <strong>Real-time monetization infrastructure for AI.</strong><br/>
-    Bill in real time, charge from prepaid balances, and ship a branded customer portal without writing frontend.
-  </a>
-  <br/><br/>
-</p>
-
-<p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
     <strong>Your brand → here 🚀</strong>
     <br/>
@@ -136,8 +122,6 @@ From monthly subscription to commodity-like on-the-go consumption, there's plent
 ### Usage-based Pricing
 
 The dynamic scheme for elastic resources.
-
-- [Credyt](https://credyt.ai/?utm_source=awesome-billing&utm_medium=referral&utm_campaign=awesome-billing-oss-sponsorship) - Real-time monetization infrastructure for AI products: meter usage, charge from prepaid balances, and ship a branded customer portal without writing frontend. Commercial SaaS.
 
 - [Why I Love Usage-Based Pricing](https://www.rdegges.com/2020/the-only-type-of-api-services-ill-use/) - “The most important reason I like this pricing model is that it heavily incentivizes both the customer and the service provider to act in everyone's best interest.” Also details issues with other pricing models.
 
