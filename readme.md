@@ -97,6 +97,8 @@ This highlight the strategic importance of the domain, not only for cloud provid
 
 - [5 things I learned while developing a billing system](https://arnon.dk/5-things-i-learned-developing-billing-system/) - A great introduction on all the various aspects of a billing system, from currency to invoices, including great illustrations on the logic of changing plans. All these topics are detailed in dedicated sections below.
 
+- [Billing systems are a nightmare for engineers](https://news.ycombinator.com/item?id=31424450) - There is a shadow army of billing software engineers behind the biggest companies of the world. Here they share their nightmare stories.
+
 - [Open guide to AWS](https://github.com/open-guides/og-aws#billing-and-cost-management) - Links to the *Billing and Cost Management* section which details the broad characteristics of billing for a cloud provider.
 
 - [Billed for ¥21,120, invoiced at ¥2,112,000 and paid ¥2,112,000](https://xunroll.com/thread/1668082843728367616) - [Get rid of integers and floats for monetary values](https://xunroll.com/thread/1599113889093890049). Use decimals. Or face the risks of anomalous x100 charges.
