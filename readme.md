@@ -139,6 +139,8 @@ The dynamic scheme for elastic resources.
 
 - [Allen's interval algebra](https://en.wikipedia.org/wiki/Allen%27s_interval_algebra) - Implementing usage-based pricing is tricky, and this algebra will help you organize temporal reasoning. Also see this [Stack Overflow question with clean schema](https://web.archive.org/web/20240413010618/https://stackoverflow.com/questions/12069082/allens-interval-algebra-operations-in-sql?rq=1).
 
+- [Billing pipeline: a critical time sensitive system](https://kevin.deldycke.com/2020/billing-pipeline-critical-time-sensitive-system) - Design notes on Scaleway's billing pipeline, built to “track nano-euros at the milli-seconds time granularity”. My takeaways: get the current time from one central method, randomize the order of the tests, and do not deploy in the first days of the month, when the accounting reports are produced.
+
 - [Reconcile Your Monthly GCP Invoice with BigQuery Billing Export](https://web.archive.org/web/20201107232605/https://medium.com/@lukwam/reconcile-your-monthly-gcp-invoice-with-bigquery-billing-export-b36ae0c961e) - Behind the quest of this developer to track its expenses, you get a glimpse on cloud billing difficulties. While not explicitly pointed out, pricing cloud resources is hard and the result of quantization, granularity and rounding, between space, time and currencies.
 
 - [AWS EC2 T2 Instances Demystified: Don't Learn The Hard Way](https://roberttisdale.com/aws-ec2-t2-instances-demystified-dont-learn-hard-way/) - An example of really tricky burstable instances which accrues and limits its own amount of CPU usage credits.
