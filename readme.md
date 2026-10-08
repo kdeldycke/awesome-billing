@@ -613,6 +613,8 @@ Best tools to automate fraud detection.
 
 - [Integer percentages as electoral falsification fingerprints](https://arxiv.org/pdf/1410.6059.pdf) - In the same spirit as above, this paper show that frequency of reported round numbers in election is a signal of man-made anomalies. Might be applicable in some fraud-fighting area.
 
+- [JPMorgan Chase v. Javice](https://storage.courtlistener.com/recap/gov.uscourts.ded.81082/gov.uscourts.ded.81082.1.0.pdf#page=41) - Like Benford's law, applied to Excel: “JPMC first noticed irregularities with the list when a JPMC employee observed that the list contained exactly 1,048,576 rows, the maximum permitted by Microsoft Excel.” A count that stops at the limit of a tool is a sign of truncated or made-up data. Here, the executives of a startup sold for \$175 million had bought that list of customers from a marketing firm.
+
 - [Huber loss](https://en.wikipedia.org/wiki/Huber_loss) - “A loss function used in robust regression, that is less sensitive to outliers in data than the squared error loss.”
 
 - [Peak Detection in the Python World](https://blog.ytotech.com/2015/11/01/findpeaks-in-python/) - Simple way to detect outliers.
