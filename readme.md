@@ -103,7 +103,7 @@ This highlight the strategic importance of the domain, not only for cloud provid
 
 - [Billed for ¥21,120, invoiced at ¥2,112,000 and paid ¥2,112,000](https://xunroll.com/thread/1668082843728367616) - Get rid of integers and floats for monetary values. Use decimals. Or fallback to strings and [parse them, don't validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/). Or face the risks of anomalous x100 charges, like [Google with its coupons](https://web.archive.org/web/20250326135824/http://rachelbythebay.com/w/2022/12/02/25k/).
 
-- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.”
+- How to recruit software engineers in this domain? “The trick is to make the accounting/billing/payment department the antechamber of data engineering.” — me
 
 ## Pricing
 
@@ -133,7 +133,7 @@ The dynamic scheme for elastic resources.
 
 - [A Survey of Profit Optimization Techniques for Cloud Providers](http://www.cs.newpaltz.edu/~lik/publications/Peijin-Cong-ACM-CS-a-2020.pdf) - “The strategy of improving user service quality is discussed first, followed by the pricing strategy for cloud resources to maximize revenue.”
 
-- “Billing is not complex on purpose: it's the price to pay for elasticity.” - Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlying concepts.
+- “Billing is not complex on purpose: it's the price to pay for elasticity.” — me. Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlying concepts.
 
 - [Riemann sum](https://en.wikipedia.org/wiki/Riemann_sum) - The starting point about quantization of usage.
 
