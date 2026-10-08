@@ -767,6 +767,8 @@ Billing is not funny.
 
 - [Superman III](https://en.wikipedia.org/wiki/Superman_III) - The 1983 film in which Gus Gorman, a laid-off clerk who retrains as a programmer, embezzles from his employer's payroll by skimming the fractions of a cent it rounds down.
 
+- “Every time someone violates the arrow of time, the billing department throw a kitty in a black hole.” — me
+
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](.github/contributing.md) first.
