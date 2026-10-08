@@ -755,6 +755,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [Graphic methods for presenting facts](https://archive.org/details/graphicmethodsfo00brinrich/page/336/mode/2up?view=theater&ui=embed&wrapper=false) - A way to optimize pricing using a physical model made in plaster of Paris, from 1914.
 
+- [Payroll consolidation, circa 1965](https://collections.museumsvictoria.com.au/items/383697) - A program from the punched card era: a plugboard buried under a tangle of patch wires.
+
 ## Humour
 
 Billing is not funny.
