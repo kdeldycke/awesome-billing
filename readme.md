@@ -133,7 +133,7 @@ The dynamic scheme for elastic resources.
 
 - [A Survey of Profit Optimization Techniques for Cloud Providers](http://www.cs.newpaltz.edu/~lik/publications/Peijin-Cong-ACM-CS-a-2020.pdf) - “The strategy of improving user service quality is discussed first, followed by the pricing strategy for cloud resources to maximize revenue.”
 
-- “Billing is not complex on purpose: it's the price to pay for elasticity.” — me, 2020-01-06. Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlying concepts.
+- “Billing is not complex on purpose: it's the price to pay for elasticity.” — me, [2020-01-06](https://web.archive.org/web/20200110052254/https://twitter.com/kdeldycke/status/1214160678363246592). Or why you're likely to get an endless stream of complaining users if choosing utility pricing scheme: while accurate to the (milli-)cent, this model is frustrating for customers not ready to invest time grasping the underlying concepts.
 
 - [Riemann sum](https://en.wikipedia.org/wiki/Riemann_sum) - The starting point about quantization of usage.
 
