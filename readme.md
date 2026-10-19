@@ -463,6 +463,8 @@ Once issued, an invoice must be immutable.
 
 - [Ruby Invoicing Framework](https://github.com/code-mancers/invoicing) - 🆓 For generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc.
 
+- [Time Tracker and Invoice Maker](https://statement-converter-c41.pages.dev/time-tracker-invoice-maker/) - 💸 “From tracked hours to a sent invoice in two taps.” Runs offline in the browser: timer per client, numbered invoices with your own prefix, tax line and due date, sent and paid tracking. No account, data stays on the device.
+
 ### Extractors
 
 - [InvoiceNet](https://github.com/naiveHobo/InvoiceNet) - 🆓 Deep neural network to extract intelligent information from invoice documents.
