@@ -479,6 +479,8 @@ Once issued, an invoice must be immutable.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
+- [E-Rechnung prüfen](https://rechnungsklar.de/e-rechnung-pruefen) - 💸 Free online validator for German ZUGFeRD PDFs and XRechnung XML files (UBL and CII), checking EN 16931 rules and the German XRechnung rules with the open-source KoSIT validator and Mustang. No account required, limited to one check per day. Run by rechnungsklar, a commercial invoicing SaaS.
+
 ## Payments
 
 - [The Best Payment Gateway for Startups](https://web.archive.org/web/20230204235716/http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
