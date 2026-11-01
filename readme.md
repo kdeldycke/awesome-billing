@@ -209,6 +209,8 @@ The central repository of all available services, products, variants, options an
 
 - [Pimcore](https://github.com/pimcore/pimcore) - 💸 An open-source UI and database to manage product metadata, written in PHP Symfony. Pimcore GmbH sells Enterprise Subscription, PaaS, and proprietary modules on top of the GPL/POCL core.
 
+- [Raterunner](https://github.com/raterunner/cli) - 🆓 Pricing-as-code CLI in Go. Defines SaaS plans, prices, entitlements, and promotions in YAML, validates the catalog against a JSON Schema, and previews and applies changes to Stripe.
+
 ## Calculator
 
 Simulate a virtual invoice depending on the resource you plan to use.
