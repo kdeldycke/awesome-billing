@@ -349,6 +349,8 @@ Now that you're somewhat familiar with the concepts and practice of accounting, 
 
 - [Triple‐entry accounting with Blockchain: How far have we come?](https://sci-hub.st/10.1111/acfi.12556) - “Triple‐entry accounting is a new and a more efficient way to address fundamental trust and transparency issues that plague current accounting systems. Triple‐entry accounting with Blockchain, when properly implemented, can fundamentally improve accounting.”
 
+- [SSP Allocation Rounding in ASC 606: Where the Cent Goes](https://soluqube.com/blog/ssp-allocation-rounding-residual-cent-asc-606) - Technical analysis of multi-element contract allocations, residual cent absorption, and tying schedules to $0.00 deferred balance.
+
 ### Currencies
 
 Global companies needs to know how to juggle between local currencies.
