@@ -1,0 +1,43 @@
+---
+name: 🔗 Sponsor link
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * *"
+
+permissions: {}
+
+# A run started by hand waits for the scheduled one instead of cancelling it, so no check is lost.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+# Supply-chain cooldown, kept equal to `[tool.repomatic] minimum-release-age`.
+# See https://repomatic.net/workflows#install-time-cooldown for the rationale.
+env:
+  NPM_CONFIG_MIN_RELEASE_AGE: 7
+  UV_EXCLUDE_NEWER: "1 week"
+
+jobs:
+
+  check-redirect:
+    name: 🔗 Check sponsor redirect
+    # See .github/sponsor_link.py for what each check records and reports.
+    runs-on: ubuntu-26.04
+    timeout-minutes: 15
+    permissions:
+      # Commit each record to the sponsor-link-log branch.
+      contents: write
+      # Open or update the issue that reports a broken redirect.
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+        with:
+          version: "0.13.5"
+      - name: Check the sponsor link redirect
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv --no-progress run --script .github/sponsor_link.py
