@@ -232,7 +232,7 @@ Simulate a virtual invoice depending on the resource you plan to use.
 
 - [Infracost](https://github.com/infracost/infracost) - 💸 Cloud cost estimates from Terraform code, surfaced as a breakdown in the terminal or as a diff in pull requests before resources are provisioned. Infracost Inc. sells a hosted dashboard (Infracost Cloud) on top of the Apache-2.0 CLI.
 
-- [Cloudorado](https://www.cloudorado.com) - 💸 A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit. Operated by Cloudorado as a commercial cloud-comparison product.
+- [Cloudorado](https://web.archive.org/web/20250917102424/https://www.cloudorado.com/) - 💸 A comparison matrix which use ECU (Amazon's vCPU) as a CPU power measure unit. Operated by Cloudorado as a commercial cloud-comparison product.
 
 - [EC2Instances.info](https://ec2instances.info) - 💸 Easy Amazon EC2 Instance Comparison. Operated by Vantage as a free lead-gen surface for its commercial FinOps platform.
 
@@ -272,7 +272,7 @@ A marketplace connect supply with demand that lead to a financial transaction. I
 
 - [A Rake Too Far: Optimal Platform Pricing Strategy](https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/) - A bit of vocabulary: “In a casino, the term *rake* refers to the commission that the house earns for operating a poker game. (…) While casinos use the term *rake*, a plethora of interesting word choices exist which all describe the same thing – keeping a little bit of the revenue for the company that is running the service.”
 
-- “If we only paid in $0.07 intervals, their commission algorithm would round down to the nearest whole cent (…) on the unit transaction level, not the monthly invoice level.” ([source](https://news.ycombinator.com/item?id=49457878)) - Mechanical Turk's rake was [“20% (…) on the reward and bonus amount”](https://web.archive.org/web/20260828220059/https://requester.mturk.com/pricing), with a minimum fee of $0.01 per bonus payment, so a 7-cent bonus is billed one cent instead of 1.4: an effective 14.3% instead of 20%. The requester's [`round_payment()`](https://git.generalresearch.com/panels/amt-jb/tree/jb/flow/assignment_tasks.py#n528) snaps every payout onto the 5-cent grid where that truncation always applies, and holds anything below 7 cents in the worker's wallet: “~\$50 a day” saved. Rounding per transaction rather than per invoice hands the remainder to whoever picks the transaction amounts.
+- “If we only paid in $0.07 intervals, their commission algorithm would round down to the nearest whole cent (…) on the unit transaction level, not the monthly invoice level.” ([source](https://news.ycombinator.com/item?id=49457878)) - Mechanical Turk's rake was [“20% (…) on the reward and bonus amount”](https://web.archive.org/web/20260828220059/https://requester.mturk.com/pricing), with a minimum fee of $0.01 per bonus payment, so a 7-cent bonus is billed one cent instead of 1.4: an effective 14.3% instead of 20%. The requester's [`round_payment()`](https://web.archive.org/web/20260827013838/https://git.generalresearch.com/panels/amt-jb/tree/jb/flow/assignment_tasks.py#n528) snaps every payout onto the 5-cent grid where that truncation always applies, and holds anything below 7 cents in the worker's wallet: “~\$50 a day” saved. Rounding per transaction rather than per invoice hands the remainder to whoever picks the transaction amounts.
 
 ### Cloud Resources
 
@@ -512,7 +512,7 @@ Once issued, an invoice must be immutable.
 
 - [High failure rate of Point Of Sale devices in the upper Midwest](https://news.ycombinator.com/item?id=20043944) - The root cause? People wearing a lot of wool in low humidity air, generating a lot of static.
 
-- How ACH works: A developer perspective, [part 1](https://web.archive.org/web/20200101000000/https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1-339d3e7bea1), [part 2](https://web.archive.org/web/20200101000000/https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-2-7a890638c4dd), [part 3](https://web.archive.org/web/20200101000000/https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-3-cd98728cf31f), [part 4](https://web.archive.org/web/20200101000000/https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-4-718a48cb8d2c), [part 5](https://web.archive.org/web/20200101000000/https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-5-1d998bbcd82c).
+- How ACH works: A developer perspective, [part 1](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/), [part 2](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-2/), [part 3](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-3/), [part 4](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-4/), [part 5](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-5/).
 
 - [Handling system failures during payment communication](https://blogs.dropbox.com/tech/2017/09/handling-system-failures-during-payment-communication/) - Dropbox's experience trying to account for an unreliable payment provider.
 
@@ -562,13 +562,13 @@ The old-fashioned way of payment: by the way of banks.
 
 The usual money transfer services.
 
-- [UPI 101: The Basics](https://blog.setu.co/articles/upi-101-the-basics) - “In this article, we will learn about India's Unified Payments Interface. A four-year-old payment scheme that has been accounting for 40-45% of digital payments across India.”
+- [UPI 101: The Basics](https://web.archive.org/web/20250521190704/https://blog.setu.co/articles/upi-101-the-basics) - “In this article, we will learn about India's Unified Payments Interface. A four-year-old payment scheme that has been accounting for 40-45% of digital payments across India.”
 
 - [20 years of payment processing problems](https://kaimi.io/en/2022/07/20-years-of-payment-processing-problems-en/) - A huge collection of everything that went wrong, and still is, with payment APIs from the past 2 decades. Any issue exposed in this article that gets unaddressed will end up as stolen money.
 
 <!--lint ignore balanced-punctuation-->
 
-- [The untold story of Stripe](https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that “once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.”
+- [The untold story of Stripe](https://web.archive.org/web/20230716194531/https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook) - In which we learn that “once turnover hit a certain level, Paypal automatically put the business on a 21 to 60 day rolling reserve, meaning that up to 30 per cent of a company's revenue could be locked up for up to two months.”
 
 - [Idempotency in the context of payments](https://developers.google.com/standard-payments/reference/idempotency) - “Idempotency prevents race conditions. Idempotency dictates that multiple identical requests from the same client do not result in a different final state.”
 
@@ -674,7 +674,7 @@ Definition and collection of Key Performance Indicators (KPIs) worth monitoring.
 
 - [16 Startup Metrics](https://a16z.com/16-startup-metrics/) - The 2 critical metrics being Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV).
 
-- [Thinking about growth and profit](https://jlongster.com/thinking-growth-profit) - Discuss the relationship between investments, profit and growth, and how it influence decisions on pricing, free trials and plan structure.
+- [Thinking about growth and profit](https://web.archive.org/web/20200711083123/https://jlongster.com/thinking-growth-profit) - Discuss the relationship between investments, profit and growth, and how it influence decisions on pricing, free trials and plan structure.
 
 - [A Quantitative Approach to Product Market Fit](https://tribecap.co/a-quantitative-approach-to-product-market-fit/) - Metrics produced above have a greater reach, as they're used as important signals to validate product-market fit.
 
