@@ -7,6 +7,21 @@
 </p>
 
 <p align="center">
+  <a href="https://go.nli.one/billing">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/whop-logo-dark-background.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/whop-logo-light-background.svg">
+      <img width="300" src="https://raw.githubusercontent.com/kdeldycke/awesome-billing/main/assets/whop-logo-light-background.svg" alt="Whop">
+    </picture>
+    <br/>
+    <strong>Sponsored by Whop:</strong> if you use awesome-billing to design pricing, invoicing and subscription flows, Whop is a way to accept payments, manage subscriptions and sell your software, services or digital products worldwide, at competitive fees.
+  </a>
+  <br/>
+  <sup><i>(Partner link: your partner earns a commission from Whop, at no extra cost to you. As a bonus, you get their exclusive resources by private message after signing up, plus reduced fees within 24 to 48 hours.)</i></sup>
+  <br/><br/>
+</p>
+
+<p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
     <strong>Your brand → here 🚀</strong>
     <br/>
@@ -482,6 +497,8 @@ Once issued, an invoice must be immutable.
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
 ## Payments
+
+- [Whop](https://go.nli.one/billing) - Platform to accept payments, manage subscriptions and sell software, services or digital products worldwide, at competitive fees. Partner link: the sponsor of this list earns a commission from Whop, at no extra cost to you.
 
 - [The Best Payment Gateway for Startups](https://web.archive.org/web/20230204235716/http://aynuriev.com/best-payment-gateway-startups/) - A benchmark of top payment providers, their pricing and models.
 
