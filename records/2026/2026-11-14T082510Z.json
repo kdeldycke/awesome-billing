@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-14T08:25:10Z",
+  "link": "https://go.nli.one/billing",
+  "expected_location": "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing",
+  "verdict": "ok",
+  "fingerprint": "d24f131a8eb780a4",
+  "github": {
+    "repository": "kdeldycke/awesome-billing",
+    "sha": "d9acfa72527f997b87270c91cdece4e23dbdd243",
+    "event": "workflow_dispatch",
+    "workflow_ref": "kdeldycke/awesome-billing/.github/workflows/sponsor-link.yaml@refs/heads/main",
+    "run_id": "43575726988",
+    "run_attempt": "1",
+    "run_url": "https://github.com/kdeldycke/awesome-billing/actions/runs/43575726988",
+    "runner_os": "Linux",
+    "runner_arch": "X64",
+    "runner_image": "ubuntu26",
+    "runner_image_version": "20261111.196.1"
+  },
+  "dns": {
+    "host": "go.nli.one",
+    "addresses": [
+      "52.72.49.79"
+    ]
+  },
+  "tls": {
+    "host": "go.nli.one",
+    "tls_version": "TLSv1.3",
+    "sha256": "9d89dbad968a975a6e41d0639f959d6e3187725f24f4dd74728bc6b913e0fbc4",
+    "subject": {
+      "commonName": "go.nli.one"
+    },
+    "issuer": {
+      "countryName": "US",
+      "organizationName": "Let's Encrypt",
+      "commonName": "YR2"
+    },
+    "not_before": "Nov  5 23:26:15 2026 GMT",
+    "not_after": "Feb  3 23:26:14 2027 GMT",
+    "serial_number": "06C39DA47BBE5196211203C7976388DC72A2",
+    "subject_alt_names": [
+      "go.nli.one"
+    ]
+  },
+  "probes": [
+    {
+      "client": "desktop browser",
+      "request_headers": [
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+        ],
+        [
+          "Accept",
+          "text/html,application/xhtml+xml,*/*;q=0.8"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.9"
+        ],
+        [
+          "Referer",
+          "https://github.com/kdeldycke/awesome-billing"
+        ]
+      ],
+      "outcome": "as-agreed",
+      "attempts": 1,
+      "errors": [],
+      "hops": [
+        {
+          "url": "https://go.nli.one/billing",
+          "status": 301,
+          "reason": "Moved Permanently",
+          "headers": [
+            [
+              "Content-Length",
+              "0"
+            ],
+            [
+              "Connection",
+              "close"
+            ],
+            [
+              "Date",
+              "Sat, 14 Nov 2026 08:25:11 GMT"
+            ],
+            [
+              "Cache-Control",
+              "no-cache, no-store"
+            ],
+            [
+              "Expires",
+              "-1"
+            ],
+            [
+              "Location",
+              "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing"
+            ],
+            [
+              "Engine",
+              "Rebrandly.redirect, version 2.1"
+            ],
+            [
+              "Strict-Transport-Security",
+              "max-age=15552000"
+            ]
+          ],
+          "location": "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing",
+          "elapsed_ms": 362
+        }
+      ]
+    },
+    {
+      "client": "mobile browser",
+      "request_headers": [
+        [
+          "User-Agent",
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1"
+        ],
+        [
+          "Accept",
+          "text/html,application/xhtml+xml,*/*;q=0.8"
+        ],
+        [
+          "Accept-Language",
+          "fr-FR,fr;q=0.9,en;q=0.8"
+        ],
+        [
+          "Referer",
+          "https://github.com/"
+        ]
+      ],
+      "outcome": "as-agreed",
+      "attempts": 1,
+      "errors": [],
+      "hops": [
+        {
+          "url": "https://go.nli.one/billing",
+          "status": 301,
+          "reason": "Moved Permanently",
+          "headers": [
+            [
+              "Content-Length",
+              "0"
+            ],
+            [
+              "Connection",
+              "close"
+            ],
+            [
+              "Date",
+              "Sat, 14 Nov 2026 08:25:11 GMT"
+            ],
+            [
+              "Cache-Control",
+              "no-cache, no-store"
+            ],
+            [
+              "Expires",
+              "-1"
+            ],
+            [
+              "Location",
+              "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing"
+            ],
+            [
+              "Engine",
+              "Rebrandly.redirect, version 2.1"
+            ],
+            [
+              "Strict-Transport-Security",
+              "max-age=15552000"
+            ]
+          ],
+          "location": "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing",
+          "elapsed_ms": 526
+        }
+      ]
+    },
+    {
+      "client": "monitor",
+      "request_headers": [
+        [
+          "User-Agent",
+          "awesome-billing-sponsor-link-monitor/1 (+https://github.com/kdeldycke/awesome-billing)"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ]
+      ],
+      "outcome": "as-agreed",
+      "attempts": 1,
+      "errors": [],
+      "hops": [
+        {
+          "url": "https://go.nli.one/billing",
+          "status": 301,
+          "reason": "Moved Permanently",
+          "headers": [
+            [
+              "Content-Length",
+              "0"
+            ],
+            [
+              "Connection",
+              "close"
+            ],
+            [
+              "Date",
+              "Sat, 14 Nov 2026 08:25:11 GMT"
+            ],
+            [
+              "Cache-Control",
+              "no-cache, no-store"
+            ],
+            [
+              "Expires",
+              "-1"
+            ],
+            [
+              "Location",
+              "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing"
+            ],
+            [
+              "Engine",
+              "Rebrandly.redirect, version 2.1"
+            ],
+            [
+              "Strict-Transport-Security",
+              "max-age=15552000"
+            ]
+          ],
+          "location": "https://whop.com/start/?code=BILLING&utm_source=majoragv&utm_medium=sponsor&utm_campaign=billing",
+          "elapsed_ms": 192
+        }
+      ]
+    }
+  ]
+}
