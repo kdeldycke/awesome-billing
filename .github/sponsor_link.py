@@ -16,6 +16,18 @@ script opens an issue, then comments on it each time the answer changes.
 
 Run it with `--dry-run` to probe the link and print the record without writing to
 GitHub.
+
+```{todo}
+Hand the issue to the `repomatic issue` command once a `repomatic` release ships it
+([kdeldycke/repomatic@5e7b5f7](https://github.com/kdeldycke/repomatic/commit/5e7b5f785cb8b86359597b4c7a240841d57d8e11))
+and `sync-repomatic` moves the pin past the cooldown. Make the script write the
+report and the verdict for the workflow, and add a step after it that runs
+`uvx 'repomatic==X.Y.Z' issue --title {title} --body-file {report}` with `--open` on a
+`changed` or `unreachable` verdict, and `--close` on `ok`. Then delete
+`GitHub.find_open_issue`, `GitHub.last_fingerprint` and `GitHub.report`. The issue
+then changes behavior: each failing run rewrites its body in place of a comment per
+change, and it closes when the link recovers.
+```
 """
 
 from __future__ import annotations
