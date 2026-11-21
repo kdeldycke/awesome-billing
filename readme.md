@@ -496,6 +496,8 @@ Once issued, an invoice must be immutable.
 
 - [GOBL](https://github.com/invopop/gobl) - 💸 JSON Schema, Open Source Go library, global tax database, with conversion tools, all in one. Invopop sells a managed e-invoicing SaaS implementation on top of the open spec.
 
+- [xmlvalid](https://xmlvalid.com) - Free e-invoice validator that runs in the browser: the schema and the Schematron rules of EN 16931, Peppol BIS, XRechnung, Factur-X/ZUGFeRD and the national formats of 25 countries, each finding explained. Also an e-invoice generator, and a paid API and CLI for CI.
+
 ## Payments
 
 - [Whop](https://go.nli.one/billing) - Platform to accept payments, manage subscriptions and sell software, services or digital products worldwide, at competitive fees. Partner link: the sponsor of this list earns a commission from Whop, at no extra cost to you.
